@@ -7,4 +7,4 @@ plugins:
         - CHANGELOG.md
         - README.md
       message: "chore(release): version ${nextRelease.version}\n\n${nextRelease.notes}"
-repositoryUrl: ssh://git@gitlab.factory.social.gouv.fr:443/SocialGouv/covid.git
+repositoryUrl: ssh://git@gitlab.factory.social.gouv.fr/SocialGouv/les1000jours.git
