@@ -20,8 +20,9 @@ Test:
     - when: never
 
 Build:
-  rules:
-    - when: never
+  needs: []
+  script:
+    - echo "hello, world"
 
 Register image:
   extends: .autodevops_register_image
