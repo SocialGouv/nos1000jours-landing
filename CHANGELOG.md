@@ -1,3 +1,10 @@
+## [1.0.6](https://gitlab.factory.social.gouv.fr/SocialGouv/les1000jours/compare/v1.0.5...v1.0.6) (2020-12-14)
+
+
+### Bug Fixes
+
+* ajout matomo ([49dc66a](https://gitlab.factory.social.gouv.fr/SocialGouv/les1000jours/commit/49dc66adc34fc7377614cc66052aa879a881af50))
+
 ## [1.0.5](https://gitlab.factory.social.gouv.fr/SocialGouv/les1000jours/compare/v1.0.4...v1.0.5) (2020-12-14)
 
 
