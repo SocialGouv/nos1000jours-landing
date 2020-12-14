@@ -1,3 +1,11 @@
+## [1.0.1](https://gitlab.factory.social.gouv.fr/SocialGouv/les1000jours/compare/v1.0.0...v1.0.1) (2020-12-14)
+
+
+### Bug Fixes
+
+* ajout des résultats de la première enquête ([67629e9](https://gitlab.factory.social.gouv.fr/SocialGouv/les1000jours/commit/67629e99004e25f4300a27b6004be0af1e2bdfd3))
+* maj du lien ([f0caf75](https://gitlab.factory.social.gouv.fr/SocialGouv/les1000jours/commit/f0caf75efce97c7ffdcb9a5fd445e9e7b6acfb94))
+
 # 1.0.0 (2020-12-14)
 
 
