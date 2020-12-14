@@ -1,0 +1,29 @@
+include:
+  - project: SocialGouv/gitlab-ci-yml
+    file: /autodevops.yml
+    ref: v20.0.0
+
+variables:
+  AUTO_DEVOPS_RELEASE_AUTO: "🔖"
+  AUTO_DEVOPS_PRODUCTION_AUTO: "🚀"
+
+Install:
+  rules:
+    - when: never
+
+Lint:
+  rules:
+    - when: never
+
+Test:
+  rules:
+    - when: never
+
+Build:
+  rules:
+    - when: never
+
+Register image:
+  extends: .autodevops_register_image
+  variables:
+    IMAGE_NAME: $CI_REGISTRY_IMAGE/app
