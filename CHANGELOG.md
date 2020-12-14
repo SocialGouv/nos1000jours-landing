@@ -1,3 +1,10 @@
+## [1.0.7](https://gitlab.factory.social.gouv.fr/SocialGouv/les1000jours/compare/v1.0.6...v1.0.7) (2020-12-14)
+
+
+### Bug Fixes
+
+* accents :( ([0f761b8](https://gitlab.factory.social.gouv.fr/SocialGouv/les1000jours/commit/0f761b8b50f00250274081f0fd985ecb5c958e93))
+
 ## [1.0.6](https://gitlab.factory.social.gouv.fr/SocialGouv/les1000jours/compare/v1.0.5...v1.0.6) (2020-12-14)
 
 
