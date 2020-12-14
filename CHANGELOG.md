@@ -1,3 +1,10 @@
+## [1.0.5](https://gitlab.factory.social.gouv.fr/SocialGouv/les1000jours/compare/v1.0.4...v1.0.5) (2020-12-14)
+
+
+### Bug Fixes
+
+* new text ([3051c6a](https://gitlab.factory.social.gouv.fr/SocialGouv/les1000jours/commit/3051c6a7fac3aa6d352c552b00cc9d863ac5331c))
+
 ## [1.0.4](https://gitlab.factory.social.gouv.fr/SocialGouv/les1000jours/compare/v1.0.3...v1.0.4) (2020-12-14)
 
 
