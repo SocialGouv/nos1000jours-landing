@@ -1,30 +1,17 @@
 include:
   - project: SocialGouv/gitlab-ci-yml
     file: /autodevops.yml
-    ref: v20.1.2
+    ref: v20.7.6
 
 variables:
-  AUTO_DEVOPS_RELEASE_AUTO: "🔖"
-  AUTO_DEVOPS_PRODUCTION_AUTO: "🚀"
-
-Install:
-  rules:
-    - when: never
-
-Lint:
-  rules:
-    - when: never
-
-Test:
-  rules:
-    - when: never
+  AUTO_DEVOPS_KANIKO: "✔️"
+  AUTO_DEVOPS_RELEASE_AUTO: "✔️"
+  AUTO_DEVOPS_ENABLE_KAPP: "✔️"
+  AUTO_DEVOPS_TEST_DISABLED: "🛑"
+  AUTO_DEVOPS_QUALITY_DISABLED: "🛑"
+  AUTO_DEVOPS_NOTIFY_DISABLED: "🛑"
 
 Build:
-  needs: []
+  stage: Code Quality
   script:
-    - echo "hello, world"
-
-Register image:
-  extends: .autodevops_register_image
-  variables:
-    IMAGE_NAME: $CI_REGISTRY_IMAGE/app
+    - echo "No build, ma"
