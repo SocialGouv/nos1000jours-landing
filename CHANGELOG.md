@@ -1,3 +1,10 @@
+# [1.1.0](https://gitlab.factory.social.gouv.fr/SocialGouv/les1000jours/compare/v1.0.9...v1.1.0) (2021-02-23)
+
+
+### Features
+
+* nok8s! ([17df4d8](https://gitlab.factory.social.gouv.fr/SocialGouv/les1000jours/commit/17df4d81ab7e09fa2f41acb02e53dfdbe419c455))
+
 ## [1.0.9](https://gitlab.factory.social.gouv.fr/SocialGouv/les1000jours/compare/v1.0.8...v1.0.9) (2020-12-17)
 
 
