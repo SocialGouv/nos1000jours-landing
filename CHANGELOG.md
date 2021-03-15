@@ -1,3 +1,10 @@
+## [1.1.2](https://gitlab.factory.social.gouv.fr/SocialGouv/les1000jours/compare/v1.1.1...v1.1.2) (2021-03-15)
+
+
+### Bug Fixes
+
+* upgrade ci ([0591063](https://gitlab.factory.social.gouv.fr/SocialGouv/les1000jours/commit/0591063de1fc4217a173070660b892d328f7bb84))
+
 ## [1.1.1](https://gitlab.factory.social.gouv.fr/SocialGouv/les1000jours/compare/v1.1.0...v1.1.1) (2021-03-15)
 
 
