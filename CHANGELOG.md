@@ -1,3 +1,10 @@
+## [1.1.3](https://gitlab.factory.social.gouv.fr/SocialGouv/les1000jours/compare/v1.1.2...v1.1.3) (2021-03-22)
+
+
+### Bug Fixes
+
+* Update README.md ([bcac3ec](https://gitlab.factory.social.gouv.fr/SocialGouv/les1000jours/commit/bcac3ecbae8f142c9159482d55f48b729c10a99e))
+
 ## [1.1.2](https://gitlab.factory.social.gouv.fr/SocialGouv/les1000jours/compare/v1.1.1...v1.1.2) (2021-03-15)
 
 
