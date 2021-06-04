@@ -1,3 +1,12 @@
+## [1.1.4](https://gitlab.factory.social.gouv.fr/SocialGouv/les1000jours/compare/v1.1.3...v1.1.4) (2021-06-04)
+
+
+### Bug Fixes
+
+* rm legacy docker image ([1059e0c](https://gitlab.factory.social.gouv.fr/SocialGouv/les1000jours/commit/1059e0ce86d5f26ae8a382d5df61d7b02d4ab90d))
+* Update .gitlab-ci.yml ([77b7c93](https://gitlab.factory.social.gouv.fr/SocialGouv/les1000jours/commit/77b7c93082d4783261a3e01eb932f4d2e6b48766))
+* Update questionnaire.html ([db2c41c](https://gitlab.factory.social.gouv.fr/SocialGouv/les1000jours/commit/db2c41c1349ede3aada54b1052ee920984b09c87))
+
 ## [1.1.3](https://gitlab.factory.social.gouv.fr/SocialGouv/les1000jours/compare/v1.1.2...v1.1.3) (2021-03-22)
 
 
