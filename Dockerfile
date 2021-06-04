@@ -1,3 +1,3 @@
-FROM registry.gitlab.factory.social.gouv.fr/socialgouv/docker/nginx4spa:4.3.1
+FROM ghcr.io/socialgouv/docker/nginx4spa:6.17.0
 
 COPY ./public /usr/share/nginx/html
