@@ -1,3 +1,10 @@
+# [1.2.0](https://gitlab.factory.social.gouv.fr/SocialGouv/les1000jours/compare/v1.1.5...v1.2.0) (2021-06-16)
+
+
+### Features
+
+* **ci:** update to socialgouv/gitlab-ci-yml v23 ([eaefb62](https://gitlab.factory.social.gouv.fr/SocialGouv/les1000jours/commit/eaefb625b1e844afd88549d3ffc7dc41cba94d0a))
+
 ## [1.1.5](https://gitlab.factory.social.gouv.fr/SocialGouv/les1000jours/compare/v1.1.4...v1.1.5) (2021-06-04)
 
 
