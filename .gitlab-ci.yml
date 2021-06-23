@@ -10,9 +10,43 @@ variables:
   AUTO_DEVOPS_ENABLE_KAPP: "✔️"
   AUTO_DEVOPS_TEST_DISABLED: "🛑"
   AUTO_DEVOPS_QUALITY_DISABLED: "🛑"
-  AUTO_DEVOPS_NOTIFY_DISABLED: "🛑"
 
+# NOTE(douglasduteil): No install :(
+# sharing the node_modules is too slow...
+Install:
+  rules:
+    - when: never
+
+Lint:
+  rules:
+    - when: never
+
+Test:
+  rules:
+    - when: never
+
+# NOTE(douglasduteil): use custom build job
+# The website it statically built with Nextjs
+# Here we manually run `yarn next export` and reuse the `out` dir in Dockerfile
 Build:
-  stage: Code Quality
+  needs: []
+  cache:
+    key:
+      files:
+        - yarn.lock
+      prefix: ${CI_JOB_NAME}
+    paths:
+      - .cache
   script:
-    - echo "No build, ma"
+    - yarn config set cache-folder $CI_PROJECT_DIR/.cache/yarn
+    - yarn --frozen-lockfile --prefer-offline
+    - yarn next build
+    - yarn next export
+  variables:
+    VERSION: ${CI_COMMIT_SHORT_SHA}
+    NEXT_PUBLIC_MATOMO_URL: https://matomo.fabrique.social.gouv.fr
+    NEXT_PUBLIC_MATOMO_SITE_ID: "38"
+  artifacts:
+    expire_in: 1 day
+    paths:
+      - out
