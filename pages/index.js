@@ -108,9 +108,6 @@ function Comment() {
               Cet outil préventif permet de vous accompagner dès le début de
               cette formidable histoire de vie personnelle et familiale.
               <br />
-              <div className="text-muted">
-                Fonctionnalité non disponible en V1
-              </div>
             </FeatureRow>
             <FeatureRow
               title="Des articles pour comprendre, agir et être accompagné !"
