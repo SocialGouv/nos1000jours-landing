@@ -39,7 +39,7 @@ export function Header() {
                     md={{ span: 4, offset: 2 }}
                     className="text-center"
                   >
-                    <a href="#" target="noopener noreferrer">
+                    <a href="https://apps.apple.com/us/app/1000-premiers-jours/id1573729958" target="noopener noreferrer">
                       <img
                         width={200}
                         src="/img/dnl_apple.svg"
@@ -78,6 +78,7 @@ export function Header() {
                       />
                     </a>
                   </Col>
+
                 </Row>
               </div>
             </div>
