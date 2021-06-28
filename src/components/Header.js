@@ -1,11 +1,10 @@
 import React from "react";
-import {Row, Col} from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 export function Header() {
   return (
     <header style={{ height: 700, overflow: "hidden" }}>
       <div
-        
         style={{
           height: "100%",
           backgroundImage: `url(/img/background.png)`,
@@ -28,49 +27,58 @@ export function Header() {
                 <h1 className="mb-5">
                   <b>1000 premiers jours</b>
                 </h1>
-                <h3>
-                    Le compagnon privilégié des 1000 premiers jours
-                </h3>
-                Un service proposé par le ministère de la Santé et des solidarités
-                en collaboration avec les professionnels de santé et les parents
+                <h3>Le compagnon privilégié des 1000 premiers jours</h3>
+                Un service proposé par le ministère de la Santé et des
+                solidarités en collaboration avec les professionnels de santé et
+                les parents
                 <br />
                 <br />
-                <Row justify-content-center>
-                   <Col xs={12} md={6} >
-                      <a
-                        href="#"
-                        target="noopener noreferrer"
-                      >
-                        <img width={200} src="/img/dnl_apple.svg" alt="Lien pour télécharger l'application sur l'Apple store" />
-                      </a>
-                      <br />
-                      <br />
-                      <a
-                          href="#"
-                          target="noopener noreferrer"
-                      >
-                        <img width={149} src="/img/QR_apple.png" alt="QR code pour l'Apple store" />
-                      </a>
-                      <br />
-                    </Col>
-                   <Col xs={12} md={6} >
-                      <a
-                        href="#"
-                        target="noopener noreferrer"
-                      >
-                        <img width={200} src="/img/dnl_google.svg" alt="Lien pour télécharger l'application sur le Google Play store" />
-                      </a>
-                      <br />
-                      <br />
-                      <a
-                          href="#"
-                          target="noopener noreferrer"
-                      >
-                        <img width={149} src="/img/QR_google.png" alt="QR code pour le Google store" />
-                      </a>
-                   </Col>
+                <Row>
+                  <Col
+                    xs={12}
+                    md={{ span: 4, offset: 2 }}
+                    className="text-center"
+                  >
+                    <a href="#" target="noopener noreferrer">
+                      <img
+                        width={200}
+                        src="/img/dnl_apple.svg"
+                        alt="Lien pour télécharger l'application sur l'Apple store"
+                      />
+                    </a>
+                    <br />
+                    <br />
+                    <a href="#" target="noopener noreferrer" className="d-none d-sm-block">
+                      <img
+                        width={149}
+                        src="/img/QR_apple.png"
+                        alt="QR code pour l'Apple store"
+                      />
+                    </a>
+                  </Col>
+                  <Col
+                    xs={12}
+                    md={{ span: 4, offset: -2 }}
+                    className="text-center"
+                  >
+                    <a href="#" target="noopener noreferrer">
+                      <img
+                        width={200}
+                        src="/img/dnl_google.svg"
+                        alt="Lien pour télécharger l'application sur le Google Play store"
+                      />
+                    </a>
+                    <br />
+                    <br />
+                    <a href="#" target="noopener noreferrer" className="d-none d-sm-block">
+                      <img
+                        width={149}
+                        src="/img/QR_google.png"
+                        alt="QR code pour le Google store"
+                      />
+                    </a>
+                  </Col>
                 </Row>
-                
               </div>
             </div>
             <div className="col-lg-4 my-auto d-none d-lg-block">
