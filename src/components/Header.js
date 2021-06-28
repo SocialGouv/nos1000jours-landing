@@ -1,9 +1,9 @@
 import React from "react";
+import {Row, Col} from "react-bootstrap";
 
 export function Header() {
   return (
     <header style={{ height: 700, overflow: "hidden" }}>
-     
       <div
         
         style={{
@@ -35,47 +35,47 @@ export function Header() {
                 en collaboration avec les professionnels de santé et les parents
                 <br />
                 <br />
-                <div>
-                  <table align="center" cellPadding={10}>
-                    <tr>
-                      <td>
-                        <a
+                <Row justify-content-center>
+                   <Col xs={12} md={6} >
+                      <a
+                        href="#"
+                        target="noopener noreferrer"
+                      >
+                        <img width={200} src="/img/dnl_apple.svg" alt="Lien pour télécharger l'application sur l'Apple store" />
+                      </a>
+                      <br />
+                      <br />
+                      <a
                           href="#"
                           target="noopener noreferrer"
-                        >
-                          <img width={200} src="/img/dnl_apple.png" alt="Lien pour télécharger l'application sur l'Apple store" />
-                        </a>
-                      </td>
-                      <td>
-                        <a
+                      >
+                        <img width={149} src="/img/QR_apple.png" alt="QR code pour l'Apple store" />
+                      </a>
+                      <br />
+                    </Col>
+                   <Col xs={12} md={6} >
+                      <a
+                        href="#"
+                        target="noopener noreferrer"
+                      >
+                        <img width={200} src="/img/dnl_google.svg" alt="Lien pour télécharger l'application sur le Google Play store" />
+                      </a>
+                      <br />
+                      <br />
+                      <a
                           href="#"
                           target="noopener noreferrer"
-                        >
-                          <img width={200} src="/img/dnl_google.png" alt="Lien pour télécharger l'application sur le Google Play store" />
-                        </a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="center">
-                      <img width={149} src="/img/QR_apple.png" alt="QR code pour l'Apple store" />
-              
-                      </td>
-                      <td align="center">
+                      >
                         <img width={149} src="/img/QR_google.png" alt="QR code pour le Google store" />
-                      </td>
-                    </tr>
-                  </table>
-                </div>
-
-                <div>
-                  
-                </div>
-
+                      </a>
+                   </Col>
+                </Row>
+                
               </div>
             </div>
             <div className="col-lg-4 my-auto d-none d-lg-block">
               <img
-                src="/img/demo-screen-1.png"
+                src="/img/ecran_header.png"
                 className="img-fluid"
                 alt=""
                 width={300}

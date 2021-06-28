@@ -7,7 +7,7 @@ export default function Mentions() {
     <ContentLayout title="Mentions légales">
       <h3>Éditeur du site</h3>
       <p>
-        L’application XXX est éditée par la Direction Générale de la
+        L’application 1000 premiers jours est éditée par la Direction Générale de la
         Santé au sein de la Fabrique numérique des Ministères sociaux située :
       </p>
       <p>
@@ -23,7 +23,7 @@ export default function Mentions() {
       <p>
         <b>Directeur de la publication</b>
         <br />
-        Monsieur Jérôme SALOMON, Directeur général de la Santé
+        Madame Virginie Lassère, Directrice générale de le Cohésion Sociale
       </p>
       <h3>Hébergement du site</h3>
       <p>

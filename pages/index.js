@@ -55,7 +55,7 @@ function Pourquoi() {
           <Col xs={{ offset: 1, span: 10 }}>
             <FeatureRow
               title="Un outil de prévention"
-              image="/img/icone_bebe.png"
+              image="/img/icone_prevention.png"
               imageSpan="1"
             >
               Un autodiagnostic pour évaluer le risque de la dépression post
@@ -69,7 +69,7 @@ function Pourquoi() {
           <Col xs={{ offset: 1, span: 10 }}>
             <FeatureRow
               title="Un outil d'information"
-              image="/img/icone_bebe.png"
+              image="/img/icone_information.png"
               imageSpan="1"
             >
               Des articles rédigés par des professionnels et proposés en
@@ -102,7 +102,7 @@ function Comment() {
           <Col xs={{ offset: 1, span: 10 }}>
             <FeatureRow
               title="La bonne information au bon moment !"
-              image="/img/iPhoneX_Black-1.png"
+              image="/img/ecran_header.png"
               imageSpan={4}
             >
               Cet outil préventif permet de vous accompagner dès le début de
@@ -111,7 +111,7 @@ function Comment() {
             </FeatureRow>
             <FeatureRow
               title="Des articles pour comprendre, agir et être accompagné !"
-              image="/img/iPhoneX_Black-3.png"
+              image="/img/ecran_listearticles.png"
               imageSpan={4}
               reverse
             >
@@ -119,7 +119,7 @@ function Comment() {
             </FeatureRow>
             <FeatureRow
               title="Des rappels pour alléger la charge mentale et un outil de prévention !"
-              image="/img/iPhoneX_Black-2.png"
+              image="/img/ecran_calendrier.png"
               imageSpan={4}
             >
               Un calendrier personnalisé afin de suivre chaque étape du parcours
@@ -160,6 +160,7 @@ function Qui() {
         <img
           src="/img/logo-ministere.png"
           alt="Logo Minisères des Solidarités et de la Santé"
+          width="20%"
         />
         <img
           src="/img/logo-fabrique.png"

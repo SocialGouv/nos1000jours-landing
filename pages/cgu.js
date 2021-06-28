@@ -7,23 +7,25 @@ export default function CGU() {
     <ContentLayout title="Conditions générales">
       <h3>Présentation</h3>
       <p>
-        XXX est un service de suivi de la consommation d’alcool à
-        destination des particuliers et de celles et ceux qui les conseillent,
-        dans un cadre professionnel ou bénévole. Il s’agit d’une application
-        mobile qui permet de d’évaluer son niveau de consommation, les risques
-        associés pour la santé et de contacter un professionnel de soins.
+        1000 premiers jours est  un outil qui participe du parcours 1000 jours de soutien à la parentalité. Elle peut traiter des données à caractère personnelles pour les finalités suivantes :
       </p>
+      <ul>
+        <li>Visualiser dans le territoire de vie du parent, les services, les interlocuteurs et les structures pouvant aider les parents ;</li>
+        <li>Informer les parents et les futurs parents selon leur parcours parental et l’âge de l’enfant ;</li>
+        <li>Permettre une évaluation de l’état de la mère après son accouchement.</li>
+      </ul>
+      
       <p>
         Le code du logiciel est libre, et peut donc être vérifié et amélioré par
         toutes et tous.
       </p>
       <h3> Vocabulaire</h3>
-      <li>« Nous » se réfère à l’éditeur de XXX. </li>
-      <li>« Vous » se réfère à un·e usager de XXX.</li>
+      <li>« Nous » se réfère à l’éditeur de 1000 premiers jours. </li>
+      <li>« Vous » se réfère à un·e usager de 1000 premiers jours.</li>
       <li>
         {" "}
         « Partenaires » se réfère aux organismes responsables d’attribuer les
-        aides calculées par XXX.{" "}
+        aides calculées par 1000 premiers jours.{" "}
       </li>
       <h3>Absence de garantie</h3>
       Les résultats fournis par ce service ont une valeur informative et ne
@@ -31,20 +33,20 @@ export default function CGU() {
       l’exactitude du contenu des sites externes vers lesquels nous redirigeons
       la navigation. Ces sites ne sont pas non plus régis par les mêmes
       conditions d’utilisation, notamment en ce qui concerne leur traitement des
-      données à caractère personnel. Nous mettons XXX à disposition
+      données à caractère personnel. Nous mettons 1000 premiers jours à disposition
       sans garantie sur sa disponibilité, en « best effort ». Cela signifie que
       d’éventuelles indisponibilités n’ouvriront pas droit à compensation
       financière.
       <h3>Vos données</h3>
       <p>
-        XXX ne vous demande ni ne stocke d’information nominative
+        1000 premiers jours ne vous demande ni ne stocke d’information nominative
         telle que nom, prénoms ou adresse. Pour autant, lorsque vous que vous
         demanderez à être contacté, vous nous transmettrez des coordonnées
         nécessaires à la prise de contact par nos services. Ces coordonnées sont
         des données personnelles et nous en avons donc déclaré le traitement
         auprès de la CNIL. Nous conservons ces données pendant deux ans à
         compter de la première saisie pour analyser les usages, mesurer l’impact
-        et la diffusion territoriale de XXX, et améliorer le service.
+        et la diffusion territoriale de 1000 premiers jours, et améliorer le service.
         Vous avez un droit d’accès, de rectification et de suppression de vos
         données. Pour l’exercer, envoyez-nous un courriel à l’adresse à
         compléter en précisant les coordonnées transmises. Comme nous
@@ -54,7 +56,7 @@ export default function CGU() {
       <p>
         Nous nous engageons à ne jamais exploiter les informations que vous nous
         transmettrez dans un but commercial ou publicitaire. De manière
-        générale, XXX n’accepte aucune forme de publicité autre que
+        générale, 1000 premiers jours n’accepte aucune forme de publicité autre que
         celle que constitue la présentation des aides des partenaires. Nous
         collectons également des données anonymes d’audience, indépendamment des
         suivis de consommation effectués. Cela nous permet par exemple de
@@ -67,10 +69,10 @@ export default function CGU() {
       </p>
       <h3>Évolutions</h3>
       <p>
-        Nous pouvons faire évoluer XXX sans information préalable.
+        Nous pouvons faire évoluer 1000 premiers jours sans information préalable.
         Nous ajoutons régulièrement des aides, améliorons l’interface et
         modifions des formulations sur la base de vos retours et des évolutions
-        règlementaires. Nous pouvons suspendre l’accès à XXX sans
+        règlementaires. Nous pouvons suspendre l’accès à 1000 premiers jours sans
         information préalable, notamment pour des raisons de maintenance. Nous
         mettons l’application à jour plusieurs fois par semaine.
         L’indisponibilité ne dépasse généralement pas une dizaine de secondes.
@@ -82,11 +84,11 @@ export default function CGU() {
       </p>
       <h3>Utilisation</h3>
       <p>
-        XXX est en téléchargement libre sur les plateformes Apple App
+        1000 premiers jours est en téléchargement libre sur les plateformes Apple App
         Store et Google Play. Son utilisation est gratuite et facultative. Si
         vous effectuez un suivi de votre consommation, vous acceptez ces
         conditions d’utilisation. Comme indiqué dans l’article L. 112-9 du code
-        des relations entre le public et l’administration. L’utilisation de XXX requiert une connexion internet et un smartphone récent. Nous
+        des relations entre le public et l’administration. L’utilisation de 1000 premiers jours requiert une connexion internet et un smartphone récent. Nous
         nous réservons le droit de bloquer, sans information préalable ni
         compensation financière, les usages mettant en péril l’utilisation du
         logiciel par d’autres usagers. Cela nous permet d’anticiper

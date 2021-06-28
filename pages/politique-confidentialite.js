@@ -9,13 +9,13 @@ export default function PolitiqueConfidentialite() {
         Traitement des données à caractère personnel
       </h2>
       <p>
-        Le présent site XXX est à l&#39;initiative de la Direction
-        Générale de la Santé au sein de la Fabrique numérique des ministères
+        Le présent site 1000 premiers jours est à l&#39;initiative de la Direction
+        Générale de la Cohésion Sociale au sein de la Fabrique numérique des ministères
         sociaux.
       </p>
       <h3>Finalité</h3>
       <p>
-        Le site « XXX » vise à présenter l&#39;application « XXX
+        Le présent site vise à présenter l&#39;application « 1000 premiers jours
         » et son fonctionnement.
       </p>
       <h3>Données à caractère personnel traitées</h3>
@@ -129,8 +129,8 @@ export default function PolitiqueConfidentialite() {
         <li>
           <p>
             par voie électronique à l&#39;adresse suivante :{" "}
-            <a href="mailto:XXX@fabrique.social.gouv.fr">
-              XXX@fabrique.social.gouv.fr
+            <a href="mailto:contact-nos1000jours@fabrique.social.gouv.fr">
+              contact-nos1000jours@fabrique.social.gouv.fr
             </a>
           </p>
         </li>
