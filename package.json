@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "private": true,
+  "repository": "https://github.com/SocialGouv/nos1000jours-landing",
   "dependencies": {
     "@socialgouv/matomo-next": "^1.2.1",
     "bootstrap": "^4.6.0",
