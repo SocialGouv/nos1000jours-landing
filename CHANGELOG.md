@@ -1,3 +1,22 @@
+# [1.3.0](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.2.0...v1.3.0) (2021-06-30)
+
+
+### Bug Fixes
+
+* ci ([df9bc21](https://github.com/SocialGouv/nos1000jours-landing/commit/df9bc21b88bd1ca3aebe74ba16b0ec178dc52fca))
+* home responsive ([b1ad465](https://github.com/SocialGouv/nos1000jours-landing/commit/b1ad465567574331b99223335c8be6493ea47c15))
+* lien android et correction ortho ([c312eb0](https://github.com/SocialGouv/nos1000jours-landing/commit/c312eb0c4aaee8e07a855e3ee87a5a01bc2cb7bf)), closes [#389](https://github.com/SocialGouv/nos1000jours-landing/issues/389)
+* Mise à jour texte ([621424f](https://github.com/SocialGouv/nos1000jours-landing/commit/621424fc4ab1d4c8d1acf63db07c8f403cdf57da))
+* pkg.repository ([6e770c9](https://github.com/SocialGouv/nos1000jours-landing/commit/6e770c9fa25d43032cde931cbca43cbd3e3c1ba0))
+* releaserc ([d3723b0](https://github.com/SocialGouv/nos1000jours-landing/commit/d3723b0c940857b50ac4b31563be319644680535))
+* releaserc ([4d557a9](https://github.com/SocialGouv/nos1000jours-landing/commit/4d557a9cf93c55f6d236bf1985153f01d3d52bd3))
+* releaserc ([bce2239](https://github.com/SocialGouv/nos1000jours-landing/commit/bce22391723a260f7dd6aae7c3c8b76f73d591af))
+
+
+### Features
+
+* upgrade ([82f82a9](https://github.com/SocialGouv/nos1000jours-landing/commit/82f82a9d351a15fc533788776f6f560f05e78da3))
+
 # [1.2.0](https://gitlab.factory.social.gouv.fr/SocialGouv/les1000jours/compare/v1.1.5...v1.2.0) (2021-06-16)
 
 
