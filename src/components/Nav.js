@@ -30,7 +30,7 @@ export function Nav() {
         >
           <BSNav>
             <NavLink href="/#pourquoi">Pourquoi les 1000 premiers jours ?</NavLink>
-            <NavLink href="/#comment">Comment ce service fonctionne ?</NavLink>
+            <NavLink href="/#comment">Comment ce service fonctionne-t-il ?</NavLink>
             <NavLink href="/#qui">Qui sommes-nous ?</NavLink>
             
           </BSNav>
