@@ -59,7 +59,7 @@ function Pourquoi() {
               imageSpan="1"
             >
               Un autodiagnostic pour évaluer le risque de la dépression post
-              partum spécialement dédié aux parents ainsi qu’une cartographie
+              partum spécialement dédié aux parents, ainsi qu’une cartographie
               pour trouver un accompagnement adapté et géolocalisé.
             </FeatureRow>
           </Col>
@@ -89,7 +89,7 @@ function Comment() {
       <div className="container">
         <div className="section-heading text-center">
           <SectionTitle style={{ fontSize: "2.5em" }}>
-            Comment ce service fonctionne ?
+            Comment ce service fonctionne-t-il ?
           </SectionTitle>
           <br />
           <Col xs={{ offset: 1, span: 10 }}>
@@ -115,7 +115,7 @@ function Comment() {
               imageSpan={4}
               reverse
             >
-              Consulter les derniers messages de santé publique.
+              Consultez les derniers messages de santé publique.
             </FeatureRow>
             <FeatureRow
               title="Des rappels pour alléger la charge mentale et un outil de prévention !"

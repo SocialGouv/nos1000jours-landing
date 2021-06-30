@@ -61,7 +61,7 @@ export function Header() {
                     md={{ span: 4, offset: -2 }}
                     className="text-center"
                   >
-                    <a href="#" target="noopener noreferrer">
+                    <a href="https://play.google.com/store/apps/details?id=com.fabrique.millejours" target="noopener noreferrer">
                       <img
                         width={200}
                         src="/img/dnl_google.svg"
