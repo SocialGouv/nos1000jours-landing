@@ -1,3 +1,11 @@
+## [1.3.3](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.3.2...v1.3.3) (2021-07-02)
+
+
+### Bug Fixes
+
+* ajout de la description meta ([6ca08f1](https://github.com/SocialGouv/nos1000jours-landing/commit/6ca08f1b169eb5b6bcafd0bcbf4d54a067c0cfc4))
+* correction du nom de l'app ([ea9762f](https://github.com/SocialGouv/nos1000jours-landing/commit/ea9762fbfd8214fe8a6e9a5184fe8edb5f44924a))
+
 ## [1.3.2](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.3.1...v1.3.2) (2021-06-30)
 
 
