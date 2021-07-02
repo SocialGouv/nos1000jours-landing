@@ -1,3 +1,10 @@
+## [1.3.4](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.3.3...v1.3.4) (2021-07-02)
+
+
+### Bug Fixes
+
+* Ajout du recueil de l'avis des utilisateurs ([71af487](https://github.com/SocialGouv/nos1000jours-landing/commit/71af48730106fcec537ef3daeeabae85edb9e372))
+
 ## [1.3.3](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.3.2...v1.3.3) (2021-07-02)
 
 
