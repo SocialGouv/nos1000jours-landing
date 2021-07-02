@@ -152,6 +152,15 @@ function Qui() {
                 Il est développé par la Fabrique Numérique des Ministères
                 Sociaux.
               </strong>
+              <br />
+              <br />
+                Pour nous partager vos différents retours et idées d'amélioration de votre part, 
+                vous pouvez répondre en quelques minutes à&nbsp;  
+                <a href="https://startupdetat.typeform.com/to/kdw7bOcv" target="noopener noreferrer">
+                  <u>ce questionnaire</u>
+                </a>
+                <br />
+                Cette application est faite pour et avec vous.
             </p>
           </Col>
         </div>
