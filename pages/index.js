@@ -73,7 +73,7 @@ function Pourquoi() {
               imageSpan="1"
             >
               Des articles rédigés par des professionnels et proposés en
-              fonction de l'étape à laquelle vous vous trouver. Ainsi qu'un
+              fonction de l'étape à laquelle vous vous trouvez. Ainsi qu'un
               calendrier présentant tous les événements des 1000 premiers jours.
             </FeatureRow>
           </Col>
