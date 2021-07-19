@@ -53,7 +53,7 @@ export function Footer() {
           <Separator />
           <li className="list-inline-item">
             <LightLink href="stats">
-              statistiques 
+              
             </LightLink>
           </li>
         </ul>
