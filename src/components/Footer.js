@@ -50,6 +50,12 @@ export function Footer() {
               contactez-nous 
             </LightLink>
           </li>
+          <Separator />
+          <li className="list-inline-item">
+            <LightLink href="stats">
+              statistiques 
+            </LightLink>
+          </li>
         </ul>
       </div>
     </footer>
