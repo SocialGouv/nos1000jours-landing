@@ -1,7 +1,7 @@
 
 
 kpis:
-  - titre: connexions par jour
+  - titre: Connexions par jour
     affichage: graph
     valeurs:
       2021-06-21: 43
@@ -9,14 +9,14 @@ kpis:
       2021-06-29: 42
       2021-06-30: 2
 
-  - titre: download ios par jour
+  - titre: Download ios par jour
     affichage: graph
     valeurs:
       2021-06-21: 43
       2021-06-22: 42
       2021-06-23: 42
 
-  - titre: temps moyens sur l'app
+  - titre: Temps moyen sur l'app
     affichage: chiffre_cle
     valeur: 4min02
 

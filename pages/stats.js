@@ -26,6 +26,7 @@ const Graph = ({ kpi }) => {
       <CartesianGrid stroke="#eee" strokeDasharray="5 5" />
       <Line type="monotone" dataKey="value" stroke="#8884d8" name={kpi.titre} />
     </LineChart>
+    <hr/>
   </p>
 }
 
@@ -35,7 +36,7 @@ export default function Stats() {
   // console.log(data);
   return (
     <ContentLayout title="Statistiques">
-      <h3>Statistiques</h3>
+      <h3>Work in progress</h3>
       {stats.kpis.map(kpi => {
         switch (kpi.affichage) {
           case "graph":
