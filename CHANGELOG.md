@@ -1,3 +1,10 @@
+## [1.3.5](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.3.4...v1.3.5) (2021-07-20)
+
+
+### Bug Fixes
+
+* avec le mot magique ([c62f3ba](https://github.com/SocialGouv/nos1000jours-landing/commit/c62f3ba30cd5f1852c1b6a2191559879be77e0e5))
+
 ## [1.3.4](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.3.3...v1.3.4) (2021-07-02)
 
 
