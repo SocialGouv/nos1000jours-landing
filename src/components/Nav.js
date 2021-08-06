@@ -1,5 +1,5 @@
-import React from "react";
 import Link from "next/link";
+import React from "react";
 import { Container, Nav as BSNav, Navbar } from "react-bootstrap";
 import styled from "styled-components";
 
@@ -29,10 +29,14 @@ export function Nav() {
           className="justify-content-end"
         >
           <BSNav>
-            <NavLink href="/#pourquoi">Pourquoi les 1000 premiers jours ?</NavLink>
-            <NavLink href="/#comment">Comment ce service fonctionne-t-il ?</NavLink>
+            <NavLink href="/#pourquoi">
+              Pourquoi les 1000 premiers jours ?
+            </NavLink>
+            <NavLink href="/#comment">
+              Comment ce service fonctionne-t-il ?
+            </NavLink>
             <NavLink href="/#qui">Qui sommes-nous ?</NavLink>
-            
+            <NavLink href="/#nouscontacter">Nous contacter</NavLink>
           </BSNav>
         </Navbar.Collapse>
       </Container>

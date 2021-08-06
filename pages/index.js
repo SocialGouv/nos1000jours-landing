@@ -17,6 +17,9 @@ export default function index() {
       <br />
       <br />
       <Qui />
+      <br />
+      <br />
+      <NousContacter />
     </Layout>
   );
 }
@@ -154,13 +157,16 @@ function Qui() {
               </strong>
               <br />
               <br />
-                Pour nous partager vos différents retours et idées d'amélioration de votre part, 
-                vous pouvez répondre en quelques minutes à&nbsp;  
-                <a href="https://startupdetat.typeform.com/to/kdw7bOcv" target="noopener noreferrer">
-                  <u>ce questionnaire</u>
-                </a>
-                <br />
-                Cette application est faite pour et avec vous.
+              Pour nous partager vos différents retours et idées d'amélioration
+              de votre part, vous pouvez répondre en quelques minutes à&nbsp;
+              <a
+                href="https://startupdetat.typeform.com/to/kdw7bOcv"
+                target="noopener noreferrer"
+              >
+                <u>ce questionnaire</u>
+              </a>
+              <br />
+              Cette application est faite pour et avec vous.
             </p>
           </Col>
         </div>
@@ -176,6 +182,151 @@ function Qui() {
           alt="Logo Fabrique numérique des ministères sociaux"
           width="15%"
         />
+      </div>
+    </section>
+  );
+}
+
+function NousContacter() {
+  return (
+    <section id="nouscontacter">
+      <div className="container">
+        <br />
+        <div className="section-heading text-center">
+          <SectionTitle style={{ fontSize: "2.5em" }}>
+            Nous contacter
+          </SectionTitle>
+          <br />
+          <Col xs={{ offset: 1, span: 10 }}>
+            <FeatureRow
+              title="Mail"
+              image="/img/icone_information.png"
+              imageSpan="1"
+            >
+              Vous avez une question ou une amélioration concernant
+              l&apos;application 1000 premiers jours ?
+              <br />
+              Vous pouvez nous contacter à l&apos;adresse&nbsp;
+              <a href="mailto:contact-nos1000jours@fabrique.social.gouv.fr">
+                contact-nos1000jours@fabrique.social.gouv.fr
+              </a>
+              <br />
+              <br />
+              Vous avez passé le test EPDS sur l&apos;application et vous
+              souhaitez dialoguer avec un référent maman blues&nbsp;?
+              <br />
+              Vous pouvez nous contacter à l&apos;adresse&nbsp;
+              <a href="mailto:1000joursblues@fabrique.social.gouv.fr">
+                1000joursblues@fabrique.social.gouv.fr
+              </a>
+            </FeatureRow>
+          </Col>
+          <Col xs={{ offset: 1, span: 10 }}>
+            <FeatureRow
+              title="Réseaux sociaux"
+              image="/img/icone_information.png"
+              imageSpan="1"
+            >
+              <Row>
+                <Col>
+                  <a
+                    href="https://www.facebook.com/1000premiersjours-102432918754700"
+                    target="noopener noreferrer"
+                  >
+                    <img
+                      width={45}
+                      src="/img/logo-facebook.png"
+                      alt="Lien pour accéder à la page Facebook"
+                    />
+                  </a>
+                  {"   "}
+                  <a
+                    href="https://www.instagram.com/1000premiersjours/"
+                    target="noopener noreferrer"
+                  >
+                    <img
+                      width={50}
+                      src="/img/logo-instagram.png"
+                      alt="Lien pour accéder à la page Instagram"
+                    />
+                  </a>
+                  {"   "}
+                  <a
+                    href="https://www.linkedin.com/company/1000premiersjours/"
+                    target="noopener noreferrer"
+                  >
+                    <img
+                      width={50}
+                      src="/img/logo-linkedin.png"
+                      alt="Lien pour accéder à la page Linkedin"
+                    />
+                  </a>
+                </Col>
+              </Row>
+              Nous sommes à votre écoute sur les réseaux sociaux
+              <br />
+              Retrouvez-nous sur Facebook, Instagram et Linkedin
+              <br />
+            </FeatureRow>
+          </Col>
+          <Col xs={{ offset: 1, span: 10 }}>
+            <FeatureRow
+              title="Nos partenaires"
+              image="/img/icone_information.png"
+              imageSpan="1"
+            >
+              Vous êtes professionnels de la santé
+              <br />
+              <br />
+              <a href="/pdf/Affiche ETAT_pro.pdf" target="noopener noreferrer">
+                Télécharger l&apos;affiche
+                <img width={50} src="/img/logo-pdf.png" alt="" />
+              </a>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="/pdf/Flyer ETAT_pro.pdf" target="noopener noreferrer">
+                Télécharger le flyer
+                <img width={50} src="/img/logo-pdf.png" alt="" />
+              </a>
+              <br />
+              <br />
+              Vous êtes parents
+              <br />
+              <br />
+              <a
+                href="/pdf/Affiche ETAT_parents.pdf"
+                target="noopener noreferrer"
+              >
+                Télécharger l&apos;affiche
+                <img width={50} src="/img/logo-pdf.png" alt="" />
+              </a>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a
+                href="/pdf/Flyer ETAT_parents.pdf"
+                target="noopener noreferrer"
+              >
+                Télécharger le flyer
+                <img width={50} src="/img/logo-pdf.png" alt="" />
+              </a>
+              <br />
+              <br />
+              Vous êtes de la presse
+              <br />
+              <br />
+              <a
+                href="/pdf/Affiche ETAT_presse.pdf"
+                target="noopener noreferrer"
+              >
+                Télécharger l&apos;affiche
+                <img width={50} src="/img/logo-pdf.png" alt="" />
+              </a>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="/pdf/Flyer ETAT_presse.pdf" target="noopener noreferrer">
+                Télécharger le flyer
+                <img width={50} src="/img/logo-pdf.png" alt="" />
+              </a>
+            </FeatureRow>
+          </Col>
+        </div>
       </div>
     </section>
   );
