@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.3.5...v1.4.0) (2021-08-31)
+
+
+### Features
+
+* **contact:** partie contacts partenaires ([#15](https://github.com/SocialGouv/nos1000jours-landing/issues/15)) ([0a1bce9](https://github.com/SocialGouv/nos1000jours-landing/commit/0a1bce9ed05b4c42371ba4152176b3fe16850da7))
+
 ## [1.3.5](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.3.4...v1.3.5) (2021-07-20)
 
 
