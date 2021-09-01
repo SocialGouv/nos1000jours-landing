@@ -28,7 +28,7 @@ jobs:
       with:
         project: ${{ env.project }}
         token: ${{ secrets.GITHUB_TOKEN }}
-        imageName: nos1000jours/nos1000jours-landing
+        imageName: nos1000jours/les1000jours-landing
 
   ##############################################################################
   ## GENERATE PREPRODUCTION MANIFESTS
