@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.4.1...v1.4.2) (2021-09-01)
+
+
+### Bug Fixes
+
+* Add matomo variables to docker file. ([29f6fac](https://github.com/SocialGouv/nos1000jours-landing/commit/29f6fac07b986619495962c7ccc3c2e64f531021))
+
 ## [1.4.1](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.4.0...v1.4.1) (2021-09-01)
 
 
