@@ -83,6 +83,7 @@ jobs:
       uses: SocialGouv/actions/autodevops-manifests@master
       with:
         environment: "prod"
+        productionNamespace: "les1000jours-landing"
 
   ##############################################################################
   ## DEPLOY PRODUCTION APPLICATION
