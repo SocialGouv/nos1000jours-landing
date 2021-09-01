@@ -1,5 +1,7 @@
 {
   "name": "les1000jours-landing",
   "type": "static",
-  "subdomain": "1000jours"
+  "subdomain": "1000jours",
+  "registry": "ghcr",
+  "project": "nos1000jours"
 }
