@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.4.0...v1.4.1) (2021-09-01)
+
+
+### Bug Fixes
+
+* Use autodevops actions. ([#16](https://github.com/SocialGouv/nos1000jours-landing/issues/16)) ([546caaa](https://github.com/SocialGouv/nos1000jours-landing/commit/546caaa7221fddfb43f22b32ee1153b967127489))
+
 ## [1.4.1-alpha.3](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.4.1-alpha.2...v1.4.1-alpha.3) (2021-09-01)
 
 
