@@ -1,3 +1,10 @@
+## [1.4.1-alpha.3](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.4.1-alpha.2...v1.4.1-alpha.3) (2021-09-01)
+
+
+### Bug Fixes
+
+* Image name. ([930e0f0](https://github.com/SocialGouv/nos1000jours-landing/commit/930e0f09842cccc806611a3f745cea130b170b43))
+
 ## [1.4.1-alpha.2](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.4.1-alpha.1...v1.4.1-alpha.2) (2021-09-01)
 
 
