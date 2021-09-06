@@ -1,3 +1,10 @@
+## [1.4.4](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.4.3...v1.4.4) (2021-09-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sass to ^1.39.0 ([#21](https://github.com/SocialGouv/nos1000jours-landing/issues/21)) ([16cdb86](https://github.com/SocialGouv/nos1000jours-landing/commit/16cdb8680f296a786ad03f3c673dee59918d35a4))
+
 ## [1.4.3](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.4.2...v1.4.3) (2021-09-05)
 
 
