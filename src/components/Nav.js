@@ -16,7 +16,7 @@ export function Nav() {
         <div>
           <a href="/#page-top" alt="Retour à l'accueil">
             <img
-              src="/img/logo-1000j.png"
+              src="/img/logo-1000j2.png"
               width={100}
               height={101}
               alt="Logo 1000 premiers jours"
@@ -30,7 +30,7 @@ export function Nav() {
         >
           <BSNav>
             <NavLink href="/#pourquoi">
-              Pourquoi les 1000 premiers jours ?
+              Pourquoi une appli des 1000 premiers jours ?
             </NavLink>
             <NavLink href="/#comment">
               Comment ce service fonctionne-t-il ?

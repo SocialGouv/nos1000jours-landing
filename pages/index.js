@@ -33,7 +33,9 @@ function Pourquoi() {
     <section id="pourquoi">
       <div className="container">
         <div className="section-heading text-center">
-          <SectionTitle>Pourquoi les 1000 premiers jours ?</SectionTitle>
+          <SectionTitle>
+            Pourquoi une appli des 1000 premiers jours ?
+          </SectionTitle>
           <br />
           <br />
           <Col xs={{ offset: 1, span: 10 }}>
@@ -275,7 +277,8 @@ function NousContacter() {
               image="/img/icone_information.png"
               imageSpan="1"
             >
-              Vous êtes professionnels de la santé
+              Vous êtes un professionnel des 1000 premiers jours et travaillez
+              auprès des (futurs) parents ou de leurs enfants
               <br />
               <br />
               <a href="/pdf/Affiche ETAT_pro.pdf" target="noopener noreferrer">
