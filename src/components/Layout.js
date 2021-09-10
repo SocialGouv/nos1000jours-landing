@@ -10,7 +10,7 @@ export function Layout({ showHeader, children }) {
   return (
     <React.Fragment>
       <Head>
-        <title>1000 premiers jours</title>
+        <title>L'application des 1000 premiers jours</title>
       </Head>
       <Nav />
       {showHeader && <Header />}
