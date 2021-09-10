@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.4.4...v1.5.0) (2021-09-10)
+
+
+### Features
+
+* **textes:** changement du logo et des titres ([#22](https://github.com/SocialGouv/nos1000jours-landing/issues/22)) ([6a6697e](https://github.com/SocialGouv/nos1000jours-landing/commit/6a6697e00c80f9a18aa4370bb9718ce71c651020))
+
 ## [1.4.4](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.4.3...v1.4.4) (2021-09-06)
 
 
