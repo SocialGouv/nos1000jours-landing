@@ -107,7 +107,7 @@ function Comment() {
           <Col xs={{ offset: 1, span: 10 }}>
             <FeatureRow
               title="La bonne information au bon moment !"
-              image="/img/ecran_header.png"
+              image="/img/timeline_landingpage.png"
               imageSpan={4}
             >
               Cet outil préventif permet de vous accompagner dès le début de
@@ -116,7 +116,7 @@ function Comment() {
             </FeatureRow>
             <FeatureRow
               title="Des articles pour comprendre, agir et être accompagné !"
-              image="/img/ecran_listearticles.png"
+              image="/img/listearticles_landingpage.png"
               imageSpan={4}
               reverse
             >
@@ -124,7 +124,7 @@ function Comment() {
             </FeatureRow>
             <FeatureRow
               title="Des rappels pour alléger la charge mentale et un outil de prévention !"
-              image="/img/ecran_calendrier.png"
+              image="/img/calendrier_landingpage.png"
               imageSpan={4}
             >
               Un calendrier personnalisé afin de suivre chaque étape du parcours

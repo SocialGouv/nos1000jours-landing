@@ -84,7 +84,7 @@ export function Header() {
             </div>
             <div className="col-lg-4 my-auto d-none d-lg-block">
               <img
-                src="/img/ecran_header.png"
+                src="/img/timeline_landingpage.png"
                 className="img-fluid"
                 alt=""
                 width={300}
