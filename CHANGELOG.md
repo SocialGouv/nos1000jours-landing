@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.5.1...v1.6.0) (2021-09-13)
+
+
+### Features
+
+* **header:** changement titre ([#24](https://github.com/SocialGouv/nos1000jours-landing/issues/24)) ([dfa3692](https://github.com/SocialGouv/nos1000jours-landing/commit/dfa36929a2f63af06593b478ae9fafde6dbf8470))
+
 ## [1.5.1](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.5.0...v1.5.1) (2021-09-13)
 
 
