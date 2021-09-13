@@ -25,7 +25,7 @@ export function Header() {
             >
               <div style={{ color: "white" }}>
                 <h1 className="mb-5">
-                  <b>1000 premiers jours</b>
+                  <b>L'application 1000 premiers jours</b>
                 </h1>
                 <h3>Le compagnon privilégié des 1000 premiers jours</h3>
                 Un service proposé par le ministère de la Santé et des
