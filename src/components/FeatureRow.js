@@ -8,6 +8,7 @@ export function FeatureRow({
   title,
   reverse = false,
   children,
+  noMarginBottom = false,
 }) {
   return (
     <React.Fragment>
@@ -15,7 +16,7 @@ export function FeatureRow({
         style={{
           alignItems: "center",
           flexDirection: reverse ? "row-reverse" : "row",
-          marginBottom: 30,
+          marginBottom: noMarginBottom ? 0 : 30,
         }}
       >
         <Col xs={12} md={imageSpan} className="mb-3 mb-md-0">

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/no-static-element-interactions */
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import styled from "styled-components";
@@ -107,7 +108,7 @@ function Comment() {
           <Col xs={{ offset: 1, span: 10 }}>
             <FeatureRow
               title="La bonne information au bon moment !"
-              image="/img/ecran_header.png"
+              image="/img/timeline_landingpage.png"
               imageSpan={4}
             >
               Cet outil préventif permet de vous accompagner dès le début de
@@ -116,7 +117,7 @@ function Comment() {
             </FeatureRow>
             <FeatureRow
               title="Des articles pour comprendre, agir et être accompagné !"
-              image="/img/ecran_listearticles.png"
+              image="/img/listearticles_landingpage.png"
               imageSpan={4}
               reverse
             >
@@ -124,7 +125,7 @@ function Comment() {
             </FeatureRow>
             <FeatureRow
               title="Des rappels pour alléger la charge mentale et un outil de prévention !"
-              image="/img/ecran_calendrier.png"
+              image="/img/calendrier_landingpage.png"
               imageSpan={4}
             >
               Un calendrier personnalisé afin de suivre chaque étape du parcours
@@ -139,6 +140,7 @@ function Comment() {
 }
 
 function Qui() {
+  const [displayDetails, setDisplayDetails] = React.useState(false);
   return (
     <section id="qui">
       <div className="container">
@@ -150,14 +152,143 @@ function Qui() {
           <br />
           <Col xs={{ offset: 1, span: 10 }}>
             <p>
-              <strong>
-                Ce service est proposé par le ministère de la Solidarité et de
-                la Santé dans le cadre de la Protection de l'Enfance.
+              <div className="border-top border-bottom">
+                <div
+                  onClick={() => {
+                    setDisplayDetails(!displayDetails);
+                  }}
+                  onKeyDown={() => {
+                    setDisplayDetails(!displayDetails);
+                  }}
+                >
+                  <div style={{ paddingTop: 16 }}>
+                    <FeatureRow
+                      width={10}
+                      image={!displayDetails && "/img/icone_collapse.png"}
+                      imageSpan="1"
+                      reverse
+                      noMarginBottom
+                    >
+                      <div className="text-left">
+                        Les 1000 premiers jours est un service proposé par le
+                        ministère de la Solidarité et de la Santé en
+                        collaboration avec les professionnels de santé et les
+                        parents.
+                      </div>
+                    </FeatureRow>
+                  </div>
+                </div>
                 <br />
-                Il est développé par la Fabrique Numérique des Ministères
-                Sociaux.
-              </strong>
-              <br />
+                {displayDetails && (
+                  <div className="text-left">
+                    Le compagnon numérique privilégié des parents durant les
+                    1000 premiers jours : du projet de parentalité aux 3 ans de
+                    l’enfant
+                    <br />
+                    Pour faciliter l’accès des (futurs) parents à l’information
+                    et aux services aux familles, l’application propose quatre
+                    fonctionnalités adaptées à leur quotidien :
+                    <br />
+                    <br />
+                    <FeatureRow
+                      width="150%"
+                      image="/img/icone_timeline.png"
+                      imageSpan="1"
+                    >
+                      1. Le parcours structuré en huit étapes clefs du projet de
+                      parentalité aux 3 ans de l’enfant. Il propose une{" "}
+                      <strong>sélection d’articles adaptée au moment</strong>,
+                      en fonction de son avancée dans le parcours des 1000
+                      premiers jours. Il permet de{" "}
+                      <strong>
+                        disposer au bon moment de l’information la plus utile
+                        pour le bien-être et la santé de l’enfant et santé de
+                        l’enfant et de ses parents.
+                      </strong>
+                    </FeatureRow>
+                    <FeatureRow
+                      width="150%"
+                      image="/img/icone_calendrier.png"
+                      imageSpan="1"
+                    >
+                      2. Le calendrier offre aux parents{" "}
+                      <strong>
+                        une visibilité d’ensemble sur les évènements et
+                        rendez-vous
+                      </strong>{" "}
+                      qui ponctuent le parcours 1000 jours. Il participe au bon
+                      suivi de de leur santé et de celle de leur enfant. ,
+                      répond à un besoin d’organisation dans le quotidien des
+                      parents , et{" "}
+                      <strong>
+                        permet de réduire la charge mentale liée à la
+                        parentalité.
+                      </strong>
+                    </FeatureRow>
+                    <FeatureRow
+                      width="150%"
+                      image="/img/icone_cartographie.png"
+                      imageSpan="1"
+                    >
+                      3. La cartographie permet aux parents, via la
+                      géolocalisation, d’identifier en un coup d’œil leurs
+                      territoire des 1000 premiers jou rs :{" "}
+                      <strong>
+                        les lieux et les ressources présents autour d’eux.
+                      </strong>
+                    </FeatureRow>
+                    <FeatureRow
+                      width="150%"
+                      image="/img/icone_epds.png"
+                      imageSpan="1"
+                    >
+                      4. Un outil de prévention de la{" "}
+                      <strong>dépression post-partum</strong> est rendu
+                      accessible via l’application. En invitant à{" "}
+                      <strong>se poser les bonnes questions</strong>, il permet
+                      aux parents d’être sensibilisés sur ce sujet et, le cas
+                      échéant, d’être incités à{" "}
+                      <strong>
+                        prendre contact avec un professionnel de santé et être
+                        orientés
+                      </strong>{" "}
+                      vers les professionnels qui pourront prendre le relai en
+                      cas de difficulté.
+                    </FeatureRow>
+                    <p className="text-left">
+                      <strong>
+                        Une application conçue pour et avec les parents
+                      </strong>
+                      , développée par une start-up d’Etat.
+                      <br />
+                      L’application 1000 premiers jours est portée par la
+                      Direction générale de la cohésion sociale et développée au
+                      sein d’une start-up d’Etat de la Fabrique Numérique des
+                      Ministères sociaux.
+                      <br />
+                      Conçue pour répondre aux besoins concrets des parents tout
+                      au long du parcours 1000 jours, l’application, repose
+                      essentiellement sur une démarche de co-construction avec
+                      les (futurs) parents de jeunes enfants, les
+                      professionnels, et les associations qui les entourent et
+                      les accompagnent.
+                      <br />A ce titre,{" "}
+                      <strong>
+                        5000 parents ont été consultés dans la phase
+                        d’investigation
+                      </strong>{" "}
+                      en 2020. Des ateliers participatifs « expérience
+                      utilisateurs » sont organisés avec le laboratoire
+                      d’innovation publique de la Caisse nationale des
+                      allocations familiales, le CafLab, en lien avec les
+                      partenaires du chantier. Ils permettent de poursuivre
+                      cette démarche de co-construction et de réfléchir – avec
+                      des (futurs) parents et des professionnels des 1000
+                      premiers jours – aux usages de l’application.
+                    </p>
+                  </div>
+                )}
+              </div>
               <br />
               Pour nous partager vos différents retours et idées d'amélioration
               de votre part, vous pouvez répondre en quelques minutes à&nbsp;
