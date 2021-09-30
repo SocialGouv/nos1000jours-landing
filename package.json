@@ -32,7 +32,7 @@
     "eslint": "^7.22.0",
     "jest": "27.0.6",
     "prettier": "^2.2.1",
-    "tempy": "1.0.1"
+    "tempy": "2.0.0"
   },
   "eslintConfig": {
     "rules": {
