@@ -1,20 +1,22 @@
 
 
 kpis:
-  - titre: Connexions par jour
-    affichage: graph
+  - titre: Nombre total de téléchargements (IOS+Android)
+    affichage: graphWithOneLine
     valeurs:
-      2021-06-21: 43
-      2021-06-22: 42
-      2021-06-29: 42
-      2021-06-30: 2
+      2021-09-13: 10100
+      2021-09-20: 10904
+      2021-09-27: 12607
+      2021-10-04: 13000
 
-  - titre: Download ios par jour
-    affichage: graph
+  - titre: Nombre de tests EPDS passés sur l'app / score >15
+    affichage: graphWithTwoLine
     valeurs:
-      2021-06-21: 43
-      2021-06-22: 42
-      2021-06-23: 42
+      2021-09-13: 
+      2021-09-20: 148 68
+      2021-09-27: 184 82
+      2021-10-04: 210 78
+      
 
   - titre: Temps moyen sur l'app
     affichage: chiffre_cle
