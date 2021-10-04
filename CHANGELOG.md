@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.7.0...v1.7.1) (2021-10-04)
+
+
+### Bug Fixes
+
+* **docker:** use nginx image ([#32](https://github.com/SocialGouv/nos1000jours-landing/issues/32)) ([ff60c6d](https://github.com/SocialGouv/nos1000jours-landing/commit/ff60c6def7cc204cecf65fe1381e1bb33dc639c5))
+
 # [1.7.0](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.6.0...v1.7.0) (2021-09-14)
 
 
