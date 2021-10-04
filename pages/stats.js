@@ -24,6 +24,7 @@ const toGraphData = ({ valeurs }) =>
 const ChiffreCle = () => <div>Chiffre clé</div>;
 const Tableau = () => <div>Tableau</div>;
 
+// affichage d'un graphe avec une seule ligne
 const Graph = ({ kpi }) => {
   const data = toGraphData(kpi);
   return (
@@ -46,6 +47,7 @@ const Graph = ({ kpi }) => {
   );
 };
 
+// affichage d'un graphe avec deux lignes
 const Graph2 = ({ kpi }) => {
   // const data = toGraphData(kpi);
   // const myArr = data.value.split(" ");
