@@ -1,5 +1,7 @@
 import React from "react";
 import {
+  Area,
+  AreaChart,
   LineChart,
   Line,
   XAxis,
@@ -29,6 +31,7 @@ const Graph = ({ kpi }) => {
   const data = toGraphData(kpi);
   return (
     <p>
+      <h2>{kpi.titre}</h2>
       <LineChart width={500} height={300} data={data}>
         <XAxis dataKey="date" />
         <YAxis />
@@ -39,7 +42,7 @@ const Graph = ({ kpi }) => {
           type="monotone"
           dataKey="value"
           stroke="#8884d8"
-          name={kpi.titre}
+          name={kpi.legende}
         />
       </LineChart>
       <hr />
@@ -49,45 +52,42 @@ const Graph = ({ kpi }) => {
 
 // affichage d'un graphe avec deux lignes
 const Graph2 = ({ kpi }) => {
-  // const data = toGraphData(kpi);
-  // const myArr = data.value.split(" ");
   return (
     <p>
-      <LineChart width={500} height={300} data={kpi.valeurs}>
-        <XAxis dataKey="date" tickFormatter={(x) => `42`} />
+      <h2>{kpi.titre}</h2>
+      <AreaChart width={500} height={300} data={kpi.valeurs}>
+        <XAxis dataKey="x_val" tickFormatter={(x) => `42`} />
         <YAxis />
         <Tooltip />
         <Legend />
         <CartesianGrid stroke="#eee" strokeDasharray="5 5" />
-        <Line type="monotone" dataKey="total" stroke="#8884d8" name="total" />
-        <Line type="monotone" dataKey="sup15" stroke="#8884d8" name="succes" />
-      </LineChart>
+        <Area type="monotone" dataKey="y_val1" stroke="#8884d8" fill="#8884d8" name={kpi.label1} />
+        <Area type="monotone" dataKey="y_val2" stroke="#8fca9f" fill="#82ca9d" name={kpi.label2} />
+      </AreaChart>
       <hr />
     </p>
   );
 };
 
 export default function Stats() {
-  // console.log(stats);
+  console.log(stats);
   // const data = toGraphData(stats.kpis.find(k => k.titre === "connexions par jour"));
   // console.log(data);
   return (
     <ContentLayout title="Statistiques">
-      <h3>Work in progress</h3>
       {stats.kpis.map((kpi) => {
         switch (kpi.affichage) {
           case "graphWithOneLine":
             return <Graph kpi={kpi} />;
           case "graphWithTwoLine":
             return <Graph2 kpi={kpi} />;
-          case "chiffre_cle":
+          case "chiffreCle":
             return (
-              <h4>
+              <h2>
                 {kpi.titre}: {kpi.valeur}
-              </h4>
+              </h2>
             );
         }
-        //return <h4>{kpi.titre}</h4>
       })}
     </ContentLayout>
   );

@@ -1,6 +1,7 @@
 kpis:
   - titre: Nombre total de téléchargements (IOS+Android)
     affichage: graphWithOneLine
+    legende: " "
     valeurs:
       2021-09-13: 10100
       2021-09-20: 10904
@@ -9,17 +10,19 @@ kpis:
 
   - titre: Nombre de tests EPDS passés sur l'app / score >15
     affichage: graphWithTwoLine
+    label1: Nb total EPDS
+    label2: EPDS score>15
     valeurs:
-      - date: 2021-09-20
-        total: 148
-        sup15: 68
-      - date: 2021-09-27
-        total: 184
-        sup15: 82
-      - date: 2021-10-04
-        total: 210
-        sup15: 78
+      - x_val: 20-09-2021
+        y_val1: 148
+        y_val2: 68
+      - x_val: 27-09-2021
+        y_val1: 184
+        y_val2: 82
+      - x_val: 04-10-2021
+        y_val1: 210
+        y_val2: 78
 
   - titre: Temps moyen sur l'app
-    affichage: chiffre_cle
+    affichage: chiffreCle
     valeur: 4min02
