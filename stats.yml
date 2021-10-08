@@ -1,12 +1,12 @@
 kpis:
-  - titre: Nombre total de téléchargements (IOS+Android)
+  - titre: Nombre total de téléchargements de l'application
     affichage: graphWithOneLine
-    legende: " "
+    legende: "IOS+Android"
     valeurs:
-      2021-09-13: 10100
-      2021-09-20: 10904
-      2021-09-27: 12607
-      2021-10-04: 13000
+      13-09-2021: 10100
+      20-09-2021: 10904
+      27-09-2021: 12607
+      04-10-2021: 13759
 
   - titre: Nombre de tests EPDS passés sur l'app / score >15
     affichage: graphWithTwoLine

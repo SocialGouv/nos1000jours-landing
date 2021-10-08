@@ -56,7 +56,7 @@ const Graph2 = ({ kpi }) => {
     <p>
       <h2>{kpi.titre}</h2>
       <AreaChart width={500} height={300} data={kpi.valeurs}>
-        <XAxis dataKey="x_val" tickFormatter={(x) => `42`} />
+        <XAxis dataKey="x_val" />
         <YAxis />
         <Tooltip />
         <Legend />
