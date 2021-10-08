@@ -70,7 +70,7 @@ const Graph2 = ({ kpi }) => {
 };
 
 export default function Stats() {
-  console.log(stats);
+  //console.log(stats);
   // const data = toGraphData(stats.kpis.find(k => k.titre === "connexions par jour"));
   // console.log(data);
   return (
