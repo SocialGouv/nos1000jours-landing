@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.7.2...v1.8.0) (2021-10-08)
+
+
+### Features
+
+* MVP page de stats + redirection vers le questionnaire ([e9f0394](https://github.com/SocialGouv/nos1000jours-landing/commit/e9f0394640ef7442fa5932becb4be3e15cfac68a))
+
 ## [1.7.2](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.7.1...v1.7.2) (2021-10-06)
 
 
