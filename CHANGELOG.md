@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.8.0...v1.8.1) (2021-10-08)
+
+
+### Bug Fixes
+
+* suppression console.log ([8f7e3b7](https://github.com/SocialGouv/nos1000jours-landing/commit/8f7e3b7ea2c6c67b56b7cf7fb36e2ed705bc0c5b))
+
 # [1.8.0](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.7.2...v1.8.0) (2021-10-08)
 
 
