@@ -1,3 +1,10 @@
+## [1.8.2](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.8.1...v1.8.2) (2021-10-08)
+
+
+### Bug Fixes
+
+* **nginx:** fix nginx version ([287b187](https://github.com/SocialGouv/nos1000jours-landing/commit/287b1879aab6331d95ca38e49d46e315cbe36be2))
+
 ## [1.8.1](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.8.0...v1.8.1) (2021-10-08)
 
 
