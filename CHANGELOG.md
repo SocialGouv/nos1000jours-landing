@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.8.2...v1.9.0) (2021-10-18)
+
+
+### Features
+
+* changement docs parents ([#35](https://github.com/SocialGouv/nos1000jours-landing/issues/35)) ([5d3fd1a](https://github.com/SocialGouv/nos1000jours-landing/commit/5d3fd1a9eaed47408965fe78656168bfafa92f45))
+
 ## [1.8.2](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.8.1...v1.8.2) (2021-10-08)
 
 
