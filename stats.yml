@@ -9,6 +9,7 @@ kpis:
       04-10-2021: 13759
       11-10-2021: 14611
       18-10-2021: 16257
+      25-10-2021: 17638
 
   - titre: Nombre de tests EPDS passés sur l'app / score >15
     affichage: graphWithTwoLine
@@ -30,7 +31,10 @@ kpis:
       - x_val: 18-10-2021
         y_val1: 241
         y_val2: 91
+      - x_val: 25-10-2021
+        y_val1: 242
+        y_val2: 100
 
   - titre: Temps moyen sur l'app
     affichage: chiffreCle
-    valeur: 4min02
+    valeur: 4min25
