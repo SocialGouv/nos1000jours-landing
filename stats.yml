@@ -45,6 +45,23 @@ kpis:
         
 
 
-  - titre: Temps moyen sur l'app
+  - titre: Répartition des tests EPDS
+    affichage: graphWithTwoLine
+    label1: EPDS passé par des pros
+    label2: EPDS passé seul, via l'appli grand public
+    valeurs:
+      - x_val: 01-11-2021
+        y_val1: 148
+        y_val2: 68
+    
+    
+      - titre: Inscription des parents dans un parcours de santé
+    affichage: graphWithOneLine
+    legende: "Nombre de parents mis en relation avec des professionels de santé"
+    valeurs:
+      01-11-2021: 
+    
+    
+      - titre: Temps moyen sur l'app
     affichage: chiffreCle
     valeur: 5min18
