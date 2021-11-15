@@ -12,7 +12,7 @@ kpis:
       25-10-2021: 17638
       01-11-2021 : 21000
       08-11-2021 : 31738
-      16-11-2021 : 31738
+      15-11-2021 : 37768
 
   - titre: Nombre de tests EPDS passés sur l'app / score >15
     affichage: graphWithTwoLine
@@ -43,7 +43,9 @@ kpis:
        - x_val: 08-11-2021
         y_val1: 1115
         y_val2: 58
-        
+       - x_val: 15-11-2021
+        y_val1: 908
+        y_val2: 308
 
 
   - titre: Répartition des tests EPDS
@@ -51,6 +53,9 @@ kpis:
     label1: EPDS passé par des pros
     label2: EPDS passé seul, via l'appli grand public
     valeurs:
+      - x_val: 01-11-2021
+        y_val1: 148
+        y_val2: 68
       - x_val: 01-11-2021
         y_val1: 148
         y_val2: 68
