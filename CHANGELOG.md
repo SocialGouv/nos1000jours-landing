@@ -1,3 +1,10 @@
+## [1.9.7](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.9.6...v1.9.7) (2021-11-16)
+
+
+### Bug Fixes
+
+* **workflows:** Use v1 version of SocialGouv actions ([#39](https://github.com/SocialGouv/nos1000jours-landing/issues/39)) ([a659771](https://github.com/SocialGouv/nos1000jours-landing/commit/a6597718d6c67927c57fb413780d27085362250e))
+
 ## [1.9.7-alpha.1](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.9.6...v1.9.7-alpha.1) (2021-11-16)
 
 
