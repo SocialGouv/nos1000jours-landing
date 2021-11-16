@@ -24,7 +24,7 @@ jobs:
         echo "project=${GITHUB_REPOSITORY#*/}" >> $GITHUB_ENV
 
     - name: Use autodevops build and register
-      uses: SocialGouv/actions/autodevops-build-register@master
+      uses: SocialGouv/actions/autodevops-build-register@v1
       with:
         environment: preprod
         project: ${{ env.project }}
@@ -40,9 +40,11 @@ jobs:
     steps:
 
     - name: Use autodevops manifests generation
-      uses: SocialGouv/actions/autodevops-manifests@master
+      uses: SocialGouv/actions/autodevops-manifests@v1
       with:
         environment: "preprod"
+        rancherId: ${{ secrets.RANCHER_PROJECT_ID }}
+        socialgouvBaseDomain: ${{ secrets.SOCIALGOUV_BASE_DOMAIN }}
 
   ##############################################################################
   ## DEPLOY PREPRODUCTION APPLICATION
@@ -55,17 +57,9 @@ jobs:
       name: preproduction
       url: https://nos1000jours-landing-preprod.dev.fabrique.social.gouv.fr/
     steps:
-  
-    - name: Checkout repository
-      uses: actions/checkout@v2
-
-    - name: Get project and namespace names
-      run: |
-        echo "project=${GITHUB_REPOSITORY#*/}" >> $GITHUB_ENV
-        echo "ns=${GITHUB_REPOSITORY#*/}-${GITHUB_REF##*/}" >> $GITHUB_ENV
 
     - name: Use autodevops deployment
-      uses: SocialGouv/actions/autodevops-deploy@master
+      uses: SocialGouv/actions/autodevops-deploy@v1
       with:
         environment: "preprod"
         token: ${{ secrets.GITHUB_TOKEN }}
@@ -80,10 +74,12 @@ jobs:
     steps:
 
     - name: Use autodevops manifests generation
-      uses: SocialGouv/actions/autodevops-manifests@master
+      uses: SocialGouv/actions/autodevops-manifests@v1
       with:
         environment: "prod"
         productionNamespace: "les1000jours-landing"
+        rancherId: ${{ secrets.RANCHER_PROJECT_ID }}
+        socialgouvBaseDomain: ${{ secrets.SOCIALGOUV_BASE_DOMAIN }}
 
   ##############################################################################
   ## DEPLOY PRODUCTION APPLICATION
@@ -97,17 +93,10 @@ jobs:
       url: https://nos1000jours-landing.fabrique.social.gouv.fr/
     steps:
 
-    - name: Checkout repository
-      uses: actions/checkout@v2
-
-    - name: Get project and namespace names
-      run: |
-        echo "project=${GITHUB_REPOSITORY#*/}" >> $GITHUB_ENV
-        echo "ns=${GITHUB_REPOSITORY#*/}-${GITHUB_REF##*/}" >> $GITHUB_ENV
-
     - name: Use autodevops deployment
-      uses: SocialGouv/actions/autodevops-deploy@master
+      uses: SocialGouv/actions/autodevops-deploy@v1
       with:
         environment: "prod"
         token: ${{ secrets.GITHUB_TOKEN }}
-        kubeconfig: ${{ secrets.SOCIALGOUV_KUBE_CONFIG_PROD }}
+        kubeconfig: ${{ secrets.KUBECONFIG }}
+        rancherId: ${{ secrets.RANCHER_PROJECT_ID }}
