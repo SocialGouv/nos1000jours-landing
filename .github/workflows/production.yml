@@ -6,7 +6,7 @@ on:
       - v*
 
 concurrency:
-  group: preproduction
+  group: production
   cancel-in-progress: true
 
 jobs:
@@ -26,77 +26,35 @@ jobs:
     - name: Use autodevops build and register
       uses: SocialGouv/actions/autodevops-build-register@v1
       with:
-        environment: preprod
+        environment: prod
         project: ${{ env.project }}
         token: ${{ secrets.GITHUB_TOKEN }}
         imageName: nos1000jours/les1000jours-landing
 
   ##############################################################################
-  ## GENERATE PREPRODUCTION MANIFESTS
-  ##############################################################################
-  manifests:
-    name: Preproduction manifests
-    runs-on: ubuntu-latest
-    steps:
-
-    - name: Use autodevops manifests generation
-      uses: SocialGouv/actions/autodevops-manifests@v1
-      with:
-        environment: "preprod"
-        rancherId: ${{ secrets.RANCHER_PROJECT_ID }}
-        socialgouvBaseDomain: ${{ secrets.SOCIALGOUV_BASE_DOMAIN }}
-
-  ##############################################################################
-  ## DEPLOY PREPRODUCTION APPLICATION
-  ##############################################################################
-  deploy-preprod:
-    name: Deploy application
-    runs-on: ubuntu-latest
-    needs: [register, manifests]
-    environment:
-      name: preproduction
-      url: https://nos1000jours-landing-preprod.dev.fabrique.social.gouv.fr/
-    steps:
-
-    - name: Use autodevops deployment
-      uses: SocialGouv/actions/autodevops-deploy@v1
-      with:
-        environment: "preprod"
-        token: ${{ secrets.GITHUB_TOKEN }}
-        kubeconfig: ${{ secrets.SOCIALGOUV_KUBE_CONFIG_DEV }}
-
-  ##############################################################################
-  ## GENERATE PRODUCTION MANIFESTS
-  ##############################################################################
-  manifests-prod:
-    name: Production manifests
-    runs-on: ubuntu-latest
-    steps:
-
-    - name: Use autodevops manifests generation
-      uses: SocialGouv/actions/autodevops-manifests@v1
-      with:
-        environment: "prod"
-        productionNamespace: "les1000jours-landing"
-        rancherId: ${{ secrets.RANCHER_PROJECT_ID }}
-        socialgouvBaseDomain: ${{ secrets.SOCIALGOUV_BASE_DOMAIN }}
-
-  ##############################################################################
   ## DEPLOY PRODUCTION APPLICATION
   ##############################################################################
-  deploy-prod:
+  deploy:
     name: Deploy application
     runs-on: ubuntu-latest
-    needs: [deploy-preprod, manifests-prod]
+    needs: [register]
     environment:
       name: production
       url: https://nos1000jours-landing.fabrique.social.gouv.fr/
     steps:
 
+    - name: Use autodevops manifests generation
+      uses: SocialGouv/actions/autodevops-manifests@v1
+      with:
+        environment: prod
+        productionNamespace: "les1000jours-landing"
+        rancherId: ${{ secrets.RANCHER_PROJECT_ID }}
+        socialgouvBaseDomain: ${{ secrets.SOCIALGOUV_BASE_DOMAIN }}
+
     - name: Use autodevops deployment
       uses: SocialGouv/actions/autodevops-deploy@v1
       with:
-        environment: "prod"
+        environment: prod
         token: ${{ secrets.GITHUB_TOKEN }}
         kubeconfig: ${{ secrets.KUBECONFIG }}
         rancherId: ${{ secrets.RANCHER_PROJECT_ID }}
