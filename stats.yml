@@ -61,13 +61,13 @@ kpis:
         y_val2: 68
     
     
-      - titre: Inscription des parents dans un parcours de santé
+  - titre: Inscription des parents dans un parcours de santé
     affichage: graphWithOneLine
     legende: "Nombre de parents mis en relation avec des professionels de santé"
     valeurs:
       01-11-2021: 
     
     
-      - titre: Temps moyen sur l'app
+  - titre: Temps moyen sur l'app
     affichage: chiffreCle
     valeur: 5min18
