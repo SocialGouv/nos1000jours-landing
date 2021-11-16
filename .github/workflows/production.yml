@@ -26,6 +26,7 @@ jobs:
     - name: Use autodevops build and register
       uses: SocialGouv/actions/autodevops-build-register@master
       with:
+        environment: preprod
         project: ${{ env.project }}
         token: ${{ secrets.GITHUB_TOKEN }}
         imageName: nos1000jours/les1000jours-landing
@@ -52,7 +53,7 @@ jobs:
     needs: [register, manifests]
     environment:
       name: preproduction
-      url: https://${{ env.ns }}.${{ env.SOCIALGOUV_BASE_DOMAIN }}
+      url: https://nos1000jours-landing-preprod.dev.fabrique.social.gouv.fr/
     steps:
   
     - name: Checkout repository
@@ -60,7 +61,6 @@ jobs:
 
     - name: Get project and namespace names
       run: |
-        cat ".github/preprod.env" >> $GITHUB_ENV
         echo "project=${GITHUB_REPOSITORY#*/}" >> $GITHUB_ENV
         echo "ns=${GITHUB_REPOSITORY#*/}-${GITHUB_REF##*/}" >> $GITHUB_ENV
 
@@ -94,7 +94,7 @@ jobs:
     needs: [deploy-preprod, manifests-prod]
     environment:
       name: production
-      url: https://${{ env.ns }}.${{ env.SOCIALGOUV_BASE_DOMAIN }}
+      url: https://nos1000jours-landing.fabrique.social.gouv.fr/
     steps:
 
     - name: Checkout repository
@@ -102,7 +102,6 @@ jobs:
 
     - name: Get project and namespace names
       run: |
-        cat ".github/prod.env" >> $GITHUB_ENV
         echo "project=${GITHUB_REPOSITORY#*/}" >> $GITHUB_ENV
         echo "ns=${GITHUB_REPOSITORY#*/}-${GITHUB_REF##*/}" >> $GITHUB_ENV
 
