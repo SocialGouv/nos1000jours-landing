@@ -1,3 +1,10 @@
+## [1.9.6](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.9.5...v1.9.6) (2021-11-16)
+
+
+### Bug Fixes
+
+* **workflows:** Use dedicated preprod tagged image on related deployment ([b50cb62](https://github.com/SocialGouv/nos1000jours-landing/commit/b50cb62cd25f8e46b4b2657905522e3f0d6a5787))
+
 ## [1.9.5](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.9.4...v1.9.5) (2021-11-16)
 
 
