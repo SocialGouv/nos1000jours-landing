@@ -1,3 +1,10 @@
+## [1.9.12](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.9.11...v1.9.12) (2021-12-20)
+
+
+### Bug Fixes
+
+* correction doublon ([0f0a6b9](https://github.com/SocialGouv/nos1000jours-landing/commit/0f0a6b9e22d39fa02c02e77f6d131d0a12420338))
+
 ## [1.9.11](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.9.10...v1.9.11) (2021-12-20)
 
 
