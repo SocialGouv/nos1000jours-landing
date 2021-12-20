@@ -92,6 +92,7 @@ kpis:
     affichage: graphWithTwoLine
     label1: Nombre de professionnels faisant passés l'EPDS
     label2: Nombre de parents testés
+    valeurs:
       - x_val: Entre Septembre et Décembre 2021
         y_val1: 15
         y_val2: 78
