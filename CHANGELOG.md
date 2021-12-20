@@ -1,3 +1,10 @@
+## [1.9.11](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.9.10...v1.9.11) (2021-12-20)
+
+
+### Bug Fixes
+
+* 20DEC ([#44](https://github.com/SocialGouv/nos1000jours-landing/issues/44)) ([b417578](https://github.com/SocialGouv/nos1000jours-landing/commit/b4175780b0a5f465557a3432c64cf265a741f744))
+
 ## [1.9.10](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.9.9...v1.9.10) (2021-12-03)
 
 
