@@ -20,3 +20,4 @@ needed at build time :
 
  - éditer [./stats.yml](./stats.yml)
  - commiter avec un titre `fix: stats`
+
