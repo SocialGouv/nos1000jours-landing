@@ -1,3 +1,10 @@
+## [1.9.16](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.9.15...v1.9.16) (2022-01-04)
+
+
+### Bug Fixes
+
+* **secu:** use non-root container ([#46](https://github.com/SocialGouv/nos1000jours-landing/issues/46)) ([27da8e8](https://github.com/SocialGouv/nos1000jours-landing/commit/27da8e8fa8e07635bf32d8036cc44014e02dba52))
+
 ## [1.9.15](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.9.14...v1.9.15) (2021-12-28)
 
 
