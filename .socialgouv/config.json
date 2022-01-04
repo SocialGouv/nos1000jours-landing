@@ -3,5 +3,6 @@
   "type": "static",
   "subdomain": "1000jours",
   "registry": "ghcr",
+  "containerPort": 3000,
   "project": "nos1000jours"
 }
