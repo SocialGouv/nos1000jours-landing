@@ -27,7 +27,7 @@ export default class MyDocument extends Document {
     } finally {
       sheet.seal();
     }
-  }
+  } 
   render() {
     return (
       <Html lang="fr">
