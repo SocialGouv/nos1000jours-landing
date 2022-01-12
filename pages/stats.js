@@ -69,6 +69,15 @@ const Graph2 = ({ kpi }) => {
   );
 };
 
+// affichage d'un camembert
+const Graph3 = ({ kpi }) => {
+  return (
+    <p>
+      <h2>{kpi.titre}</h2>
+    </p>
+  );
+};
+
 export default function Stats() {
   //console.log(stats);
   // const data = toGraphData(stats.kpis.find(k => k.titre === "connexions par jour"));
@@ -87,6 +96,8 @@ export default function Stats() {
                 {kpi.titre}: {kpi.valeur}
               </h2>
             );
+          case "camembert":
+            return <Graph3 kpi={kpi} />;
         }
       })}
     </ContentLayout>
