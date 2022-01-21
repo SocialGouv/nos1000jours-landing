@@ -1,0 +1,11 @@
+[
+    {
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.fabrique.millejours",
+            "sha256_cert_fingerprints":
+            ["4C:3E:47:E2:DB:74:CC:99:77:9E:3E:3F:3C:3C:60:D2:62:65:70:8C:1D:B6:95:72:D5:FC:57:56:2E:7B:9F:3A"]
+        }
+    }
+]
