@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.10.1...v1.11.0) (2022-01-24)
+
+
+### Features
+
+* Ajoute la config pour les "deepLinks" (iOS et Android) ([#52](https://github.com/SocialGouv/nos1000jours-landing/issues/52)) ([df483c8](https://github.com/SocialGouv/nos1000jours-landing/commit/df483c8a12c4be7b2706b713f87f9d7d84cb765e))
+
 ## [1.10.1](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.10.0...v1.10.1) (2022-01-17)
 
 
