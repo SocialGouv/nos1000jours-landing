@@ -14,7 +14,7 @@ export default function redirect_ios() {
     }, 200);
   }, [router]);
 
-  return <ContentLayout title="Redirect">En route vers le sac de bienvenue 1000 premiers jours...</ContentLayout>;
+  return <ContentLayout title="Redirect">En route vers le sac de bienvenue des 1000 premiers jours...</ContentLayout>;
 }
 
 
