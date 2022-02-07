@@ -1,3 +1,10 @@
+## [1.11.1](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.11.0...v1.11.1) (2022-02-07)
+
+
+### Bug Fixes
+
+* redirect_sac_de_bienvenue ([bf7cbee](https://github.com/SocialGouv/nos1000jours-landing/commit/bf7cbee73313852b2f36fa69d837215feb863fd8))
+
 # [1.11.0](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.10.1...v1.11.0) (2022-01-24)
 
 
