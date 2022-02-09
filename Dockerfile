@@ -10,7 +10,7 @@ RUN yarn --production --frozen-lockfile --prefer-offline && yarn cache clean
 RUN yarn build
 RUN yarn export
 
-FROM ghcr.io/socialgouv/docker/nginx:6.65.0
+FROM ghcr.io/socialgouv/docker/nginx:6.70.1
 
 USER 101
 
