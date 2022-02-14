@@ -17,6 +17,9 @@ export default function index() {
       <Comment />
       <br />
       <br />
+      <WidgetEpds />
+      <br />
+      <br />
       <Qui />
       <br />
       <br />
@@ -134,6 +137,29 @@ function Comment() {
             </FeatureRow>
           </Col>
         </Row>
+      </div>
+    </section>
+  );
+}
+
+function WidgetEpds() {
+  return (
+    <section id="widgetepds">
+      <div className="container">
+        <br />
+        <div className="section-heading text-center">
+          <SectionTitle style={{ fontSize: "2.5em" }}>
+            Testez-vous dès aujourd&apos;hui
+          </SectionTitle>
+          <br />
+          <iframe
+            title="Widget EPDS"
+            src="https://nos1000jours-blues-epds-widget.fabrique.social.gouv.fr?source=1000j-landing"
+            width="100%"
+            height="600px"
+            style={{ border: "none" }}
+          />
+        </div>
       </div>
     </section>
   );

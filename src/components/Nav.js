@@ -35,6 +35,9 @@ export function Nav() {
             <NavLink href="/#comment">
               Comment ce service fonctionne-t-il ?
             </NavLink>
+            <NavLink href="/#widgetepds">
+              Testez-vous dès aujourd&apos;hui
+            </NavLink>
             <NavLink href="/#qui">Qui sommes-nous ?</NavLink>
             <NavLink href="/#nouscontacter">Nous contacter</NavLink>
           </BSNav>
