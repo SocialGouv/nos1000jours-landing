@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.11.1...v1.12.0) (2022-02-14)
+
+
+### Features
+
+* **widget:** Ajout du widget epds ([#56](https://github.com/SocialGouv/nos1000jours-landing/issues/56)) ([04e56f2](https://github.com/SocialGouv/nos1000jours-landing/commit/04e56f2043d32ddbff588cdb495cb27ce053da70))
+
 ## [1.11.1](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.11.0...v1.11.1) (2022-02-07)
 
 
