@@ -1,3 +1,10 @@
+## [1.12.2](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.12.1...v1.12.2) (2022-02-23)
+
+
+### Bug Fixes
+
+* **ci:** autodevops-helm ([#61](https://github.com/SocialGouv/nos1000jours-landing/issues/61)) ([bd4a01b](https://github.com/SocialGouv/nos1000jours-landing/commit/bd4a01bedd1bfc9314d686d27e9e207c7403f8f8))
+
 ## [1.12.1](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.12.0...v1.12.1) (2022-02-23)
 
 
