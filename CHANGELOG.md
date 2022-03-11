@@ -1,3 +1,10 @@
+## [1.12.5](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.12.4...v1.12.5) (2022-03-11)
+
+
+### Bug Fixes
+
+* **home:** reduce image sizes ([#65](https://github.com/SocialGouv/nos1000jours-landing/issues/65)) ([ccb45f3](https://github.com/SocialGouv/nos1000jours-landing/commit/ccb45f392fbc9d2437b5932c987c1ac11cbdf425))
+
 ## [1.12.4](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.12.3...v1.12.4) (2022-03-07)
 
 
