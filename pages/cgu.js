@@ -77,8 +77,8 @@ export default function CGU() {
         mettons l’application à jour plusieurs fois par semaine.
         L’indisponibilité ne dépasse généralement pas une dizaine de secondes.
         Nous pouvons amender ces conditions d’utilisation. En cas de changement
-        significatif, une notification s’affichera lors de l’accès à Mon suivi
-        psy au moins 30 jours avant l’entrée en vigueur des nouvelles
+        significatif, une notification s’affichera lors de l’accès à 1000 premiers jours
+        au moins 30 jours avant l’entrée en vigueur des nouvelles
         conditions. Tout l’historique de ces conditions est librement
         accessible.
       </p>
