@@ -149,7 +149,7 @@ function WidgetEpds() {
         <br />
         <div className="section-heading text-center">
           <SectionTitle style={{ fontSize: "2.5em" }}>
-            Testez-vous dès aujourd&apos;hui
+            Évaluez-vous dès aujourd&apos;hui
           </SectionTitle>
           <br />
           <iframe
