@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.12.5...v1.13.0) (2022-03-23)
+
+
+### Features
+
+* maj d'un texte ([#66](https://github.com/SocialGouv/nos1000jours-landing/issues/66)) ([34540c2](https://github.com/SocialGouv/nos1000jours-landing/commit/34540c23bd3306d154ac80c29533fccaf2ed5f2c))
+
 ## [1.12.5](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.12.4...v1.12.5) (2022-03-11)
 
 
