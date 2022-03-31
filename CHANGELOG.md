@@ -1,3 +1,10 @@
+## [1.13.2](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.13.1...v1.13.2) (2022-03-31)
+
+
+### Bug Fixes
+
+* **frontend:** cgu ([#64](https://github.com/SocialGouv/nos1000jours-landing/issues/64)) ([d9b413c](https://github.com/SocialGouv/nos1000jours-landing/commit/d9b413ce061742e66ac9c0578dadcae7ff932a13))
+
 ## [1.13.1](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.13.0...v1.13.1) (2022-03-31)
 
 
