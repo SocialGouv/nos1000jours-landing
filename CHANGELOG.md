@@ -1,3 +1,10 @@
+## [1.13.3](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.13.2...v1.13.3) (2022-03-31)
+
+
+### Bug Fixes
+
+* Update politique-confidentialite.js ([#40](https://github.com/SocialGouv/nos1000jours-landing/issues/40)) ([6eb0e4e](https://github.com/SocialGouv/nos1000jours-landing/commit/6eb0e4e72d1aab9db7527cbd0dc9d69c3abdd411))
+
 ## [1.13.2](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.13.1...v1.13.2) (2022-03-31)
 
 
