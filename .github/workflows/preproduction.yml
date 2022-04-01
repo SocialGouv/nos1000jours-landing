@@ -2,7 +2,8 @@ name: Preproduction
 
 on:
   push:
-    branches: [master]
+    branches:
+      - master
     tags-ignore:
       - v*
 
@@ -11,43 +12,30 @@ concurrency:
   group: preproduction
 
 jobs:
-
-  ##############################################################################
-  ## BUILD AND REGISTER DOCKER IMAGES
-  ##############################################################################
   register:
     name: Build & Register application
     runs-on: ubuntu-latest
     steps:
-
-    - name: Get project name
-      run: |
-        echo "project=${GITHUB_REPOSITORY#*/}" >> $GITHUB_ENV
-
     - name: Use autodevops build and register
       uses: SocialGouv/actions/autodevops-build-register@v1
       with:
         environment: preprod
-        project: ${{ env.project }}
+        imagePackage: app
         token: ${{ secrets.GITHUB_TOKEN }}
-        imageName: nos1000jours/les1000jours-landing
 
-  ##############################################################################
-  ## DEPLOY APPLICATION OVER KUBERNETES
-  ##############################################################################
   deploy:
-    runs-on: ubuntu-latest
     name: Deploy application
+    runs-on: ubuntu-latest
     needs: [register]
+    environment:
+      name: preproduction
+      url: https://nos1000jours-landing-preprod.dev.fabrique.social.gouv.fr
     steps:
-
-    - name: Use autodevops deployment
-      uses: SocialGouv/actions/autodevops-helm-deploy@v1
+    - name: Use kube-workflow deployment
+      uses: SocialGouv/kube-workflow@v1
       with:
         environment: preprod
         token: ${{ secrets.GITHUB_TOKEN }}
         kubeconfig: ${{ secrets.KUBECONFIG }}
-        rancherId: ${{ secrets.RANCHER_PROJECT_ID }}
+        rancherProjectId: ${{ secrets.RANCHER_PROJECT_ID }}
         rancherProjectName: ${{ secrets.RANCHER_PROJECT_NAME }}
-        socialgouvBaseDomain: ${{ secrets.SOCIALGOUV_BASE_DOMAIN }}
-        imageName: nos1000jours/les1000jours-landing
