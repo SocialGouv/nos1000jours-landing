@@ -28,6 +28,10 @@ kpis:
       21-02-2022 : 75102
       28-02-2022 : 76400
       07-03-2022 : 77185
+      14-03-2022 : 77736
+      23-03-2022 : 79300
+      28-03-2022 : 80864
+      04-04-2022 : 94542
       
   - titre: Nombre de tests EPDS passés sur l'app / score >15
     affichage: graphWithTwoLine
@@ -106,6 +110,18 @@ kpis:
       - x_val: 07-03-2022
         y_val1: 378
         y_val2: 130
+      - x_val: 14-03-2022
+        y_val1: 322
+        y_val2: 106
+      - x_val: 21-03-2022
+        y_val1: 301
+        y_val2: 99
+      - x_val: 28-03-2022
+        y_val1: 465
+        y_val2: 202
+      - x_val: 04-04-2022
+        y_val1: 607
+        y_val2: 295
  
   - titre: Nombre total de parents contactés et orientés par l'équipe 1000j 
     affichage: graphWithTwoLine
@@ -140,8 +156,8 @@ kpis:
         y_val1: 63
         y_val2: 41
       - x_val: Mars
-        y_val1: 10
-        y_val2: 4
+        y_val1: 29
+        y_val2: 53
   
   - titre: Nombre total de parents ayant passé l'EPDS auprès de professionnels
     affichage: graphWithTwoLine
@@ -158,9 +174,9 @@ kpis:
         y_val1: 36
         y_val2: 129 
       - x_val: Mars 2022
-        y_val1: 2
-        y_val2: 8 
+        y_val1: 3
+        y_val2: 17
 
   - titre: Temps moyen sur l'app
     affichage: chiffreCle
-    valeur: 2min46
+    valeur: 2min43
