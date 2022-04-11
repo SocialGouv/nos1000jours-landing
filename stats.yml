@@ -1,4 +1,44 @@
 kpis:
+  - titre: Partages d'articles depuis l'application
+    affichage: chiffreCle
+    valeur: 1016
+    
+  - titre: Partages d'événements depuis l'application
+    affichage: chiffreCle
+    valeur: 72
+    
+  - titre: Total de parents testés avec l'EPDS sur l'application
+    affichage: chiffreCle
+    valeur: 15724
+    
+  - titre: Total de parents testés avec l'EPDS via le widget
+    affichage: chiffreCle
+    valeur: 948
+    
+  - titre: Total de parents contactés avec l'EPDS via l'application
+    affichage: chiffreCle
+    valeur: 
+    
+  - titre: Total de parents contactés avec l'EPDS via le widget
+    affichage: chiffreCle
+    valeur: 
+    
+  - titre: Total de professionnels de santé faisant passer l'EPDS
+    affichage: chiffreCle
+    valeur: 39
+    
+  - titre: Total de patients testés par des professionnels de santé avec l'EPDS
+    affichage: chiffreCle
+    valeur: 85
+    
+  - titre: Total de parents orientés avec l'EPDS via l'application
+    affichage: chiffreCle
+    valeur: 
+    
+  - titre: Total de parents orientés avec l'EPDS via le widget
+    affichage: chiffreCle
+    valeur: 
+    
   - titre: Nombre total de téléchargements de l'application
     affichage: graphWithOneLine
     legende: "IOS+Android"
@@ -32,6 +72,7 @@ kpis:
       23-03-2022 : 79300
       28-03-2022 : 80864
       04-04-2022 : 94542
+      11-04-2022 : 95266
       
   - titre: Nombre de tests EPDS passés sur l'app / score >15
     affichage: graphWithTwoLine
@@ -122,6 +163,9 @@ kpis:
       - x_val: 04-04-2022
         y_val1: 607
         y_val2: 295
+      - x_val: 11-04-2022
+        y_val1: 561
+        y_val2: 253
  
   - titre: Nombre total de parents contactés et orientés par l'équipe 1000j 
     affichage: graphWithTwoLine
@@ -158,25 +202,28 @@ kpis:
       - x_val: Mars
         y_val1: 29
         y_val2: 53
+      - x_val: Avril
+        y_val1: 20
+        y_val2: 41
   
   - titre: Nombre total de parents ayant passé l'EPDS auprès de professionnels
     affichage: graphWithTwoLine
     label1: Nombre de professionnels faisant passés l'EPDS
     label2: Nombre de parents testés
     valeurs:
-      - x_val: Entre Septembre et Décembre 2021
-        y_val1: 15
-        y_val2: 78
+      - x_val: Décembre 2021
+        y_val1: 7
+        y_val2: 7
       - x_val: Janvier 2022
-        y_val1: 25
-        y_val2: 105
+        y_val1: 16
+        y_val2: 24
       - x_val: Février 2022
-        y_val1: 36
-        y_val2: 129 
+        y_val1: 19
+        y_val2: 15 
       - x_val: Mars 2022
-        y_val1: 3
-        y_val2: 17
-
+        y_val1: 21
+        y_val2: 26
+       
   - titre: Temps moyen sur l'app
     affichage: chiffreCle
     valeur: 2min43
