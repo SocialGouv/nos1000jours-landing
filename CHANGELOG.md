@@ -1,3 +1,10 @@
+## [1.13.6](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.13.5...v1.13.6) (2022-04-15)
+
+
+### Bug Fixes
+
+* migrate to kube-workflow ([#70](https://github.com/SocialGouv/nos1000jours-landing/issues/70)) ([4214c2d](https://github.com/SocialGouv/nos1000jours-landing/commit/4214c2d12519b8fe15b2cc5d6136424cdd4e7216))
+
 ## [1.13.5](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.13.4...v1.13.5) (2022-04-11)
 
 
