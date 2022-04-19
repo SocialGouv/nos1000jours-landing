@@ -1,44 +1,4 @@
 kpis:
-  - titre: Partages d'articles depuis l'application
-    affichage: chiffreCle
-    valeur: 1016
-    
-  - titre: Partages d'événements depuis l'application
-    affichage: chiffreCle
-    valeur: 72
-    
-  - titre: Total de parents testés avec l'EPDS sur l'application
-    affichage: chiffreCle
-    valeur: 15724
-    
-  - titre: Total de parents testés avec l'EPDS via le widget
-    affichage: chiffreCle
-    valeur: 948
-    
-  - titre: Total de parents contactés avec l'EPDS via l'application
-    affichage: chiffreCle
-    valeur: 
-    
-  - titre: Total de parents contactés avec l'EPDS via le widget
-    affichage: chiffreCle
-    valeur: 
-    
-  - titre: Total de professionnels de santé faisant passer l'EPDS
-    affichage: chiffreCle
-    valeur: 39
-    
-  - titre: Total de patients testés par des professionnels de santé avec l'EPDS
-    affichage: chiffreCle
-    valeur: 85
-    
-  - titre: Total de parents orientés avec l'EPDS via l'application
-    affichage: chiffreCle
-    valeur: 
-    
-  - titre: Total de parents orientés avec l'EPDS via le widget
-    affichage: chiffreCle
-    valeur: 
-    
   - titre: Nombre total de téléchargements de l'application
     affichage: graphWithOneLine
     legende: "IOS+Android"
@@ -74,7 +34,7 @@ kpis:
       04-04-2022 : 94542
       11-04-2022 : 95266
       
-  - titre: Nombre de tests EPDS passés sur l'app / score >15
+  - titre: Nombre de tests EPDS passés ET nombre de personnes présentant des signes évocateurs de la dépression (score > 15)
     affichage: graphWithTwoLine
     label1: Nb total EPDS
     label2: EPDS score>15
@@ -200,11 +160,47 @@ kpis:
         y_val1: 63
         y_val2: 41
       - x_val: Mars
-        y_val1: 29
-        y_val2: 53
+        y_val1: 53
+        y_val2: 29
       - x_val: Avril
-        y_val1: 20
-        y_val2: 41
+        y_val1: 41
+        y_val2: 20
+  
+  - titre: Partages d'articles depuis l'application
+    affichage: chiffreCle
+    valeur: 1016
+    
+  - titre: Partages d'événements depuis l'application
+    affichage: chiffreCle
+    valeur: 72
+    
+  - titre: Total de parents testés avec l'EPDS sur l'application
+    affichage: chiffreCle
+    valeur: 15724
+    
+  - titre: Total de parents contactés avec l'EPDS via l'application
+    affichage: chiffreCle
+    valeur: 
+    
+  - titre: Total de parents orientés avec l'EPDS via l'application
+    affichage: chiffreCle
+    valeur: 
+    
+  - titre: Temps moyen sur l'app
+    affichage: chiffreCle
+    valeur: 2min43
+    
+  - titre: Total de parents testés avec l'EPDS via le widget
+    affichage: chiffreCle
+    valeur: 948
+    
+  - titre: Total de parents contactés avec l'EPDS via le widget
+    affichage: chiffreCle
+    valeur: 
+    
+  - titre: Total de parents orientés avec l'EPDS via le widget
+    affichage: chiffreCle
+    valeur:
   
   - titre: Nombre total de parents ayant passé l'EPDS auprès de professionnels
     affichage: graphWithTwoLine
@@ -218,12 +214,17 @@ kpis:
         y_val1: 16
         y_val2: 24
       - x_val: Février 2022
-        y_val1: 19
-        y_val2: 15 
+        y_val1: 15
+        y_val2: 19 
       - x_val: Mars 2022
         y_val1: 21
         y_val2: 26
-       
-  - titre: Temps moyen sur l'app
+        
+  - titre: Total de professionnels de santé faisant passer l'EPDS
     affichage: chiffreCle
-    valeur: 2min43
+    valeur: 39
+    
+  - titre: Total de patients testés par des professionnels de santé avec l'EPDS
+    affichage: chiffreCle
+    valeur: 85
+         
