@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.13.8...v1.14.0) (2022-04-20)
+
+
+### Features
+
+* découpage des stats ([21b1f70](https://github.com/SocialGouv/nos1000jours-landing/commit/21b1f70fe76d0e4f326696a7baead194061ee6ef))
+
 ## [1.13.8](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.13.7...v1.13.8) (2022-04-19)
 
 
