@@ -37,3 +37,18 @@ export function ContentLayout({ title, children }) {
     </Layout>
   );
 }
+
+export function SimpleLayout({ title, children }) {
+  return (
+    
+      <Row>
+        <Col xs={{ offset: 1, span: 10 }}>
+          <Jumbotron style={{ padding: "2em", marginTop: 30 }}>
+            <h1>{title}</h1>
+          </Jumbotron>
+          {children}
+        </Col>
+      </Row>
+    
+  );
+}

@@ -12,9 +12,10 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-import { ContentLayout } from "../src/components/Layout";
+import { ContentLayout, SimpleLayout } from "../src/components/Layout";
 
 import stats from "../stats.yml";
+import stats_blues from "../stats_blues.yml";
 
 // convert yaml format to recharts format
 const toGraphData = ({ valeurs }) =>
@@ -50,7 +51,7 @@ const Graph = ({ kpi }) => {
   );
 };
 
-// affichage d'un graphe avec deux lignes
+// affichage d'un graph avec deux lignes
 const Graph2 = ({ kpi }) => {
   return (
     <p>
@@ -61,8 +62,8 @@ const Graph2 = ({ kpi }) => {
         <Tooltip />
         <Legend />
         <CartesianGrid stroke="#eee" strokeDasharray="5 5" />
-        <Area type="monotone" dataKey="y_val1" stroke="#8884d8" fill="#8884d8" name={kpi.label1} />
-        <Area type="monotone" dataKey="y_val2" stroke="#8fca9f" fill="#82ca9d" name={kpi.label2} />
+        <Area type="monotone" dataKey="y_val1" stroke="#8fca9f" fill="#82ca9d" name={kpi.label1} />
+        <Area type="monotone" dataKey="y_val2" stroke="#8884d8" fill="#8884d8" name={kpi.label2} />
       </AreaChart>
       <hr />
     </p>
@@ -83,23 +84,45 @@ export default function Stats() {
   // const data = toGraphData(stats.kpis.find(k => k.titre === "connexions par jour"));
   // console.log(data);
   return (
-    <ContentLayout title="Statistiques">
-      {stats.kpis.map((kpi) => {
-        switch (kpi.affichage) {
-          case "graphWithOneLine":
-            return <Graph kpi={kpi} />;
-          case "graphWithTwoLine":
-            return <Graph2 kpi={kpi} />;
-          case "chiffreCle":
-            return (
-              <h2>
-                {kpi.titre}: {kpi.valeur}
-              </h2>
-            );
-          case "camembert":
-            return <Graph3 kpi={kpi} />;
-        }
-      })}
-    </ContentLayout>
+    <ContentLayout title="Statistiques 1000 premiers jours">
+      <SimpleLayout title="Statistiques de l'application mobile">
+        {stats.kpis.map((kpi) => {
+          switch (kpi.affichage) {
+            case "graphWithOneLine":
+              return <Graph kpi={kpi} />;
+            case "graphWithTwoLine":
+              return <Graph2 kpi={kpi} />;
+            case "chiffreCle":
+              return (
+                <h3>
+                  {kpi.titre}: {kpi.valeur}
+                  <hr/>
+                </h3>
+              );
+            case "camembert":
+              return <Graph3 kpi={kpi} />;
+          }
+        })}
+      </SimpleLayout>
+      <SimpleLayout title="Statistiques du test EPDS">
+        {stats_blues.kpis.map((kpi) => {
+          switch (kpi.affichage) {
+            case "graphWithOneLine":
+              return <Graph kpi={kpi} />;
+            case "graphWithTwoLine":
+              return <Graph2 kpi={kpi} />;
+            case "chiffreCle":
+              return (
+                <h3>
+                  {kpi.titre}: {kpi.valeur}
+                  <hr/>
+                </h3>
+              );
+            case "camembert":
+              return <Graph3 kpi={kpi} />;
+          }
+        })}
+      </SimpleLayout>
+  </ContentLayout>
   );
 }

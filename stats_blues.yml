@@ -1,0 +1,171 @@
+kpis:
+  - titre: Total de parents testés avec l'EPDS sur l'application et le widget
+    affichage: chiffreCle
+    valeur: 15724
+    
+  - titre: Total de parents contactés avec l'EPDS via l'application et le widget
+    affichage: chiffreCle
+    valeur: 
+    
+  - titre: Total de parents orientés avec l'EPDS via l'application et le widget
+    affichage: chiffreCle
+    valeur: 
+    
+  - titre: Nombre de tests EPDS passés ET nombre de personnes présentant des signes évocateurs de la dépression (score > 15)
+    affichage: graphWithTwoLine
+    label1: Nb total EPDS
+    label2: EPDS score>15
+    valeurs:
+      - x_val: 20-09-2021
+        y_val1: 148
+        y_val2: 68
+      - x_val: 27-09-2021
+        y_val1: 184
+        y_val2: 82
+      - x_val: 04-10-2021
+        y_val1: 210
+        y_val2: 78
+      - x_val: 11-10-2021
+        y_val1: 157
+        y_val2: 71
+      - x_val: 18-10-2021
+        y_val1: 241
+        y_val2: 91
+      - x_val: 25-10-2021
+        y_val1: 242
+        y_val2: 100
+      - x_val: 01-11-2021
+        y_val1: 653
+        y_val2: 26
+      - x_val: 08-11-2021
+        y_val1: 1115
+        y_val2: 58
+      - x_val: 15-11-2021
+        y_val1: 908
+        y_val2: 308
+      - x_val: 22-11-2021
+        y_val1: 1231
+        y_val2: 475
+      - x_val: 29-11-2021
+        y_val1: 842
+        y_val2: 294
+      - x_val: 06-12-2021
+        y_val1: 729
+        y_val2: 249 
+      - x_val: 13-12-2021
+        y_val1: 1072
+        y_val2: 336
+      - x_val: 20-12-2021
+        y_val1: 478
+        y_val2: 181
+      - x_val: 27-12-2021
+        y_val1: 471
+        y_val2: 148
+      - x_val: 10-01-2022
+        y_val1: 512
+        y_val2: 174
+      - x_val: 17-01-2022
+        y_val1: 486
+        y_val2: 161
+      - x_val: 24-01-2022
+        y_val1: 450
+        y_val2: 163
+      - x_val: 31-01-2022
+        y_val1: 430
+        y_val2: 156
+      - x_val: 07-02-2022
+        y_val1: 455
+        y_val2: 171
+      - x_val: 14-02-2022
+        y_val1: 426
+        y_val2: 245
+      - x_val: 21-02-2022
+        y_val1: 455
+        y_val2: 160
+      - x_val: 28-02-2022
+        y_val1: 322
+        y_val2: 105
+      - x_val: 07-03-2022
+        y_val1: 378
+        y_val2: 130
+      - x_val: 14-03-2022
+        y_val1: 322
+        y_val2: 106
+      - x_val: 21-03-2022
+        y_val1: 301
+        y_val2: 99
+      - x_val: 28-03-2022
+        y_val1: 465
+        y_val2: 202
+      - x_val: 04-04-2022
+        y_val1: 607
+        y_val2: 295
+      - x_val: 11-04-2022
+        y_val1: 561
+        y_val2: 253
+ 
+  - titre: Nombre total de parents présentant des signes évocateurs de la dépression, contactés et orientés par l'équipe 1000j 
+    affichage: graphWithTwoLine
+    label1: Parents contactés suite à un test EPDS
+    label2: Parents orientés vers des professionnels suite à un échange
+    valeurs:
+      - x_val: Août
+        y_val1: 31
+        y_val2: 22
+      - x_val: Septembre
+        y_val1: 7
+        y_val2: 3
+      - x_val: Octobre
+        y_val1: 15
+        y_val2: 7
+      - x_val: Novembre
+        y_val1: 100
+        y_val2: 64
+      - x_val: Décembre
+        y_val1: 66
+        y_val2: 41
+      - x_val: Janvier
+        y_val1: 28
+        y_val2: 20
+      - x_val: Janvier
+        y_val1: 65
+        y_val2: 45
+      - x_val: Février
+        y_val1: 21
+        y_val2: 7
+      - x_val: Février
+        y_val1: 63
+        y_val2: 41
+      - x_val: Mars
+        y_val1: 53
+        y_val2: 29
+      - x_val: Avril
+        y_val1: 41
+        y_val2: 20
+     
+  - titre: Nombre total de parents ayant passé l'EPDS auprès de professionnels
+    affichage: graphWithTwoLine
+    label1: Nombre de parents testés
+    label2: Nombre de professionnels faisant passés l'EPDS
+    valeurs:
+      - x_val: Décembre 2021
+        y_val1: 7
+        y_val2: 7
+      - x_val: Janvier 2022
+        y_val1: 24
+        y_val2: 16
+      - x_val: Février 2022
+        y_val1: 19
+        y_val2: 15 
+      - x_val: Mars 2022
+        y_val1: 26
+        y_val2: 21
+        
+  - titre: Total de professionnels de santé faisant passer l'EPDS
+    affichage: chiffreCle
+    valeur: 39
+    
+  - titre: Total de patients testés par des professionnels de santé avec l'EPDS
+    affichage: chiffreCle
+    valeur: 85
+         
