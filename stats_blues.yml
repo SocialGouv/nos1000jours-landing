@@ -1,15 +1,15 @@
 kpis:
   - titre: Total de parents testés avec l'EPDS sur l'application et le widget
     affichage: chiffreCle
-    valeur: 21698
+    valeur: 22408
     
   - titre: Total de parents contactés avec l'EPDS via l'application et le widget
     affichage: chiffreCle
-    valeur: 484
+    valeur: 506
     
   - titre: Total de parents orientés avec l'EPDS via l'application et le widget
     affichage: chiffreCle
-    valeur: 310
+    valeur: 323
     
   - titre: Nombre de tests EPDS passés ET nombre de personnes présentant des signes évocateurs de la dépression (score > 15)
     affichage: graphWithTwoLine
@@ -109,6 +109,9 @@ kpis:
       - x_val: 26-04-2022
         y_val1: 726
         y_val2: 304
+      - x_val: 02-05-2022
+        y_val1: 807
+        y_val2: 368
  
   - titre: Nombre total de parents présentant des signes évocateurs de la dépression, contactés et orientés par l'équipe 1000j 
     affichage: graphWithTwoLine
@@ -146,8 +149,8 @@ kpis:
         y_val1: 53
         y_val2: 29
       - x_val: Avril
-        y_val1: 84
-        y_val2: 56
+        y_val1: 101
+        y_val2: 68
      
   - titre: Nombre total de parents ayant passé l'EPDS auprès de professionnels
     affichage: graphWithTwoLine
@@ -166,12 +169,15 @@ kpis:
       - x_val: Mars 2022
         y_val1: 26
         y_val2: 21
+      - x_val: Avril 2022
+        y_val1: 15
+        y_val2: 14
         
   - titre: Total de professionnels de santé faisant passer l'EPDS
     affichage: chiffreCle
-    valeur: 39
+    valeur: 48
     
-  - titre: Total de patients testés par des professionnels de santé avec l'EPDS
+  - titre: Total de patients testés par des professionnels de santé avec l'EPDS PRO
     affichage: chiffreCle
-    valeur: 85
+    valeur: 89
          
