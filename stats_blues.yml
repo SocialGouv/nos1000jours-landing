@@ -115,6 +115,9 @@ kpis:
       - x_val: 16-05-2022
         y_val1: 1001
         y_val2: 403
+      - x_val: 23-05-2022
+        y_val1: 849
+        y_val2: 566
  
   - titre: Nombre total de parents présentant des signes évocateurs de la dépression, contactés et orientés par l'équipe 1000j 
     affichage: graphWithTwoLine
