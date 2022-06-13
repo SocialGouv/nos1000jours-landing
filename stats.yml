@@ -39,17 +39,18 @@ kpis:
       16-05-2022 : 102012 
       23-05-2022 : 103714
       30-05-2022 : 104751
-       
+      30-05-2022 : 106668
+
   - titre: Partages d'articles depuis l'application
     affichage: chiffreCle
-    valeur: 1736
+    valeur: 1967
     
   - titre: Partages d'événements depuis l'application
     affichage: chiffreCle
-    valeur: 132
+    valeur: 144
         
   - titre: Temps moyen sur l'app
     affichage: chiffreCle
-    valeur: 2min50
+    valeur: 2mn48
     
          
