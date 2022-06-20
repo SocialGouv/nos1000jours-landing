@@ -1,15 +1,15 @@
 kpis:
   - titre: Total de parents testés avec l'EPDS sur l'application et le widget
     affichage: chiffreCle
-    valeur: 28174
+    valeur: 29133
     
   - titre: Total de parents contactés avec l'EPDS via l'application et le widget
     affichage: chiffreCle
-    valeur: 715
+    valeur: 762
     
   - titre: Total de parents orientés avec l'EPDS via l'application et le widget
     affichage: chiffreCle
-    valeur: 414
+    valeur: 326
     
   - titre: Nombre de tests EPDS passés ET nombre de personnes présentant des signes évocateurs de la dépression (score > 15)
     affichage: graphWithTwoLine
@@ -127,6 +127,9 @@ kpis:
       - x_val: 13-06-2022
         y_val1: 1056
         y_val2: 715 
+      - x_val: 20-06-2022
+        y_val1: 849
+        y_val2: 396
 
  
   - titre: Nombre total de parents présentant des signes évocateurs de la dépression, contactés et orientés par l'équipe 1000j 
