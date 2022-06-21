@@ -1,3 +1,11 @@
+## [1.14.9](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.14.8...v1.14.9) (2022-06-21)
+
+
+### Bug Fixes
+
+* 20JUN ([#93](https://github.com/SocialGouv/nos1000jours-landing/issues/93)) ([99cdcc5](https://github.com/SocialGouv/nos1000jours-landing/commit/99cdcc5494edf400be9dd46b8faae0728d5ca457))
+* 21JUN ([#94](https://github.com/SocialGouv/nos1000jours-landing/issues/94)) ([044b3ba](https://github.com/SocialGouv/nos1000jours-landing/commit/044b3ba6deb9ccf773fbcd9441c49733d0e50819))
+
 ## [1.14.8](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.14.7...v1.14.8) (2022-06-14)
 
 
