@@ -5,7 +5,7 @@ import { ContentLayout } from "../src/components/Layout";
 
 
 export default function redirect_ios() {
-  const url = "https://apps.apple.com/us/app/1000-premiers-jours/id1573729958";
+  const url = "https://apps.apple.com/fr/app/1000-premiers-jours/id1573729958";
   const router = useRouter();
 
   useEffect(() => {
