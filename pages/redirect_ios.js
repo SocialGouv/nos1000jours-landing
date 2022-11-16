@@ -3,7 +3,6 @@ import { useRouter } from 'next/router'
 
 import { ContentLayout } from "../src/components/Layout";
 
-
 export default function redirect_ios() {
   const url = "https://apps.apple.com/fr/app/1000-premiers-jours/id1573729958";
   const router = useRouter();
