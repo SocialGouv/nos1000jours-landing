@@ -5,7 +5,7 @@ import { ContentLayout } from "../src/components/Layout";
 
 
 export default function redirect_ios() {
-  const url = "https://startupdetat.typeform.com/to/ciFdrdSK";
+  const url = "https://forms.office.com/Pages/ResponsePage.aspx?id=klJeAyVaCUW7CKVV99Mai1PpHvPcZL9FsUnhmLJvXehUN1dWMlg4VlVPTEk0UVlFOFpHQUZYR1VRMS4u";
   const router = useRouter();
 
   useEffect(() => {
