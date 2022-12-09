@@ -1,3 +1,10 @@
+## [1.14.13](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.14.12...v1.14.13) (2022-12-09)
+
+
+### Bug Fixes
+
+* fr link to apple store ([1b89a8a](https://github.com/SocialGouv/nos1000jours-landing/commit/1b89a8ae69586de1082c8b1dca05d56360630782))
+
 ## [1.14.12](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.14.11...v1.14.12) (2022-11-30)
 
 
