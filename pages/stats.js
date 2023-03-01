@@ -104,7 +104,7 @@ export default function Stats() {
           }
         })}
       </SimpleLayout>
-      <SimpleLayout title="Statistiques du test EPDS">
+      {/* <SimpleLayout title="Statistiques du test EPDS">
         {stats_blues.kpis.map((kpi) => {
           switch (kpi.affichage) {
             case "graphWithOneLine":
@@ -122,7 +122,7 @@ export default function Stats() {
               return <Graph3 kpi={kpi} />;
           }
         })}
-      </SimpleLayout>
+      </SimpleLayout> */}
   </ContentLayout>
   );
 }
