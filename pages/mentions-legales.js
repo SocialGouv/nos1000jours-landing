@@ -7,41 +7,32 @@ export default function Mentions() {
     <ContentLayout title="Mentions légales">
       <h3>Éditeur du site</h3>
       <p>
-        L’application 1000 premiers jours est éditée par la Direction Générale de la
-        Santé au sein de la Fabrique numérique des Ministères sociaux située :
+        Ce site est édité par la Direction générale de la Cohésion sociale au sein de la Fabrique numérique des ministères sociaux :
       </p>
       <p>
-        Tour Mirabeau
+        18 place des 5-Martyrs-du-Lycée-Buffon
         <br />
-        39-43 Quai André Citroën
-        <br />
-        75015 PARIS
-        <br />
-        Tél. : 01 40 56 60 00
-        <br />
+        75014 PARIS
       </p>
       <p>
         <b>Directeur de la publication</b>
         <br />
-        Madame Virginie Lassère, Directrice générale de le Cohésion Sociale
+        Monsieur Jean-Benoît DUJOL, Directeur général de la cohésion sociale
       </p>
       <h3>Hébergement du site</h3>
       <p>
-        Cette application est hébergée par Microsoft Azure France (région France
-        centre) :
+        Ce site est hébergé par :
         <br />
         <br />
-        Microsoft France
+        Microsoft Azure
         <br />
-        37 Quai du Président Roosevelt
+        39 Quai du Président Roosevelt
         <br />
         92130 ISSY-LES-MOULINEAUX
       </p>
       <h3>Accessibilité</h3>
       <p>
-        La conformité aux normes d’accessibilité numérique est un objectif
-        ultérieur mais nous tâchons de rendre cette application accessible à
-        toutes et à tous.
+        La conformité aux normes d’accessibilité numérique est un objectif ultérieur mais nous tâchons de rendre ce site accessible à toutes et à tous.
       </p>
       <h4> Signaler un dysfonctionnement</h4>
       <p>
@@ -60,9 +51,9 @@ export default function Mentions() {
       <p>
         L’application est protégée par un certificat électronique, matérialisé
         pour la grande majorité des navigateurs par un cadenas. Cette protection
-        participe à la confidentialité des échanges. En aucun cas les services
-        associés à au site ne seront à l’origine d’envoi de courriels pour
-        demander la saisie d’informations personnelles.
+        participe à la confidentialité des échanges. En aucun cas les services associés 
+        à la plateforme ne seront à l’origine d’envoi de courriels pour demander la 
+        saisie d’informations personnelles.
       </p>
     </ContentLayout>
   );
