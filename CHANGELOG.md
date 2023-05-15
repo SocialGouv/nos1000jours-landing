@@ -1,3 +1,10 @@
+# [1.15.0](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.14.14...v1.15.0) (2023-05-15)
+
+
+### Features
+
+* update "mentions legales" ([f8cae41](https://github.com/SocialGouv/nos1000jours-landing/commit/f8cae418f42768c03f0b25c24a18c14e292553c9))
+
 ## [1.14.14](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.14.13...v1.14.14) (2023-03-01)
 
 
