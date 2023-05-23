@@ -1,4 +1,0 @@
-app:
-  enabled: true
-  host: 1000jours.fabrique.social.gouv.fr
-  certSecretName: nos1000jours-landing-crt
