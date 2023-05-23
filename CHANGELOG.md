@@ -1,3 +1,10 @@
+# [1.16.0](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.15.0...v1.16.0) (2023-05-23)
+
+
+### Features
+
+* ci on kontinuous ([#104](https://github.com/SocialGouv/nos1000jours-landing/issues/104)) ([4959962](https://github.com/SocialGouv/nos1000jours-landing/commit/4959962b8de53c7f26f495f82100dfd557f38134))
+
 # [1.15.0](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.14.14...v1.15.0) (2023-05-15)
 
 
