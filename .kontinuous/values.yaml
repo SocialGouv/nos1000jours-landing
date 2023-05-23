@@ -1,6 +1,4 @@
 global:
   imageProject: 1000jours
 
-app:
-  enabled: true
-  containerPort: 8080
+app: {}
