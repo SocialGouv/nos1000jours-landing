@@ -1,3 +1,10 @@
+## [1.17.1](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.17.0...v1.17.1) (2023-08-14)
+
+
+### Bug Fixes
+
+* Mise à jour des stats de l'app ([22b987d](https://github.com/SocialGouv/nos1000jours-landing/commit/22b987de315c4a0769ec8f8f153ef0d5e073a5a4))
+
 # [1.17.0](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.16.0...v1.17.0) (2023-07-26)
 
 
