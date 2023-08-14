@@ -52,17 +52,21 @@ kpis:
       28-12-2022 : 147401
       28-01-2023 : 153579
       28-02-2023 : 157811
+      30-03-2023 : 164928
+      27-04-2023 : 170694
+      31-05-2023 : 176711
+      29-06-2023 : 180936
        
   - titre: Partages d'articles depuis l'application
     affichage: chiffreCle
-    valeur: 4137
+    valeur: 5857
     
   - titre: Partages d'événements depuis l'application
     affichage: chiffreCle
-    valeur: 302
+    valeur: 460
         
   - titre: Temps moyen sur l'app
     affichage: chiffreCle
-    valeur: 2min49
+    valeur: 2min40
     
          
