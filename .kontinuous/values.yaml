@@ -1,2 +1,8 @@
 global:
   imageProject: 1000jours
+
+app:
+  securityContext:
+    fsGroup: 101
+    runAsGroup: 101
+    runAsUser: 101
