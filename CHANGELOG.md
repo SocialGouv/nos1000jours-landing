@@ -1,3 +1,10 @@
+## [1.17.2](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.17.1...v1.17.2) (2023-09-08)
+
+
+### Bug Fixes
+
+* **k8s:** add securityContext ([#106](https://github.com/SocialGouv/nos1000jours-landing/issues/106)) ([00e5cde](https://github.com/SocialGouv/nos1000jours-landing/commit/00e5cdee6e7db1247be21bf80cf655ff1fc1cf39))
+
 ## [1.17.1](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.17.0...v1.17.1) (2023-08-14)
 
 
