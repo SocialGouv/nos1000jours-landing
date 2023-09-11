@@ -1,3 +1,10 @@
+## [1.18.1](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.18.0...v1.18.1) (2023-09-11)
+
+
+### Bug Fixes
+
+* X-Frame-Options SAMEORIGIN ([b7307ca](https://github.com/SocialGouv/nos1000jours-landing/commit/b7307caeae2f0c3e0a3578d7185b007f74af871b))
+
 # [1.18.0](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.17.2...v1.18.0) (2023-09-11)
 
 
