@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vie et Veille au Quotidien</title>
+		<link rel="shortcut icon" href="img/icon_titre.png">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<script type="text/javascript" src="lib/jquery-3.6.0.min.js"></script>
+		<script type="text/javascript" src="lib/jquery-ui-1.13.2/jquery-ui.min.js"></script>
+		
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		
+		<script type="text/javascript" src="lib/bootstrap-5.3.0-alpha2-dist/js/bootstrap.min.js"></script>
+		<link href="lib/bootstrap-5.3.0-alpha2-dist/css/bootstrap.css" rel="stylesheet">
+		
+		<script type="text/javascript" src="js/cookies.js"></script>
+		<script type="text/javascript" src="js/manage.js"></script>
+<script>
+		if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+			window.location.href="ios.html"
+		}
+		if (/Android/i.test(navigator.userAgent)) {
+			window.location.href="android.html"
+		}
+		$(document).ready(function () {
+			//
+			//
+			document.addEventListener("fullscreenchange", function(e){
+				if (document.fullscreenElement) {
+					console.log(`Element: ${document.fullscreenElement.id} entered fullscreen mode.`);
+					$("#id_part1_Unity_iframe")[0].contentWindow.myGameInstance.SendMessage('JSInterface', 'FullScreenChangedFromBrowser', 0);
+				} else {
+					console.log("Leaving fullscreen mode.");
+					$("#id_part1_Unity_iframe")[0].contentWindow.myGameInstance.SendMessage('JSInterface', 'FullScreenChangedFromBrowser', 1);
+				}
+			});
+			// ready marche pas... Es-ce que ça ça marche??
+			var onLoadSVG = function(){
+				games_hide();
+				display_game_progression();
+				//
+				$("#id_btn_close_P1").click(function() {
+					games_hide();
+					display_game_progression();
+				});
+			};
+			//$("#svgpath").on("load", onLoadSVG);
+			//console.log($("#svgpath")[0].contentDocument);
+			//var doc = $("#svgpath")[0].contentDocument;
+			//if(doc != null && doc.readyState == "complete")
+			{
+				onLoadSVG();
+			}
+			//else
+			{
+				
+			}
+			
+		});
+	</script>
+<style>
+		.title
+		{
+			color:#f1ce56;
+			font-size: 16pt;
+		}
+		
+		body{
+			font-size: 100%;
+			height: 5000px;
+			overflow-x: hidden;
+			
+		}
+			
+		.logoText
+		{
+			color:#808080;
+			font-size: 30pt;
+		}	
+		
+		
+		.bg_image
+		{
+			height: 100vh;
+			width: 100vw;
+			object-fit: cover;
+			filter : brightness(1.0);
+			position : absolute;
+			top: 0;
+			left: 0;
+			z-index: -1;
+		}
+		
+		.corpus
+		{
+			font-family:arial, serif;
+			font-stretch : condensed;
+			color:#FFFFFF;
+			text-shadow :2px 2px 5px #404040;
+			font-size: 1.5vw;
+			text-align:justify;
+			vertical-align: middle;
+		}
+		
+		 .custom-line{
+                margin-bottom: 2rem;
+            }
+		.custom-line-thin{
+			min-height: 5rem;
+			margin-bottom: 5rem;
+		}
+		.bandeau {
+			background-color:rgba(1,1,1,1);
+			border-top-color:#f1ce56;
+			border-bottom-color:#f1ce56;
+			border-top-style:solid;
+			border-bottom-style:solid;
+			margin-top : 5rem;
+		}
+		.bandeau-top {		
+			height: 6vw;
+			font-stretch : condensed;
+			background: linear-gradient(-45deg,#FF968A, #e0bbe4);
+		}
+		
+		#logo
+		{
+			margin-top:15px;
+			margin-bottom:15px;
+		}
+		#logo img {
+			max-height: 70px;
+			display:inline;
+		}
+		#logo span
+		{
+			display:inline;
+		}
+		#logo > div
+		{
+			padding-top:10px;
+			padding-bottom:10px;
+		}
+		
+		#id_btn_close_P1 {
+		  width: 35px;
+		  height: 35px;
+		}
+		
+		.card{
+			cursor: pointer;
+			box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+			transition: .5s;
+		}
+		
+		.card:hover.enabled {
+			 transform: scale(1.05);
+		}
+		.modal-custom{
+			max-width:550px;
+		}
+
+		#id_body{
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+			}
+		
+		
+		.display-middle {
+			  font-family:arial, serif;
+			  font-weight : bold;
+			  color:#5e92dc;
+			  position: absolute;
+			  top: 75%;
+			  left: 50%;
+			  transform: translate(-50%,-75%);
+			  -ms-transform: translate(-50%,-50%)
+		}
+		.card-text {
+			 font-size:190%;
+			 font-family:arial, serif;
+			font-stretch : condensed;
+			color:#FFFFFF;
+			text-shadow :2px 2px 5px #404040;
+		}
+		
+		.titre-bandeau{
+			  max-width:200%;
+		  }
+		
+		@media screen and (max-width: 64em) {
+		.corpus {
+			font-size: 100%;
+		  }
+		  .card-text {
+			font-size: 180%;
+		  }
+		 .bandeau-top {
+			height: 8vw;
+		  }
+		  .titre-bandeau{
+			 width:120%;
+		  }
+		}
+
+		@media screen and (max-width: 50em) {
+		.corpus {
+			font-size: 80%;
+		  }
+		   .card-text {
+			font-size: 160%;
+		  }
+		  .bandeau-top {
+			height: 10vw;
+		  }
+		  .titre-bandeau{
+			 width:150%;
+		  }
+		  .col_marge{
+			padding-right:2em;
+		  }
+		 
+		}
+
+		@media screen and (max-width: 30em){
+		.corpus {
+			font-size: 80%;
+		  }
+		   .card-text {
+			font-size: 170%;
+		  }
+		  .bandeau-top {
+			height: 15vw;
+		  }
+		  .titre-bandeau{
+			 width:200%;
+		  }
+		  .col_marge{
+			padding-right:2em;
+		  }
+		 
+		}
+		div.disabled img {
+			filter: grayscale(80%);
+		}
+		#p1 > div.card-body.text-white {
+			background-color:#FF968A
+		}
+		#p2 > div.card-body.text-white {
+			background-color:#8fcaca
+		}
+		#p3 > div.card-body.text-white {
+			background-color:#cbaacb
+		}
+		#p1.disabled > div.card-body.text-white {
+			filter: grayscale(80%);
+		}
+		#p2.disabled > div.card-body.text-white {
+			filter: grayscale(80%);
+			
+		}
+		#p3.disabled > div.card-body.text-white {
+			filter: grayscale(80%);
+			
+		}
+		
+		#p2.disabled > div.overlay > div.display-middle > img {
+			display:none;
+		}
+		#p3.disabled > div.overlay > div.display-middle > img {
+			display:none;
+		}
+		#p2.disabled > div.overlay > div.display-middle > object {
+			display:none;
+		}
+		#p3.disabled > div.overlay > div.display-middle > object {
+			display:none;
+		}
+		
+		a:has(> div.card.start.custom-line.disabled) { pointer-events: none;}
+		
+		.fullscreen-button { float: right; width: 38px; height: 38px; background: url('TemplateData/fullscreen-button.png') no-repeat center }
+	</style>
+	</head>
+		
+	
+	<body id="id_body" class="bg_image cs-HTML theme-unified" style="background-image:url('img/fond.jpg')">
+		<!-- en-tete -->
+		<div class="container-fluid sticky-top  start custom-line" >
+			<div class="row bandeau-top">
+					<img class="titre-bandeau" src="img/bandeau.svg" alt="svg_titre">
+					<!-- <p> style="color:#FFFFFF">Vie et Veille au quotidien</p><br/><p style="color:#FFFFFF">Un jeu d'exploration de l'univers de mon enfant</p> -->
+			</div>
+		</div>
+	 
+		<!-- texte intro + fenetre jeux -->
+		<!--La classe border ajoute des bordures grises autour de l'élément-->
+		<div class="container container-fluid" >
+		<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+
+			
+			<div class="row justify-content-center start custom-line">
+				<div class="col col-md-12">
+					<div id="id_intro" class="col-md-10 offset-md-1 ">
+						
+						<span class="corpus">Les accidents de la vie courante des enfants de 0 à 4 ans peuvent, en grande partie, être évités par l’anticipation des adultes et l’application de réflexes de prévention simples.<br>
+							De manière ludique, en trois niveaux de jeu :<br>
+							<b>JE CHERCHE ET TROUVE</b> : j’explore mon logement et repère des situations à risques d’accidents de la vie courante pour mon enfant de 0 à 4 ans.<br>
+							<b>JE SECURISE</b> : je résous les problèmes sous forme de quiz.<br>
+							<b>JE PRATIQUE</b> : je pars en mission dans la maison.<br>
+							Dans les jeux, je peux me tromper sans conséquences pour mon enfant et obtenir des informations de prévention validées pour renforcer ma compétence de parent.
+						</span>
+						
+						<p class="corpus" style="color:#FF8900">
+							<img src="img/img-16ans.png" style="width:50px;height:50px" alt="icon"> Ce jeu n'est pas destiné aux enfants. Il s'agit d'un jeu pour les adultes en responsabilité d'enfants de 0 à 4 ans.
+						</p>
+							<div>
+								<!-- <a onclick="document.body.scrollTop = 0;document.documentElement.scrollTop = 0;"> -->
+									<button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal"  style="color:#FFFFFF">
+										Comment jouer ?
+									</button>
+								<!-- </a> -->
+							</div>
+					</div>
+					<!-- Fenêtre jeux -->
+					<div class="col-10 text-center offset-md-1">
+						<div id="id_part1_Unity" class="text-center">
+							<iframe id="id_part1_Unity_iframe" style="border:none;width:100%;height:500px" src="unity.html"></iframe>
+							<div class="fullscreen-button" id="unity-fullscreen-button"></div>
+						</div>
+					</div>
+					<div class="col-10 offset-md-1">
+						<div id="id_part2_CESIM" style="padding-left:0px;padding-right:0px;">
+							<iframe allow="fullscreen" style="border:none;width:100%;height:500px" src="P2/story.html"></iframe>
+							<div class="fullscreen-button" id="quizz-fullscreen-button"></div>
+						</div>
+					</div>
+					 <!-- fin Fenêtre jeux -->
+					<div id="id_btn_close_P1" class="cursor_pointer offset-md-1">
+					<!-- &#x2715 -->
+					<img class="img-fluid" src="img/close.svg" style="max-width:30px" alt="close">
+					</div>
+				</div>
+			</div>
+			
+			<!-- #ff968a #8fcaca #cbaacb -->
+			<!-- <div class="row row-cols-sm-3 row-cols-auto"> -->
+			<div class="row row-cols-xl-3 row-cols-md-1 row-cols-auto">
+				<div class="col">
+					<a onclick="document.body.scrollTop = 0;document.documentElement.scrollTop = 0;">
+					<!-- <a href="#top" style="text-decoration:none"> -->
+						<div class="card start custom-line enabled" id="p1">
+							<div class="card-body text-white">
+								<img src="img/p1.svg" style="max-width:60px" alt="icon">
+								<span class="card-text"><b>Je cherche et trouve</b></span>
+							</div>
+							<div>
+								<img src="img/image_001_0000.jpg" class="card-img-bottom" alt="img_jeu">
+								<div class="display-middle" id="p1_res">
+									<img src="img/p1_res.svg" style="width:120px;height:120px" alt="icon">
+									<!--object data="img/p1_res.svg" type="image/svg+xml" style="width:120px;height:120px"></object-->
+									<div id="p1_res_text" class="display-middle" style="text-align:center;top:55px;">19/19</div>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col">
+					<a onclick="document.body.scrollTop = 0;document.documentElement.scrollTop = 0;">
+						<div class="card start custom-line enabled" id="p2">
+							<div class="card-body text-white">
+								<img class="img-fluid" src="img/p2_d.svg" style="max-width:60px" alt="icon">
+								<span class="card-text"><b>Je sécurise</b></span>
+							</div>
+							<div class="overlay">
+								<img src="img/image_002_0000.jpg" class="card-img-bottom" alt="img_jeu">
+								<div class="display-middle" id="p2_res">
+									<img src="img/p2_res.svg" style="width:120px;height:120px" alt="icon">
+									<!--object data="img/p2_res.svg" type="image/svg+xml" style="width:120px;height:120 px"></object-->
+									<div id="p2_res_text" class="display-middle" style="text-align:center;top:45px;">0%</div>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col">
+					<a onclick="document.body.scrollTop = 0;document.documentElement.scrollTop = 0;">
+						<div class="card start custom-line enabled" id="p3">
+							<div class="card-body text-white">
+								<img class="img-fluid" src="img/p3_d.svg" style="max-width:60px" alt="icon">
+								<span class="card-text"><b>Je pratique</b></span>
+							</div>
+							<div class="overlay">
+								<img src="img/image_003_0000.jpg" class="card-img-bottom"  alt="img_jeu">
+								<div class="display-middle" id="p3_res">
+									<img src="img/p3_res_d.svg" style="width:120px;height:120px" alt="icon">
+									<!--object data="img/p3_res.svg" type="image/svg+xml" style="width:120px;height:120 px"></object-->
+									<div id="p3_res_text" class="display-middle" style="text-align:center;top:65px;">7/7</div>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container-fluid" >
+			<div id="logo" class="row bandeau" style=" background-color:#FFFFFF">
+				<div class="col text-center">
+					<img class="img-fluid" src="img/logo_minister_interieur.jpg" alt="logo">
+					<img class="img-fluid" src="img/Logo_DGS.png" alt="logo">
+					<img class="img-fluid" src="img/logo_1000pj.png" alt="logo">
+					<img class="img-fluid" src="img/logo_cesim.png" alt="logo">
+					<img class="img-fluid" src="img/logo_virtu.png" alt="logo">
+					<img class="img-fluid" src="img/logo_anses.svg" alt="logo">
+					<img class="img-fluid" src="img/Logo_FR.jpg" alt="logo">
+					<!-- <img class="img-fluid" src="img/Logo_CHU-BREST.png" alt="logo"> -->
+					<img class="img-fluid" src="img/logo-chu-brest2.png" alt="logo">
+					<img class="img-fluid" src="img/logo-UBO.svg" alt="logo">
+					<img class="img-fluid" src="img/logo_SPF.jpg" alt="logo">
+					<img class="img-fluid" src="img/logo_INC.png" alt="logo">
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-custom">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Comment jouer ?</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<ul class="modal-body">
+						<li> <img src="img/p1.svg" style="width:50px;height:50px" alt="icon"> Je trouve les 19 risques d'Accidents de la vie courante des enfants de 0 à 4 ans introduits dans le logement</li>
+						<li> Je peux rejouer autant de fois que je le souhaite en conservant mes scores sur mon appareil.</li>
+						<li>Je peux rejouer avec le point de vue Adulte <img src="img/ProfilAdulte.png" style="width:50px;height:50px" alt="icon"> ou avec le point de vue enfant <img src="img/ProfilEnfant.png" style="width:50px;height:50px" alt="icon"></li>
+						<li> <img src="img/p2.svg" style="width:50px;height:50px" alt="icon"> <img src="img/p3.svg" style="width:50px;height:50px" alt="icon"> Je teste mes connaissances et ma pratique</li>
+					</ul>
+					<ul class="modal-body">
+						<li><b>Information :</b>
+						<p style="color:#FF8900"> * La sélection des 19 risques d'accidents de la vie courante à trouver dans ce jeu est le choix du Comité Scientifique concepteur.  Les données officielles disponibles sur les 4 risques CHUTES, INTOXICATIONS, SUFFOCATIONS et NOYADES ont été explorées. La fréquence des accidents et/ou leur gravité sont les critères qui ont guidés la sélection.</p>
+						</li>
+					</ul>
+					
+					<div class="modal-footer">
+						<button type="button" class="btn btn-info" data-bs-dismiss="modal" style="color:#FFFFFF">Fermer</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

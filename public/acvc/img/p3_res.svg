@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="p3_res"
+   viewBox="0 0 150 150"
+   version="1.1"
+   sodipodi:docname="p3_res.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview875"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="5.4266667"
+     inkscape:cx="61.640049"
+     inkscape:cy="75.184275"
+     inkscape:window-width="1680"
+     inkscape:window-height="987"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="p3_res" />
+  <defs
+     id="defs850">
+    <style
+       id="style848">
+      .cls-1 {
+        fill: #7a9bf8;
+        font-family: Bahnschrift-BoldSemiCondensed, Bahnschrift;
+        font-size: 20px;
+        font-variation-settings: 'wght' 700, 'wdth' 87;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-4 {
+        fill: #f1ce56;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        fill: #fbce48;
+        stroke: #8ec788;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter2303"
+       x="-0.016164822"
+       y="-0.081891068"
+       width="1.0323296"
+       height="1.1637821">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.49449195"
+         id="feGaussianBlur2305" />
+    </filter>
+  </defs>
+  <polygon
+     class="cls-6"
+     points="75.53 24.57 89.21 55.93 118.47 37.38 109.3 99.57 39.53 99.57 31.53 37.38 58.75 57.1 75.53 24.57"
+     id="polygon858" />
+  <text
+     class="cls-1"
+     id="text1931"
+     style="fill:#1a1a1a;filter:url(#filter2303)"
+     x="37.722828"
+     y="123.72565"><tspan
+       x="37.722828"
+       y="123.72565"
+       id="tspan1919"
+       style="fill:#1a1a1a">MI</tspan><tspan
+       class="cls-3"
+       x="55.702827"
+       y="123.72565"
+       id="tspan1921"
+       style="fill:#1a1a1a">S</tspan><tspan
+       class="cls-5"
+       x="65.782822"
+       y="123.72565"
+       id="tspan1923"
+       style="fill:#1a1a1a">S</tspan><tspan
+       x="76.052826"
+       y="123.72565"
+       id="tspan1925"
+       style="fill:#1a1a1a">I</tspan><tspan
+       class="cls-5"
+       x="80.692825"
+       y="123.72565"
+       id="tspan1927"
+       style="fill:#1a1a1a">O</tspan><tspan
+       x="91.45282"
+       y="123.72565"
+       id="tspan1929"
+       style="fill:#1a1a1a">NS</tspan></text>
+  <text
+     class="cls-1"
+     transform="translate(37.17 122.62)"
+     id="text872"><tspan
+       x="0"
+       y="0"
+       id="tspan860">MI</tspan><tspan
+       class="cls-3"
+       x="17.98"
+       y="0"
+       id="tspan862">S</tspan><tspan
+       class="cls-5"
+       x="28.06"
+       y="0"
+       id="tspan864">S</tspan><tspan
+       x="38.33"
+       y="0"
+       id="tspan866">I</tspan><tspan
+       class="cls-5"
+       x="42.97"
+       y="0"
+       id="tspan868">O</tspan><tspan
+       x="53.73"
+       y="0"
+       id="tspan870">NS</tspan></text>
+</svg>
