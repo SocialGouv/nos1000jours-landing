@@ -11,11 +11,20 @@ app:
     # adjustments for /acvc path
     annotations:
       nginx.ingress.kubernetes.io/server-snippet: |
-        location ~ .+\.gz$ {
+        location ~ .+\.js\.gz$ {
           gzip off; # Do not attempt dynamic gzip compression on an already compressed file
           add_header Content-Encoding gzip; # The correct MIME type here would be application/octet-stream, but due to Safari bug https://bugs.webkit.org/show_bug.cgi?id=247421, it's preferable to use MIME Type application/gzip instead.
           add_header Content-Type application/javascript; # The correct MIME type here would be application/octet-stream, but due to Safari bug https://bugs.webkit.org/show_bug.cgi?id=247421, it's preferable to use MIME Type application/gzip instead.
           proxy_hide_header X-Content-Type-Options;
+          set $proxy_upstream_name "nos1000jours-landing-acvc-fix-app-http";
+          proxy_pass http://upstream_balancer;
+        }
+        location ~ .+\.wasm\.gz$ {
+          gzip off; # Do not attempt dynamic gzip compression on an already compressed file
+          add_header Content-Encoding gzip; # The correct MIME type here would be application/octet-stream, but due to Safari bug https://bugs.webkit.org/show_bug.cgi?id=247421, it's preferable to use MIME Type application/gzip instead.
+          add_header Content-Type application/wasm; # The correct MIME type here would be application/octet-stream, but due to Safari bug https://bugs.webkit.org/show_bug.cgi?id=247421, it's preferable to use MIME Type application/gzip instead.
+          proxy_hide_header X-Content-Type-Options;
+          set $proxy_upstream_name "nos1000jours-landing-acvc-fix-app-http";
           proxy_pass http://upstream_balancer;
         }
       nginx.ingress.kubernetes.io/configuration-snippet: |
