@@ -8,13 +8,14 @@ app:
     runAsGroup: 101
     runAsUser: 101
   ingress:
-    # for /acvc path
+    # adjustments for /acvc path
     annotations:
       nginx.ingress.kubernetes.io/server-snippet: |
         location ~ .+\.gz$ {
           gzip off; # Do not attempt dynamic gzip compression on an already compressed file
           add_header Content-Encoding gzip; # The correct MIME type here would be application/octet-stream, but due to Safari bug https://bugs.webkit.org/show_bug.cgi?id=247421, it's preferable to use MIME Type application/gzip instead.
-          default_type application/javascript;
+          default_type application/gzip;
+          set $proxy_upstream_name "nos1000jours-landing-acvc-fix-app-http";
           proxy_pass http://upstream_balancer;
         }
       nginx.ingress.kubernetes.io/configuration-snippet: |
