@@ -8,9 +8,16 @@ app:
     runAsGroup: 101
     runAsUser: 101
   ingress:
+    # for /acvc path
     annotations:
+      nginx.org/server-snippets: |
+        location ~ .+\.js\.gz$ {
+          gzip off; # Do not attempt dynamic gzip compression on an already compressed file
+          add_header Content-Encoding gzip; # The correct MIME type here would be application/octet-stream, but due to Safari bug https://bugs.webkit.org/show_bug.cgi?id=247421, it's preferable to use MIME Type application/gzip instead.
+          default_type application/javascript;
+        }
       nginx.ingress.kubernetes.io/configuration-snippet: |
-        more_set_headers "Content-Security-Policy: default-src 'none'; connect-src 'self' https://*.gouv.fr; font-src 'self' data:; img-src 'self'; script-src 'self' https://*.gouv.fr 'unsafe-inline'; frame-src 'self' https://*.gouv.fr; style-src 'self' 'unsafe-inline'";
+        more_set_headers "Content-Security-Policy: default-src 'none'; connect-src 'self' https://*.gouv.fr; font-src 'self' data:; img-src 'self'; script-src 'self' https://*.gouv.fr 'unsafe-inline' 'unsafe-eval'; frame-src 'self' https://*.gouv.fr; style-src 'self' 'unsafe-inline'";
         more_set_headers "X-Frame-Options: sameorigin";
         more_set_headers "X-XSS-Protection: 1; mode=block";
-        more_set_headers "X-Content-Type-Options: none";
+        more_set_headers "X-Content-Type-Options: nosniff";
