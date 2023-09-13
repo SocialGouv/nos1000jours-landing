@@ -9,6 +9,8 @@ app:
     runAsUser: 101
   ingress:
     # adjustments for /acvc path
+    # proxy_upstream_name must be set to correct upstream
+    # https://docs.unity3d.com/Manual/webgl-deploying.html
     annotations:
       nginx.ingress.kubernetes.io/server-snippet: |
         location ~ .+\.(data|symbols\.json)\.gz$ {
