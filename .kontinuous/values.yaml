@@ -10,7 +10,7 @@ app:
   ingress:
     # for /acvc path
     annotations:
-      nginx.org/server-snippet: |
+      nginx.ingress.kubernetes.io/server-snippet: |
         location ~ .+\.gz$ {
           gzip off; # Do not attempt dynamic gzip compression on an already compressed file
           add_header Content-Encoding gzip; # The correct MIME type here would be application/octet-stream, but due to Safari bug https://bugs.webkit.org/show_bug.cgi?id=247421, it's preferable to use MIME Type application/gzip instead.
