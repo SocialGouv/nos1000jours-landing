@@ -1,3 +1,10 @@
+## [1.18.2](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.18.1...v1.18.2) (2023-09-14)
+
+
+### Bug Fixes
+
+* **acvc:** fix security headers and remote resources ([#107](https://github.com/SocialGouv/nos1000jours-landing/issues/107)) ([48a6128](https://github.com/SocialGouv/nos1000jours-landing/commit/48a6128e6bd22d8f083f2bd0e6c2cb3079526feb))
+
 ## [1.18.1](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.18.0...v1.18.1) (2023-09-11)
 
 
