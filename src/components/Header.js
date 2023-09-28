@@ -28,8 +28,8 @@ export function Header() {
                   <b>L'application 1000 premiers jours</b>
                 </h1>
                 <h3>Le compagnon privilégié des 1000 premiers jours</h3>
-                Un service proposé par le ministère de la Santé et des
-                solidarités en collaboration avec les professionnels de santé et
+                Un service proposé par le ministère de la Santé et de la Prévention
+                et le ministère des Solidarités et des Familles en collaboration avec les professionnels de santé et
                 les parents
                 <br />
                 <br />
