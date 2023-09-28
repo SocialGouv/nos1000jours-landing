@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-
+ 
 export function Header() {
   return (
     <header style={{ height: 700, overflow: "hidden" }}>
