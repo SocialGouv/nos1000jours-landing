@@ -1,3 +1,10 @@
+## [1.18.3](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.18.2...v1.18.3) (2023-09-28)
+
+
+### Bug Fixes
+
+* Update Header.js ([d62943e](https://github.com/SocialGouv/nos1000jours-landing/commit/d62943e80280a083fff32045b521e2ba40a176ab))
+
 ## [1.18.2](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.18.1...v1.18.2) (2023-09-14)
 
 
