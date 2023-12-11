@@ -24,11 +24,10 @@ export default function Mentions() {
         Ce site est hébergé par :
         <br />
         <br />
-        Microsoft Azure
+        <a target="_blank" href="https://www.ovh.com">OVH SAS</a>
         <br />
-        39 Quai du Président Roosevelt
+        Siège social : 2 rue Kellermann - 59100 Roubaix - France.
         <br />
-        92130 ISSY-LES-MOULINEAUX
       </p>
       <h3>Accessibilité</h3>
       <p>
