@@ -1,3 +1,10 @@
+## [1.19.3](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.19.2...v1.19.3) (2023-12-18)
+
+
+### Bug Fixes
+
+* Update redirect_0accident1jeudenfant.js ([1726ebb](https://github.com/SocialGouv/nos1000jours-landing/commit/1726ebb48b03cc227bfc4fc3d0f3ddc79f9cccf9))
+
 ## [1.19.2](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.19.1...v1.19.2) (2023-12-18)
 
 
