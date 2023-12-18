@@ -5,7 +5,7 @@ import { ContentLayout } from "../src/components/Layout";
 
 
 export default function redirect_ios() {
-  const url = "https://startupdetat.typeform.com/to/kdw7bOcv";
+  const url = "https://forms.office.com/e/ggBEyZgdEk";
   const router = useRouter();
 
   useEffect(() => {
@@ -14,5 +14,5 @@ export default function redirect_ios() {
     }, 200);
   }, [router]);
 
-  return <ContentLayout title="Redirect">En route vers le questionnaire 1000 premiers jours...</ContentLayout>;
+  return <ContentLayout title="Redirect">En route vers le questionnaire 1000 premiers jours, 0 accident: un jeu d'enfant !</ContentLayout>;
 }
