@@ -8,7 +8,7 @@ app:
     runAsGroup: 101
     runAsUser: 101
   ingress:
-    # adjustments for /acvc path
+    # adjustments for /zeroaccident path
     # proxy_upstream_name must be set to correct upstream
     # https://docs.unity3d.com/Manual/webgl-deploying.html
     annotations:
@@ -19,7 +19,7 @@ app:
           gzip off; # Do not attempt dynamic gzip compression on an already compressed file
           add_header Content-Encoding gzip;
           add_header Content-Type application/gzip; # The correct MIME type here would be application/octet-stream, but due to Safari bug https://bugs.webkit.org/show_bug.cgi?id=247421, it's preferable to use MIME Type application/gzip instead.
-          set $proxy_upstream_name "nos1000jours-landing-acvc-fix-app-http";
+          set $proxy_upstream_name "nos1000jours-landing-zeroaccident-fix-app-http";
           proxy_pass http://upstream_balancer;
         }
         location ~ .+\.js\.gz$ {
@@ -28,7 +28,7 @@ app:
           gzip off; # Do not attempt dynamic gzip compression on an already compressed file
           add_header Content-Encoding gzip; # The correct MIME type here would be application/octet-stream, but due to Safari bug https://bugs.webkit.org/show_bug.cgi?id=247421, it's preferable to use MIME Type application/gzip instead.
           add_header Content-Type application/javascript; # The correct MIME type here would be application/octet-stream, but due to Safari bug https://bugs.webkit.org/show_bug.cgi?id=247421, it's preferable to use MIME Type application/gzip instead.
-          set $proxy_upstream_name "nos1000jours-landing-acvc-fix-app-http";
+          set $proxy_upstream_name "nos1000jours-landing-zeroaccident-fix-app-http";
           proxy_pass http://upstream_balancer;
         }
         location ~ .+\.wasm\.gz$ {
@@ -37,7 +37,7 @@ app:
           gzip off; # Do not attempt dynamic gzip compression on an already compressed file
           add_header Content-Encoding gzip; # The correct MIME type here would be application/octet-stream, but due to Safari bug https://bugs.webkit.org/show_bug.cgi?id=247421, it's preferable to use MIME Type application/gzip instead.
           add_header Content-Type application/wasm; # The correct MIME type here would be application/octet-stream, but due to Safari bug https://bugs.webkit.org/show_bug.cgi?id=247421, it's preferable to use MIME Type application/gzip instead.
-          set $proxy_upstream_name "nos1000jours-landing-acvc-fix-app-http";
+          set $proxy_upstream_name "nos1000jours-landing-zeroaccident-fix-app-http";
           proxy_pass http://upstream_balancer;
         }
       nginx.ingress.kubernetes.io/configuration-snippet: |
