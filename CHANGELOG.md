@@ -1,3 +1,10 @@
+## [1.19.4](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.19.3...v1.19.4) (2023-12-20)
+
+
+### Bug Fixes
+
+* Change le nom du dossier 'acvc' par 'zeroaccident' ([46a6ecb](https://github.com/SocialGouv/nos1000jours-landing/commit/46a6ecbf9d88971ae1d4c63776235c4281ff0ffb))
+
 ## [1.19.3](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.19.2...v1.19.3) (2023-12-18)
 
 
