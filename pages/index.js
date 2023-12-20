@@ -159,7 +159,7 @@ function WidgetEpds() {
             height="600px"
             style={{ border: "none" }}
           />
-          {/* <br />
+          <br />
           <div className="zero-accident bg-bleu-france">
             <div className="main">
               <img
@@ -206,7 +206,7 @@ function WidgetEpds() {
                 </button>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>
