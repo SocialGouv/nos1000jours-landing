@@ -1,5 +1,7 @@
 FROM node:14-alpine as builder
 
+WORKDIR /app
+
 ENV NEXT_PUBLIC_MATOMO_URL="https://matomo.fabrique.social.gouv.fr"
 ENV NEXT_PUBLIC_MATOMO_SITE_ID="38"
 
