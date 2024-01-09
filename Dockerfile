@@ -16,4 +16,4 @@ RUN yarn export
 
 FROM ghcr.io/socialgouv/docker/nginx:8.2.0
 
-COPY --from=builder --chown=nginx:nginx /out /usr/share/nginx/html
+COPY --from=builder --chown=nginx:nginx /app/out /usr/share/nginx/html
