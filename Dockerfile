@@ -3,9 +3,11 @@ FROM node:14-alpine as builder
 ENV NEXT_PUBLIC_MATOMO_URL="https://matomo.fabrique.social.gouv.fr"
 ENV NEXT_PUBLIC_MATOMO_SITE_ID="38"
 
-COPY . .
+COPY yarn.lock .yarnrc.yml ./
+COPY .yarn .yarn
+RUN yarn fetch --immutable
 
-RUN yarn --production --frozen-lockfile --prefer-offline && yarn cache clean
+COPY . .
 
 RUN yarn build
 RUN yarn export
