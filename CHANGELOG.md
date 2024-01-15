@@ -1,3 +1,11 @@
+## [1.19.5](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.19.4...v1.19.5) (2024-01-15)
+
+
+### Bug Fixes
+
+* yarn berry + yarn fetch + docker opti ([#111](https://github.com/SocialGouv/nos1000jours-landing/issues/111)) ([439f610](https://github.com/SocialGouv/nos1000jours-landing/commit/439f6103b7bc75acf1ed8e1ab2c3bd793a2a3aba))
+* yarn berry + yarn fetch + docker opti ([#111](https://github.com/SocialGouv/nos1000jours-landing/issues/111)) ([97e92bf](https://github.com/SocialGouv/nos1000jours-landing/commit/97e92bfc36802d335c5440c8969f6979882ee6cc))
+
 ## [1.19.4](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.19.3...v1.19.4) (2023-12-20)
 
 
