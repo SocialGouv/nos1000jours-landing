@@ -152,57 +152,73 @@ function WidgetEpds() {
             Évaluez-vous dès aujourd&apos;hui
           </SectionTitle>
           <br />
-          <iframe
-            title="Widget EPDS"
-            src="https://nos1000jours-blues-epds-widget.fabrique.social.gouv.fr?source=1000j-landing"
-            width="100%"
-            height="600px"
-            style={{ border: "none" }}
-          />
-          <br />
-          <br />
-          <div className="zero-accident bg-bleu-france">
-            <div className="container">
-              <div className="main">
-                <img
-                  className="rep-francaise-img"
-                  src="/img/logo-ministere.png"
-                  height="100"
-                  alt="Logo Minisères des Solidarités et de la Santé"
-                />
-                <Row>
-                  <Col>
+          <Row>
+            <Col
+              md={{ span: 12 }}
+              lg={{ span: 6 }}
+              style={{ paddingBottom: 15 }}
+            >
+              <div
+                className="zero-accident bg-bleu-france"
+                style={{ height: 600, overflow: "auto" }}
+              >
+                <div className="container">
+                  <div className="main">
                     <img
-                      src="/img/acvc.png"
-                      width="150"
-                      height="150"
-                      alt="Logo Zéro accident : Une jeu d'enfant"
+                      className="rep-francaise-img"
+                      src="/img/logo-ministere.png"
+                      height="100"
+                      alt="Logo Minisères des Solidarités et de la Santé"
                     />
-                  </Col>
-                  <Col>
-                    <img
-                      src="/img/logo-jouer.png"
-                      width="140"
-                      height="140"
-                      alt="Logo 1000 premiers jours"
-                    />
-                  </Col>
-                </Row>
-                <div className="slogan">
-                  Futurs parents, nouveaux parents, testez, en jouant, vos
-                  connaissances en prévention des accidents de la vie courantes
-                  chez les enfants entre 0 et 4 ans
+                    <br />
+                    <Row>
+                      <Col>
+                        <img
+                          src="/img/acvc.png"
+                          width="130"
+                          height="130"
+                          alt="Logo Zéro accident : Une jeu d'enfant"
+                        />
+                      </Col>
+                      <Col>
+                        <img
+                          src="/img/logo-jouer.png"
+                          width="130"
+                          height="130"
+                          alt="Logo 1000 premiers jours"
+                        />
+                      </Col>
+                    </Row>
+                    <div className="slogan">
+                      Futurs parents, nouveaux parents, testez en jouant vos
+                      connaissances sur les accidents de la vie courante chez
+                      les enfants entre 0 et 4 ans.
+                    </div>
+                    <br />
+                    <a
+                      className="fr-btn fr-btn--lg start-btn"
+                      href="./zeroaccident/index.html"
+                    >
+                      Commencer
+                    </a>
+                  </div>
                 </div>
-                <br />
-                <a
-                  className="fr-btn fr-btn--lg start-btn"
-                  href="./zeroaccident/index.html"
-                >
-                  Commencer
-                </a>
               </div>
-            </div>
-          </div>
+            </Col>
+            <Col
+              md={{ span: 12 }}
+              lg={{ span: 6 }}
+              style={{ paddingBottom: 15 }}
+            >
+              <iframe
+                title="Widget EPDS"
+                src="https://nos1000jours-blues-epds-widget.fabrique.social.gouv.fr?source=1000j-landing"
+                width="100%"
+                height="600px"
+                style={{ border: "none" }}
+              />
+            </Col>
+          </Row>
         </div>
       </div>
     </section>
