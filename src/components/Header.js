@@ -1,6 +1,6 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
- 
+import { Col, Row } from "react-bootstrap";
+
 export function Header() {
   return (
     <header style={{ height: 700, overflow: "hidden" }}>
@@ -26,11 +26,11 @@ export function Header() {
               <div style={{ color: "white" }}>
                 <h1 className="mb-5">
                   <b>L'application 1000 premiers jours</b>
-                </h1> 
+                </h1>
                 <h3>Le compagnon privilégié des 1000 premiers jours</h3>
-                Un service proposé par le ministère de la Santé et de la Prévention
-                et le ministère des Solidarités et des Familles en collaboration avec les professionnels de santé et
-                les parents
+                Un service proposé par le ministère de la Santé et de la
+                Prévention et le ministère des Solidarités et des Familles en
+                collaboration avec les professionnels de santé et les parents
                 <br />
                 <br />
                 <Row>
@@ -39,7 +39,10 @@ export function Header() {
                     md={{ span: 4, offset: 2 }}
                     className="text-center"
                   >
-                    <a href="https://apps.apple.com/fr/app/1000-premiers-jours/id1573729958" target="noopener noreferrer">
+                    <a
+                      href="https://apps.apple.com/fr/app/1000-premiers-jours/id1573729958"
+                      target="noopener noreferrer"
+                    >
                       <img
                         width={200}
                         src="/img/dnl_apple.svg"
@@ -48,7 +51,11 @@ export function Header() {
                     </a>
                     <br />
                     <br />
-                    <a href="#" target="noopener noreferrer" className="d-none d-sm-block">
+                    <a
+                      href="#"
+                      target="noopener noreferrer"
+                      className="d-none d-sm-block"
+                    >
                       <img
                         width={149}
                         src="/img/QR_apple.png"
@@ -61,7 +68,10 @@ export function Header() {
                     md={{ span: 4, offset: -2 }}
                     className="text-center"
                   >
-                    <a href="https://play.google.com/store/apps/details?id=com.fabrique.millejours" target="noopener noreferrer">
+                    <a
+                      href="https://play.google.com/store/apps/details?id=com.fabrique.millejours"
+                      target="noopener noreferrer"
+                    >
                       <img
                         width={200}
                         src="/img/dnl_google.svg"
@@ -70,7 +80,11 @@ export function Header() {
                     </a>
                     <br />
                     <br />
-                    <a href="#" target="noopener noreferrer" className="d-none d-sm-block">
+                    <a
+                      href="#"
+                      target="noopener noreferrer"
+                      className="d-none d-sm-block"
+                    >
                       <img
                         width={149}
                         src="/img/QR_google.png"
@@ -78,7 +92,6 @@ export function Header() {
                       />
                     </a>
                   </Col>
-
                 </Row>
               </div>
             </div>

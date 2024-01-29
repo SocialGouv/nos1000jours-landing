@@ -1,9 +1,9 @@
-import React from "react";
-import { Row, Col } from "react-bootstrap";
-import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
-import Leaflet from "leaflet";
-
 import "leaflet/dist/leaflet.css";
+
+import Leaflet from "leaflet";
+import React from "react";
+import { Col, Row } from "react-bootstrap";
+import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 
 const MyMarker = (props) => {
   const initMarker = (ref) => {
@@ -47,9 +47,7 @@ export function Map() {
         <br />
         <br />
         Contactez-nous par email{" "}
-        <a href="mailto:xxx@fabrique.social.gouv.fr&subject=xxx">
-          xxx
-        </a>
+        <a href="mailto:xxx@fabrique.social.gouv.fr&subject=xxx">xxx</a>
       </Col>
     </Row>
   );

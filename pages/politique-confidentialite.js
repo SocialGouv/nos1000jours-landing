@@ -9,9 +9,9 @@ export default function PolitiqueConfidentialite() {
         Traitement des données à caractère personnel
       </h2>
       <p>
-        Le présent site 1000 premiers jours est à l&#39;initiative de la Direction
-        Générale de la Cohésion Sociale au sein de la Fabrique numérique des ministères
-        sociaux.
+        Le présent site 1000 premiers jours est à l&#39;initiative de la
+        Direction Générale de la Cohésion Sociale au sein de la Fabrique
+        numérique des ministères sociaux.
       </p>
       <h3>Finalité</h3>
       <p>
@@ -56,7 +56,10 @@ export default function PolitiqueConfidentialite() {
       </p>
       <p>
         L&#39;obligation légale est posée par la loi LCEN n° 2004-575 du 21 juin
-        2004 pour la confiance dans l&#39;économie numérique et par par l’article 1 du décret n°2021-1363 portant injonction, au regard de la menace grave et actuelle contre la sécurité nationale, de conservation pour une durée d'un an de certaines catégories de données de connexion.
+        2004 pour la confiance dans l&#39;économie numérique et par par
+        l’article 1 du décret n°2021-1363 portant injonction, au regard de la
+        menace grave et actuelle contre la sécurité nationale, de conservation
+        pour une durée d'un an de certaines catégories de données de connexion.
       </p>
       <p>
         b. <strong>Cookies</strong>

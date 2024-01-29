@@ -1,10 +1,9 @@
+import { useRouter } from "next/router";
 import React, { useEffect } from "react";
-import { useRouter } from 'next/router'
 
 import { ContentLayout } from "../src/components/Layout";
 
-
-export default function redirect_ios() {
+export default function Redirect_ZeroAccident() {
   const url = "https://forms.office.com/e/ggBEyZgdEk";
   const router = useRouter();
 
@@ -14,5 +13,10 @@ export default function redirect_ios() {
     }, 200);
   }, [router]);
 
-  return <ContentLayout title="Redirect">En route vers le questionnaire 1000 premiers jours, 0 accident: un jeu d'enfant !</ContentLayout>;
+  return (
+    <ContentLayout title="Redirect">
+      En route vers le questionnaire 1000 premiers jours, 0 accident: un jeu
+      d'enfant !
+    </ContentLayout>
+  );
 }
