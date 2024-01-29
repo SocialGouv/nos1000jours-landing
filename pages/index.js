@@ -1,10 +1,11 @@
 /* eslint-disable jsx-a11y/no-static-element-interactions */
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Col, Row } from "react-bootstrap";
 import styled from "styled-components";
 
 import { FeatureRow } from "../src/components/FeatureRow";
 import { Layout } from "../src/components/Layout";
+import { isMobile } from "../src/utils/utils";
 
 export default function index() {
   return (
@@ -143,6 +144,14 @@ function Comment() {
 }
 
 function WidgetEpds() {
+  const [isRunningOnMobile, setIsRunningOnMobile] = useState(false);
+
+  useEffect(() => {
+    if (isMobile()) {
+      setIsRunningOnMobile(true);
+    }
+  }, []);
+
   return (
     <section id="widgetepds">
       <div className="container">
@@ -197,7 +206,11 @@ function WidgetEpds() {
                     <br />
                     <a
                       className="fr-btn fr-btn--lg start-btn"
-                      href="./zeroaccident/index.html"
+                      href={
+                        isRunningOnMobile
+                          ? "./redirect_app_zero_accident"
+                          : "./zeroaccident/index.html"
+                      }
                     >
                       Commencer
                     </a>
