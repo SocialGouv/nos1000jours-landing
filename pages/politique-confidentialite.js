@@ -5,283 +5,198 @@ import { ContentLayout } from "../src/components/Layout";
 export default function PolitiqueConfidentialite() {
   return (
     <ContentLayout title="Politique de confidentialité">
-      <h2 id="traitement-des-donn-es-caract-re-personnel">
-        Traitement des données à caractère personnel
-      </h2>
+      <h2>Qui est responsable de 1000 premiers jours ?</h2>
       <p>
-        Le présent site 1000 premiers jours est à l&#39;initiative de la
-        Direction Générale de la Cohésion Sociale au sein de la Fabrique
+        Le service numérique « 1000 premiers jours » est à l’initiative de la
+        Direction générale de la cohésion sociale au sein de la Fabrique
         numérique des ministères sociaux.
       </p>
-      <h3>Finalité</h3>
+
+      <h3>Pourquoi traitons-nous des données à caractère personnel ?</h3>
       <p>
-        Le présent site vise à présenter l&#39;application « 1000 premiers jours
-        » et son fonctionnement.
-      </p>
-      <h3>Données à caractère personnel traitées</h3>
-      <p>Sont traitées les données suivantes :</p>
-      <ul>
-        <li>
-          Données de connexion (et notamment, les identifiants de connexion,
-          nature des opérations, date et heure de l&#39;opération)
-        </li>
-        <li>Cookies.</li>
-      </ul>
-      <h3>Base juridique du traitement de données</h3>
-      <p>
-        Les données traitées à l&#39;occasion de ces traitements ont plusieurs
-        fondements juridiques :
+        1000 premiers jours traite des données à caractère personnel pour les
+        raisons suivantes :
       </p>
       <ul>
         <li>
-          L&#39;obligation légale à laquelle est soumise le responsable de
-          traitements au sens de l&#39;article 6-c du RGPD ;
+          Visualiser dans le territoire de vie du parent, les services, les
+          interlocuteurs et les structures pouvant aider les parents ;
+        </li>
+        <li>
+          Informer les parents et les futurs parents selon leur parcours
+          parental et l’âge de l’enfant ;
+        </li>
+        <li>
+          Permettre une évaluation de l’état des parents pendant les 1000
+          premiers jours.
         </li>
       </ul>
-      <blockquote>
-        <p>
-          <strong>Ces fondements sont précisés ci-dessous</strong> :
-        </p>
-      </blockquote>
+
+      <h3>
+        Quelles sont les données à caractère personnel que nous traitons ?
+      </h3>
+      <p>1000 premiers jours traite les données suivantes :</p>
+      <ul>
+        <li>
+          Données relatives aux parents : prénom, adresse e-mail, code postal ;
+        </li>
+        <li>Données relatives à l’enfant : prénom et date de naissance ;</li>
+        <li>
+          Données relatives aux professionnels de santé : nom et prénom,
+          adresse, numéro de téléphone.
+        </li>
+      </ul>
+
+      <h3>
+        Qu’est-ce qui nous autorise à traiter des données à caractère personnel
+        ?
+      </h3>
       <p>
-        a. <strong>Données de connexion</strong>
+        1000 premiers jours traite des données à caractère personnel en se
+        basant sur :
+      </p>
+      <ul>
+        <li>
+          L’exécution d’une mission d’intérêt public ou relevant de l’exercice
+          de l’autorité publique dont est investi le responsable de traitement
+          au sens de l’article 6-1 e) du RGPD.
+        </li>
+      </ul>
+
+      <h3>Pendant combien de temps conservons-nous ces données ?</h3>
+      <p>
+        Les données relatives aux parents et à l’enfant sont conservées jusqu’à
+        la suppression de l’application ou 3 ans après le téléchargement de
+        l’application.
       </p>
       <p>
-        Ce traitement est nécessaire au respect d&#39;une obligation légale à
-        laquelle le responsable de traitement est soumis au sens de
-        l&#39;article 6-c du Règlement (UE) 2016/679 du Parlement européen et du
-        Conseil du 27 avril 2016 relatif à la protection des personnes physiques
-        à l&#39;égard du traitement des données à caractère personnel et à la
-        libre circulation de ces données.
+        Les données relatives aux professionnels de santé jusqu’à 3 ans après
+        toute modification relative à la situation professionnelle du
+        professionnel de santé portée à la connaissance de Nos1000Jours ou
+        jusqu’à 6 mois à compter du retrait du professionnel des listes et
+        annuaires relatifs à l’identification des professionnels de santé à
+        compter de la connaissance de ce retrait par Nos1000Jours..
+      </p>
+
+      <h3>Quels sont vos droits ?</h3>
+      <p>Vous disposez :</p>
+      <ul>
+        <li>D’un droit d’information et droit d’accès ;</li>
+        <li>D’un droit de rectification ;</li>
+        <li>D’un droit d’opposition ;</li>
+        <li>D’un droit à la limitation du traitement.</li>
+      </ul>
+      <p>
+        Pour les exercer, contactez-nous par voie électronique :{" "}
+        <a href="mailto:contact-nos1000jours@fabrique.social.gouv.fr">
+          contact-nos1000jours@fabrique.social.gouv.fr
+        </a>
+      </p>
+      <p>Par voie postale : </p>
+      <ul>
+        <li>Direction du Numérique des ministères sociaux</li>
+        <li>Ministère des solidarités et de la santé</li>
+        <li>39-43 Quai André Citroën</li>
+        <li>75015 Paris</li>
+      </ul>
+
+      <p>
+        Puisque ce sont des droits personnels, nous ne traiterons votre demande
+        que si nous sommes en mesure de vous identifier. Dans le cas où nous ne
+        parvenons pas à vous identifier, nous pouvons être amenés à vous
+        demander une preuve de votre identité.
       </p>
       <p>
-        L&#39;obligation légale est posée par la loi LCEN n° 2004-575 du 21 juin
-        2004 pour la confiance dans l&#39;économie numérique et par par
-        l’article 1 du décret n°2021-1363 portant injonction, au regard de la
-        menace grave et actuelle contre la sécurité nationale, de conservation
-        pour une durée d'un an de certaines catégories de données de connexion.
+        Pour vous aider dans votre démarche, vous trouverez un modèle de
+        courrier élaboré par la CNIL ici :{" "}
+        <a href="https://www.cnil.fr/fr/modele/courrier/exercer-son-droit-dacces">
+          https://www.cnil.fr/fr/modele/courrier/exercer-son-droit-dacces
+        </a>
       </p>
       <p>
-        b. <strong>Cookies</strong>
+        Nous nous engageons à vous répondre dans un délai raisonnable qui ne
+        saurait dépasser 1 mois à compter de la réception de votre demande.
+      </p>
+
+      <h3>Qui va avoir accès à ces données ?</h3>
+      <p>
+        Les accès aux données sont strictement encadrés et juridiquement
+        justifiés. Les personnes suivantes vont avoir accès aux données :
+      </p>
+      <ul>
+        <li>
+          Les usagers et professionnels de santé choisis par les usagers et
+          suivis par eux.
+        </li>
+      </ul>
+
+      <h3>Quelles mesures de sécurité mettons-nous en place ?</h3>
+      <p>
+        Nous mettons en place plusieurs mesures pour sécuriser les données :
+      </p>
+      <ul>
+        <li>Stockage des données en base de données ;</li>
+        <li>Cloisonnement des données ;</li>
+        <li>Mesures de traçabilité ;</li>
+        <li>Surveillance ;</li>
+        <li>Protection contre les virus, malwares et logiciels espions ;</li>
+        <li>Protection des réseaux ;</li>
+        <li>Sauvegarde ;</li>
+        <li>
+          Mesures restrictives limitant l’accès physique aux données à caractère
+          personnel.
+        </li>
+      </ul>
+
+      <h3>Qui nous aide à traiter les données à caractère personnel ?</h3>
+      <ul>
+        <li>Sous-traitant : OVH</li>
+        <li>Pays destinataire : France</li>
+        <li>Traitement réalisé : Hébergement</li>
+        <li>
+          Garanties :
+          <a href="https://storage.gra.cloud.ovh.net/v1/AUTH_325716a587c64897acbef9a4a4726e38/contracts/9e74492-OVH_Data_Protection_Agreement-FR-6.0.pdf">
+            https://storage.gra.cloud.ovh.net/v1/AUTH_325716a587c64897acbef9a4a4726e38/contracts/9e74492-OVH_Data_Protection_Agreement-FR-6.0.pdf
+          </a>
+        </li>
+      </ul>
+
+      <h3>Cookies</h3>
+      <p>
+        Un cookie est un fichier déposé sur votre terminal lors de la visite
+        d’un site. Il a pour but de collecter des informations relatives à votre
+        navigation et de vous adresser des services adaptés à votre terminal
+        (ordinateur, mobile ou tablette).
       </p>
       <p>
-        En application de l&#39;article 5(3) de la directive 2002/58/CE modifiée
+        En application de l’article 5(3) de la directive 2002/58/CE modifiée
         concernant le traitement des données à caractère personnel et la
         protection de la vie privée dans le secteur des communications
-        électroniques, transposée à l&#39;article 82 de la loi n°78-17 du 6
-        janvier 1978 relative à l&#39;informatique, aux fichiers et aux
-        libertés, les traceurs ou cookies suivent deux régimes distincts.
+        électroniques, transposée à l’article 82 de la loi n° 78-17 du 6 janvier
+        1978 relative à l’informatique, aux fichiers et aux libertés, les
+        traceurs ou cookies suivent deux régimes distincts.
       </p>
       <p>
         Les cookies strictement nécessaires au service ou ayant pour finalité
         exclusive de faciliter la communication par voie électronique sont
-        dispensés de consentement préalable au titre de l&#39;article 82 de la
-        loi n°78-17 du 6 janvier 1978.
+        dispensés de consentement préalable au titre de l’article 82 de la loi
+        n° 78-17 du 6 janvier 1978.
       </p>
       <p>
-        Les cookies n&#39;étant pas strictement nécessaires au service ou
-        n&#39;ayant pas pour finalité exclusive de faciliter la communication
-        par voie électronique doivent être consenti par l&#39;utilisateur.
+        Les cookies n’étant pas strictement nécessaires au service ou n’ayant
+        pas pour finalité exclusive de faciliter la communication par voie
+        électronique doivent être consenti par l’utilisateur.
       </p>
       <p>
         Ce consentement de la personne concernée pour une ou plusieurs finalités
         spécifiques constitue une base légale au sens du RGPD et doit être
-        entendu au sens de l&#39;article 6-a du Règlement (UE) 2016/679 du
-        Parlement européen et du Conseil du 27 avril 2016 relatif à la
-        protection des personnes physiques à l&#39;égard du traitement des
-        données à caractère personnel et à la libre circulation de ces données.
-      </p>
-      <h3>Durée de conservation</h3>
-      <p>Les données à caractère personnel sont conservées :</p>
-      <ul>
-        <li>
-          <p>
-            Données de connexion : 12 mois (article 3 du Décret n° 2011-219 du
-            25 février 2011).
-          </p>
-        </li>
-        <li>
-          <p>
-            Cookies : 13 mois maximum, ou jusqu&#39;au retrait du consentement
-            de la personne.
-          </p>
-        </li>
-      </ul>
-      <h3>Droit des personnes concernées</h3>
-      <p>
-        Vous disposez des droits suivants concernant vos données à caractère
-        personnel :
-      </p>
-      <ul>
-        <li>
-          <p>Droit d&#39;information et droit d&#39;accès des données ;</p>
-        </li>
-        <li>
-          <p>
-            Droit de rectification et le cas échéant de suppression des données.
-          </p>
-        </li>
-      </ul>
-      <p>
-        Pour les exercer, faites-nous parvenir une demande en précisant la date
-        et l&#39;heure précise de la requête - ces éléments sont indispensables
-        pour nous permettre de retrouver votre recherche :
-      </p>
-      <ul>
-        <li>
-          <p>
-            par voie électronique à l&#39;adresse suivante :{" "}
-            <a href="mailto:contact-nos1000jours@fabrique.social.gouv.fr">
-              contact-nos1000jours@fabrique.social.gouv.fr
-            </a>
-          </p>
-        </li>
-        <li>
-          <p>par voie postale : Fabrique numérique des ministères sociaux</p>
-        </li>
-      </ul>
-      <blockquote style={{ marginLeft: 50 }}>
-        <p>Ministère des solidarités et de la santé</p>
-        <p>39-43 Quai André Citroën</p>
-        <p>75015 PARIS</p>
-      </blockquote>
-      <p>
-        En raison de l&#39;obligation de sécurité et de confidentialité dans le
-        traitement des données à caractère personnel qui incombe au responsable
-        de traitement, votre demande ne sera traitée que si vous apportez la
-        preuve de votre identité.
+        entendu au sens de l'article 6-a du Règlement (UE) 2016/679 du Parlement
+        européen et du Conseil du 27 avril 2016 relatif à la protection des
+        personnes physiques à l'égard du traitement des données à caractère
+        personnel et à la libre circulation de ces données.
       </p>
       <p>
-        Pour vous aider dans votre démarche, vous trouverez ici{" "}
-        <a href="https://www.cnil.fr/fr/modele/courrier/exercer-son-droit-dacces">
-          https://www.cnil.fr/fr/modele/courrier/exercer-son-droit-dacces , un
-          modèle de courrier élaboré par la Cnil.
-        </a>
-      </p>
-      <p>Nous nous engageons à ne jamais céder ces informations à des tiers.</p>
-      <p>
-        <strong>Délais de réponse</strong>
-      </p>
-      <p>
-        Le responsable de traitement s&#39;engage à répondre dans un délai
-        raisonnable qui ne saurait dépasser 1 mois à compter de la réception de
-        votre demande.
-      </p>
-      <p>
-        <strong>Destinataires des données</strong>
-      </p>
-      <p>
-        Le responsable de traitement s&#39;engage à ce que les données à
-        caractères personnels soient traitées par les seules personnes
-        autorisées.
-      </p>
-      <p>
-        <strong>Sous-traitants</strong>
-      </p>
-      <p>
-        Certaines des données sont envoyées à des sous-traitants pour réaliser
-        certaines missions. Le responsable de traitement s&#39;est assuré de la
-        mise en œuvre par ses sous-traitants de garanties adéquates et du
-        respect de conditions strictes de confidentialité, d&#39;usage et de
-        protection des données.
-      </p>
-      <table className="table table-bordered">
-        <thead>
-          <tr>
-            <th>
-              <strong>Partenaire</strong>
-            </th>
-            <th>
-              <strong>Pays destinataire</strong>
-            </th>
-            <th>
-              <strong>Traitement réalisé</strong>
-            </th>
-            <th>
-              <strong>Garanties</strong>
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Microsoft Azure</td>
-            <td>France</td>
-            <td>Hébergement du site</td>
-            <td>
-              <a href="https://privacy.microsoft.com/fr-fr/privacystatement">
-                https://privacy.microsoft.com/fr-fr/privacystatement
-              </a>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <p>
-        <strong>Sécurité et confidentialité des données</strong>
-      </p>
-      <p>
-        Le responsable de traitements ne conserve pas de données à caractère
-        personnel sur le réseau. Elles sont conservées sur la machine locale de
-        l&#39;utilisateur. Dès lors il en a la maîtrise, et est le seul à même
-        d&#39;en garantir la sécurité et confidentialité.
-      </p>
-      <h2 id="utilisation-de-t-moins-de-connexion-cookies-">
-        Utilisation de témoins de connexion (« cookies »)
-      </h2>
-      <p>
-        Un cookie est un fichier déposé sur votre terminal lors de la visite
-        d&#39;un site. Il a pour but de collecter des informations relatives à
-        votre navigation et de vous adresser des services adaptés à votre
-        terminal (ordinateur, mobile ou tablette).
-      </p>
-      <p>
-        Nous collectons donc des données par l&#39;intermédiaire de dispositifs
-        appelés &quot;cookies&quot; permettant d&#39;établir des mesures
-        statistiques.
-      </p>
-      <p>
-        Le site dépose des cookies de mesure d&#39;audience (nombre de visites,
-        pages consultées), respectant les conditions d&#39;exemption du
-        consentement de l&#39;internaute définies par la recommandation «
-        Cookies » de la Commission nationale informatique et libertés (CNIL).
-        Cela signifie, notamment, que ces cookies ne servent qu&#39;à la
-        production de statistiques anonymes et ne permettent pas de suivre la
-        navigation de l&#39;internaute sur d&#39;autres sites. Le site dépose
-        également des cookies de navigation, aux fins strictement techniques,
-        qui ne sont pas conservés. La consultation du site n&#39;est pas
-        affectée lorsque les utilisateurs utilisent des navigateurs désactivant
-        les cookies.
-      </p>
-      <p>
-        <strong>Nous utilisons pour cela Matomo</strong>, un outil de mesure
-        d&#39;audience web libre, paramétré pour être en conformité avec la
-        recommandation « Cookies » de la CNIL. Cela signifie que votre adresse
-        IP, par exemple, est anonymisée avant d&#39;être enregistrée. Il est
-        donc impossible d&#39;associer vos visites sur ce site à votre personne.
-      </p>
-      <p>Il convient d&#39;indiquer que :</p>
-      <ul>
-        <li>
-          <p>
-            Les données collectées ne sont pas recoupées avec d&#39;autres
-            traitements.
-          </p>
-        </li>
-        <li>
-          <p>
-            Les cookies ne permettent pas de suivre la navigation de
-            l&#39;internaute sur d&#39;autres sites.
-          </p>
-        </li>
-      </ul>
-      <p>
-        <iframe
-          title="matomo optout"
-          style={{ border: 0, width: "100%" }}
-          src="https://matomo.fabrique.social.gouv.fr/index.php?module=CoreAdminHome&action=optOut&language=fr&backgroundColor=&fontColor=2f3b6c&fontSize=16px&fontFamily=sans-serif"
-        />
-      </p>
-      <p>
-        À tout moment, vous pouvez refuser l&#39;utilisation des cookies et
+        À tout moment, vous pouvez refuser l’utilisation des cookies et
         désactiver le dépôt sur votre ordinateur en utilisant la fonction dédiée
         de votre navigateur (fonction disponible notamment sur Microsoft
         Internet Explorer 11, Google Chrome, Mozilla Firefox, Apple Safari et
@@ -289,17 +204,32 @@ export default function PolitiqueConfidentialite() {
       </p>
       <p>
         Pour aller plus loin, vous pouvez consulter les fiches proposées par la
-        Commission Nationale de l&#39;Informatique et des Libertés (CNIL) :
+        Commission Nationale de l'Informatique et des Libertés (CNIL) :
       </p>
+      <ul>
+        <li>
+          <a href="https://www.cnil.fr/fr/cookies-et-autres-traceurs/regles/cookies/que-dit-la-loi">
+            Cookies & traceurs : que dit la loi ?
+          </a>
+        </li>
+        <li>
+          <a href="https://www.cnil.fr/fr/cookies-et-autres-traceurs/comment-se-proteger/maitriser-votre-navigateur">
+            Cookies : les outils pour les maîtriser
+          </a>
+        </li>
+      </ul>
       <p>
-        <a href="https://www.cnil.fr/fr/cookies-traceurs-que-dit-la-loi">
-          Cookies &amp; traceurs : que dit la loi ?
-        </a>
+        Nous utilisons Matomo, une solution de mesure d’audience, configuré en
+        “mode exempté” ne nécessitant pas le recueil du consentement des
+        utilisateurs conformément aux recommandations de la CNIL.
       </p>
+
       <p>
-        <a href="https://www.cnil.fr/fr/cookies-les-outils-pour-les-maitriser">
-          Cookies : les outils pour les maîtriser
-        </a>
+        <iframe
+          title="matomo optout"
+          style={{ border: 0, width: "100%" }}
+          src="https://matomo.fabrique.social.gouv.fr/index.php?module=CoreAdminHome&action=optOut&language=fr&backgroundColor=&fontColor=2f3b6c&fontSize=16px&fontFamily=sans-serif"
+        />
       </p>
     </ContentLayout>
   );
