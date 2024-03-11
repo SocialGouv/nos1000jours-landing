@@ -1,3 +1,10 @@
+# [1.20.0](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.19.5...v1.20.0) (2024-03-11)
+
+
+### Features
+
+* zeroaccident ([#112](https://github.com/SocialGouv/nos1000jours-landing/issues/112)) ([6621e59](https://github.com/SocialGouv/nos1000jours-landing/commit/6621e59784e0a6fcbdc490eeccea044536ffe564))
+
 ## [1.19.5](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.19.4...v1.19.5) (2024-01-15)
 
 
