@@ -28,13 +28,13 @@ class MyApp extends App {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=yes"
           />
-          <meta 
-            name="description" 
+          <meta
+            name="description"
             content="Le compagnon numérique 'les 1000 premiers jours' 
             permet de suivre les étapes du projet de parentalité aux 2 ans de votre enfant.
             Des articles rédigés par des professionnels et proposés en fonction de l'étape 
             à laquelle vous vous trouvez. Ainsi qu'un calendrier présentant tous les événements 
-            des 1000 premiers jours." 
+            des 1000 premiers jours."
           />
           <meta name="author" content="" />
         </Head>

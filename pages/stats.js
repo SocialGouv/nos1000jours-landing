@@ -2,20 +2,17 @@ import React from "react";
 import {
   Area,
   AreaChart,
-  LineChart,
+  CartesianGrid,
+  Legend,
   Line,
+  LineChart,
+  Tooltip,
   XAxis,
   YAxis,
-  CartesianGrid,
-  Tooltip,
-  Legend,
-  ResponsiveContainer,
 } from "recharts";
 
 import { ContentLayout, SimpleLayout } from "../src/components/Layout";
-
 import stats from "../stats.yml";
-import stats_blues from "../stats_blues.yml";
 
 // convert yaml format to recharts format
 const toGraphData = ({ valeurs }) =>
@@ -23,9 +20,6 @@ const toGraphData = ({ valeurs }) =>
     date: key,
     value: valeurs[key],
   }));
-
-const ChiffreCle = () => <div>Chiffre clé</div>;
-const Tableau = () => <div>Tableau</div>;
 
 // affichage d'un graphe avec une seule ligne
 const Graph = ({ kpi }) => {
@@ -62,8 +56,20 @@ const Graph2 = ({ kpi }) => {
         <Tooltip />
         <Legend />
         <CartesianGrid stroke="#eee" strokeDasharray="5 5" />
-        <Area type="monotone" dataKey="y_val1" stroke="#8fca9f" fill="#82ca9d" name={kpi.label1} />
-        <Area type="monotone" dataKey="y_val2" stroke="#8884d8" fill="#8884d8" name={kpi.label2} />
+        <Area
+          type="monotone"
+          dataKey="y_val1"
+          stroke="#8fca9f"
+          fill="#82ca9d"
+          name={kpi.label1}
+        />
+        <Area
+          type="monotone"
+          dataKey="y_val2"
+          stroke="#8884d8"
+          fill="#8884d8"
+          name={kpi.label2}
+        />
       </AreaChart>
       <hr />
     </p>
@@ -96,7 +102,7 @@ export default function Stats() {
               return (
                 <h3>
                   {kpi.titre}: {kpi.valeur}
-                  <hr/>
+                  <hr />
                 </h3>
               );
             case "camembert":
@@ -123,6 +129,6 @@ export default function Stats() {
           }
         })}
       </SimpleLayout> */}
-  </ContentLayout>
+    </ContentLayout>
   );
 }

@@ -1,5 +1,5 @@
-import React from "react";
 import Link from "next/link";
+import React from "react";
 
 const LightLink = ({ href, children }) => (
   <Link href={href} passHref>
@@ -29,7 +29,6 @@ export function Footer() {
       }}
     >
       <div className="container text-center">
-
         <ul className="list-inline">
           <li className="list-inline-item">
             <LightLink href="/cgu">condititions générales</LightLink>
@@ -53,14 +52,12 @@ export function Footer() {
           <Separator />
           <li className="list-inline-item">
             <LightLink href="mailto:contact-nos1000jours@fabrique.social.gouv.fr&subject=Démarrage">
-              contactez-nous 
+              contactez-nous
             </LightLink>
           </li>
           <Separator />
           <li className="list-inline-item">
-            <LightLink href="stats">
-               statistiques
-            </LightLink>
+            <LightLink href="stats">statistiques</LightLink>
           </li>
         </ul>
       </div>

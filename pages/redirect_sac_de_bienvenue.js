@@ -1,11 +1,11 @@
+import { useRouter } from "next/router";
 import React, { useEffect } from "react";
-import { useRouter } from 'next/router'
 
 import { ContentLayout } from "../src/components/Layout";
 
-
-export default function redirect_ios() {
-  const url = "https://forms.office.com/Pages/ResponsePage.aspx?id=klJeAyVaCUW7CKVV99Mai1PpHvPcZL9FsUnhmLJvXehUN1dWMlg4VlVPTEk0UVlFOFpHQUZYR1VRMS4u";
+export default function Redirect_SacDeBienvenue() {
+  const url =
+    "https://forms.office.com/Pages/ResponsePage.aspx?id=klJeAyVaCUW7CKVV99Mai1PpHvPcZL9FsUnhmLJvXehUN1dWMlg4VlVPTEk0UVlFOFpHQUZYR1VRMS4u";
   const router = useRouter();
 
   useEffect(() => {
@@ -14,7 +14,9 @@ export default function redirect_ios() {
     }, 200);
   }, [router]);
 
-  return <ContentLayout title="Redirect">En route vers le sac de bienvenue des 1000 premiers jours...</ContentLayout>;
+  return (
+    <ContentLayout title="Redirect">
+      En route vers le sac de bienvenue des 1000 premiers jours...
+    </ContentLayout>
+  );
 }
-
-
