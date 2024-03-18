@@ -1,3 +1,10 @@
+## [1.20.2](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.1...v1.20.2) (2024-03-18)
+
+
+### Bug Fixes
+
+* Android deep link ([cb799dd](https://github.com/SocialGouv/nos1000jours-landing/commit/cb799ddd0d7d63f8facd72b67b9a3d09be78ca2b))
+
 ## [1.20.1](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.0...v1.20.1) (2024-03-18)
 
 
