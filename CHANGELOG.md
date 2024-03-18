@@ -1,3 +1,10 @@
+## [1.20.1](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.0...v1.20.1) (2024-03-18)
+
+
+### Bug Fixes
+
+* new version of zeroaccident ([08e0fe2](https://github.com/SocialGouv/nos1000jours-landing/commit/08e0fe246de04f7634fe399adf65f25a1a8d0199))
+
 # [1.20.0](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.19.5...v1.20.0) (2024-03-11)
 
 
