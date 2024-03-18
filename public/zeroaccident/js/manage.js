@@ -24,6 +24,7 @@ function games_hide()
 	$("#id_btn_close_P1").hide();
 	$("#id_part1_Unity").hide();
 	$("#id_part2_CESIM").hide();
+	$("#id_part2_CESIM > iframe").removeAttr("src");
 	$("#id_intro").show();
 	$("#unity-fullscreen-button").off('click');
 	$("#quizz-fullscreen-button").off('click');
@@ -50,6 +51,7 @@ function display_game_progression()
 	$("#p1").click(function() {
 		$("#id_intro").hide();
 		$("#id_part2_CESIM").hide();
+		$("#id_part2_CESIM > iframe").removeAttr("src");
 		$("#id_part1_Unity").show();
 		$("#id_btn_close_P1").show();
 		if($("#id_part1_Unity_iframe")[0].contentWindow.myGameInstance)
@@ -73,12 +75,12 @@ function display_game_progression()
 	let p1Done = getCookie("P1Done") == "OK";
 	if (data !== null)
 	{
-		$("#p1_res img").attr('src', "img/p1_res.svg");
+		$("#p1_res img").attr('src', "/zeroaccident/img/p1_res.svg");
 		$("#p1_res_text").text(scoreP1());
 		if(data.score == data.maxScore || p1Done)
 		{
 			setCookie("P1Done", "OK");
-			$("#p2 img.img-fluid").attr('src', "img/p2.svg");
+			$("#p2 img.img-fluid").attr('src', "/zeroaccident/img/p2.svg");
 			$("#p2_text").addClass("selected");
 			$('#p2').addClass("enabled");
 			$('#p2').removeClass("disabled");
@@ -88,16 +90,18 @@ function display_game_progression()
 				$("#id_part1_Unity").hide();
 				$("#id_intro").hide();
 				$("#id_part2_CESIM").show();
+				$("#id_part2_CESIM > iframe").attr("src","/zeroaccident/je_securise/story.html");
 				$("#id_btn_close_P1").show();
 				if($("#id_part1_Unity_iframe")[0].contentWindow.myGameInstance)
 					$("#id_part1_Unity_iframe")[0].contentWindow.myGameInstance.SendMessage('JSInterface', 'FocusLost');
 			});
-			$("#p3 img.img-fluid").attr('src', "img/p3.svg");
+			$("#p3 img.img-fluid").attr('src', "/zeroaccident/img/p3.svg");
 			$("#p3_text").addClass("selected");
 			$('#p3').addClass("enabled");
 			$('#p3').removeClass("disabled");
 			$("#p3").click(function() {
 				$("#id_part2_CESIM").hide();
+				$("#id_part2_CESIM > iframe").removeAttr("src");
 				$("#id_intro").hide();
 				$("#id_part1_Unity").show();
 				$("#id_btn_close_P1").show();
@@ -118,7 +122,7 @@ function display_game_progression()
 	data = getUnityData("P2");
 	if (data !== null)
 	{
-		$("#p2_res img").attr('src', "img/p2_res.svg");
+		$("#p2_res img").attr('src', "/zeroaccident/img/p2_res.svg");
 		$("#p2_res_text").text(scoreP2());
 	}
 	//
@@ -126,7 +130,7 @@ function display_game_progression()
 	data = getUnityData("P3");
 	if (data !== null)
 	{
-		$("#p3_res img").attr('src', "img/p3_res.svg");
+		$("#p3_res img").attr('src', "/zeroaccident/img/p3_res.svg");
 		$("#p3_res_text").text(scoreP3());
 	}
 }
