@@ -1,3 +1,10 @@
+## [1.20.3](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.2...v1.20.3) (2024-03-20)
+
+
+### Bug Fixes
+
+* add matomo script for zeroaccident ([47a92b4](https://github.com/SocialGouv/nos1000jours-landing/commit/47a92b4d8e61ac8f021488a4d35b20e23f298dec))
+
 ## [1.20.2](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.1...v1.20.2) (2024-03-18)
 
 
