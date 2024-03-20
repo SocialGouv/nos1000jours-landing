@@ -1,3 +1,10 @@
+## [1.20.4](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.3...v1.20.4) (2024-03-20)
+
+
+### Bug Fixes
+
+* Content-Security-Policy - default-src 'self' ([64b59e6](https://github.com/SocialGouv/nos1000jours-landing/commit/64b59e643f378f1b96106285efd63f2a8fb71ca2))
+
 ## [1.20.3](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.2...v1.20.3) (2024-03-20)
 
 
