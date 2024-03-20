@@ -1,3 +1,10 @@
+## [1.20.5](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.4...v1.20.5) (2024-03-20)
+
+
+### Bug Fixes
+
+* Content-Security-Policy - connect-src ([2a9190d](https://github.com/SocialGouv/nos1000jours-landing/commit/2a9190da4d1f82efb06a0d717e13072915a5093f))
+
 ## [1.20.4](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.3...v1.20.4) (2024-03-20)
 
 
