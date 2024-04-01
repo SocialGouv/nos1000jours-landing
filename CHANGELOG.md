@@ -1,3 +1,10 @@
+## [1.20.6](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.5...v1.20.6) (2024-04-01)
+
+
+### Bug Fixes
+
+* update zeroAccident app url (iOS and Android) ([9f7c835](https://github.com/SocialGouv/nos1000jours-landing/commit/9f7c8354428a7b6e375f88ef33722b9487926ce0))
+
 ## [1.20.5](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.4...v1.20.5) (2024-03-20)
 
 
