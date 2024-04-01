@@ -6,9 +6,9 @@ import { isIOS } from "../src/utils/utils";
 
 export default function Redirect_AppZeroAccident() {
   const zeroAccidentAppUrlAndroid =
-    "https://play.google.com/store/apps/details?id=com.fabrique.millejours";
+    "https://play.google.com/store/apps/details?id=com.Virtualys.ZeroAccidentUnJeuDEnfant";
   const zeroAccidentHttpsiOSAppUrl =
-    "https://apps.apple.com/us/app/1000-premiers-jours/id1573729958";
+    "https://apps.apple.com/us/app/z%C3%A9ro-accident-un-jeu-denfant/id6474536511";
 
   const [isRunningOnIOS, setIsRunningOnIOS] = useState(null);
 
