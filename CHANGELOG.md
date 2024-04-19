@@ -1,3 +1,10 @@
+## [1.20.7](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.6...v1.20.7) (2024-04-19)
+
+
+### Bug Fixes
+
+* Update index.js ([0cd809d](https://github.com/SocialGouv/nos1000jours-landing/commit/0cd809d02e79ef6aa464b22781e313adde02616e))
+
 ## [1.20.6](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.5...v1.20.6) (2024-04-01)
 
 
