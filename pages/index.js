@@ -199,7 +199,7 @@ function WidgetEpds() {
                       </Col>
                     </Row>
                     <div className="slogan">
-                      Futurs parents, nouveaux parents, testez en jouant vos
+                      Futurs parents, nouveaux parents, jouez en testant vos
                       connaissances sur les accidents de la vie courante chez
                       les enfants entre 0 et 4 ans.
                     </div>
