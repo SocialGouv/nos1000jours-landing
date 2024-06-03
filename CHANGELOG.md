@@ -1,3 +1,10 @@
+## [1.20.8](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.7...v1.20.8) (2024-06-03)
+
+
+### Bug Fixes
+
+* autoscale prod ([#115](https://github.com/SocialGouv/nos1000jours-landing/issues/115)) ([856231d](https://github.com/SocialGouv/nos1000jours-landing/commit/856231d1a8255d471fc9435cf19cac00ba8d2b13))
+
 ## [1.20.7](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.6...v1.20.7) (2024-04-19)
 
 
