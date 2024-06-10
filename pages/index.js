@@ -209,7 +209,7 @@ function WidgetEpds() {
                       href={
                         isRunningOnMobile
                           ? "./redirect_app_zero_accident"
-                          : "./zeroaccident/index.html"
+                          : "./zeroaccident/index.html?source=landing-btn"
                       }
                     >
                       Commencer
