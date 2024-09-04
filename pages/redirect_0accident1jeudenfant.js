@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 import { ContentLayout } from "../src/components/Layout";
 
 export default function Redirect_ZeroAccident() {
-  const url = "https://forms.office.com/e/ggBEyZgdEk";
+  const url = "https://tally.so/r/mBDz14";
   const router = useRouter();
 
   useEffect(() => {
