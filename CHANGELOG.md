@@ -1,3 +1,10 @@
+## [1.20.11](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.10...v1.20.11) (2024-09-04)
+
+
+### Bug Fixes
+
+* Mise en place du nouveau formulaire ZeroAccident ([#121](https://github.com/SocialGouv/nos1000jours-landing/issues/121)) ([85f9211](https://github.com/SocialGouv/nos1000jours-landing/commit/85f92113ab813993017f0c8849344bd2ed9430da))
+
 ## [1.20.10](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.9...v1.20.10) (2024-06-17)
 
 
