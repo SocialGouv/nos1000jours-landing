@@ -1,7 +1,7 @@
 app:
   host: 1000jours.fabrique.social.gouv.fr
   resources:
-        requests:
+    requests:
       cpu: 100m
       memory: 386Mi
     limits:
