@@ -1,3 +1,10 @@
+## [1.20.14](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.13...v1.20.14) (2024-12-02)
+
+
+### Bug Fixes
+
+* ci ns and rancher project name ([e35289f](https://github.com/SocialGouv/nos1000jours-landing/commit/e35289f4bc412bbfdfbe98ea740f8fed93620d6b))
+
 ## [1.20.13](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.12...v1.20.13) (2024-11-30)
 
 
