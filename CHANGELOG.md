@@ -1,3 +1,13 @@
+## [1.20.18](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.17...v1.20.18) (2025-03-03)
+
+
+### Bug Fixes
+
+* gh token - use token-bureau ([d13a9d9](https://github.com/SocialGouv/nos1000jours-landing/commit/d13a9d960e8de6299a28e404db3bd0e098986f38))
+* release.yml ([fae2acb](https://github.com/SocialGouv/nos1000jours-landing/commit/fae2acb9f31198a65576c4e998a6bbd4833880eb))
+* release.yml ([d97b8f1](https://github.com/SocialGouv/nos1000jours-landing/commit/d97b8f187d78642c83a0536bb4dd05a26ce0d648))
+* update stats (février) ([#129](https://github.com/SocialGouv/nos1000jours-landing/issues/129)) ([14656aa](https://github.com/SocialGouv/nos1000jours-landing/commit/14656aa88351b699a3fdf50f0c33167832ff5b53))
+
 ## [1.20.17](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.16...v1.20.17) (2025-02-03)
 
 
