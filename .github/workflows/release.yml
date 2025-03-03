@@ -3,6 +3,8 @@ on:
   workflow_dispatch:
   push:
     branches: [master, main, alpha, beta, next]
+permissions:
+  id-token: write  # Required for OIDC token generation
 jobs:
   release:
     name: Release
