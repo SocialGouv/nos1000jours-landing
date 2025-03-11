@@ -1,3 +1,13 @@
+## [1.20.19](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.18...v1.20.19) (2025-03-11)
+
+
+### Bug Fixes
+
+* ingress customHeaders + fixing nginx gz (wip) ([fb6e0b3](https://github.com/SocialGouv/nos1000jours-landing/commit/fb6e0b36e04f7629d66c9423dc29b0ee2cf8eb39))
+* up nginx ([e6e9f9a](https://github.com/SocialGouv/nos1000jours-landing/commit/e6e9f9a80bc3711dc26a1490d7c8e8678b522352))
+* wasm wip ([dee01ed](https://github.com/SocialGouv/nos1000jours-landing/commit/dee01edc5aa40924a0b783eb6fcf1a85d3c56eda))
+* wasm wip ([ba25a89](https://github.com/SocialGouv/nos1000jours-landing/commit/ba25a8991b96fbf09ba8443340c3718cf65f21c7))
+
 ## [1.20.18](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.17...v1.20.18) (2025-03-03)
 
 
