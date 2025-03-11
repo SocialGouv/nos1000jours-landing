@@ -8,9 +8,6 @@ app:
     runAsGroup: 101
     runAsUser: 101
   ingress:
-    # adjustments for /zeroaccident path
-    # proxy_upstream_name must be set to correct upstream
-    # https://docs.unity3d.com/Manual/webgl-deploying.html
     customHeaders:
       "Content-Security-Policy": "default-src 'self' data:; connect-src 'self' https://*.gouv.fr https://metrics.articulate.com; font-src 'self' data:; img-src 'self'; script-src 'self' https://*.gouv.fr 'unsafe-inline' 'unsafe-eval'; frame-src 'self' https://*.gouv.fr; style-src 'self' 'unsafe-inline'"
       "X-Frame-Options": "sameorigin"
