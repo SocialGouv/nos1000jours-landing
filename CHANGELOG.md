@@ -1,3 +1,15 @@
+## [1.20.20](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.19...v1.20.20) (2025-03-11)
+
+
+### Bug Fixes
+
+* wasm wip ([587fde2](https://github.com/SocialGouv/nos1000jours-landing/commit/587fde2c96f48abb3bfad34cc23c11c0b0334166))
+
+
+### Reverts
+
+* Revert "fix: wasm wip" ([a3f99cf](https://github.com/SocialGouv/nos1000jours-landing/commit/a3f99cf0433e99b6c7d7bac28d507615abdaa34c))
+
 ## [1.20.19](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.18...v1.20.19) (2025-03-11)
 
 
