@@ -1,3 +1,10 @@
+## [1.20.21](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.20...v1.20.21) (2025-03-12)
+
+
+### Bug Fixes
+
+* dummy commit ([68baf70](https://github.com/SocialGouv/nos1000jours-landing/commit/68baf70b3e7fd65d7b52d6eeaf9ac5e3583a2777))
+
 ## [1.20.20](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.19...v1.20.20) (2025-03-11)
 
 
