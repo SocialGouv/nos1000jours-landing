@@ -1,3 +1,10 @@
+## [1.20.23](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.22...v1.20.23) (2025-04-30)
+
+
+### Bug Fixes
+
+* update stats (avril) ([#131](https://github.com/SocialGouv/nos1000jours-landing/issues/131)) ([ccc5745](https://github.com/SocialGouv/nos1000jours-landing/commit/ccc5745d8f5579e46f91bc24c807ccbcc9771ed9))
+
 ## [1.20.22](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.21...v1.20.22) (2025-03-31)
 
 
