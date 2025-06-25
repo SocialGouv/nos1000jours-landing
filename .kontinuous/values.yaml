@@ -3,6 +3,7 @@ global:
 
 app:
   ~chart: app
+  imagePackage: app
   securityContext:
     fsGroup: 101
     runAsGroup: 101
