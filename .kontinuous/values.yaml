@@ -4,6 +4,7 @@ global:
 app:
   ~chart: app
   imagePackage: app
+  containerPort: 8080
   securityContext:
     fsGroup: 101
     runAsGroup: 101
