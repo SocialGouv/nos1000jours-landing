@@ -1,3 +1,10 @@
+## [1.20.25](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.24...v1.20.25) (2025-06-25)
+
+
+### Bug Fixes
+
+* buildkit in gh ([#133](https://github.com/SocialGouv/nos1000jours-landing/issues/133)) ([895da3e](https://github.com/SocialGouv/nos1000jours-landing/commit/895da3e14a563fb8aec8807152898f953b93321c))
+
 ## [1.20.24](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.23...v1.20.24) (2025-06-16)
 
 
