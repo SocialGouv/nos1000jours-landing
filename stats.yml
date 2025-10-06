@@ -1,7 +1,7 @@
 kpis:
   - titre: Nombre total de téléchargements de l'application
     affichage: graphWithOneLine
-    legende: "IOS+Android"
+    legende: "IOS + Android"
     valeurs:
       13-09-2021: 10100
       20-09-2021: 10904
