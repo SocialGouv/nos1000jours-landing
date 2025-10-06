@@ -1,3 +1,10 @@
+## [1.20.27](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.26...v1.20.27) (2025-10-06)
+
+
+### Bug Fixes
+
+* rename legende stats ([#137](https://github.com/SocialGouv/nos1000jours-landing/issues/137)) ([2964e42](https://github.com/SocialGouv/nos1000jours-landing/commit/2964e429cd9b21d4abe430f473b9f7cd29fee502))
+
 ## [1.20.26](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.25...v1.20.26) (2025-06-30)
 
 
