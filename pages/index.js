@@ -429,7 +429,7 @@ function NousContacter() {
             Nous contacter
           </SectionTitle>
           <br />
-          <Col xs={{ offset: 1, span: 10 }}>
+          {/* <Col xs={{ offset: 1, span: 10 }}>
             <FeatureRow
               title="Mail"
               image="/img/icone_information.png"
@@ -452,7 +452,7 @@ function NousContacter() {
                 1000joursblues@fabrique.social.gouv.fr
               </a>
             </FeatureRow>
-          </Col>
+          </Col> */}
           <Col xs={{ offset: 1, span: 10 }}>
             <FeatureRow
               title="Réseaux sociaux"
