@@ -49,12 +49,12 @@ export function Footer() {
               accessibilité : non conforme
             </LightLink>
           </li>
-          <Separator />
+          {/* <Separator />
           <li className="list-inline-item">
             <LightLink href="mailto:contact-nos1000jours@fabrique.social.gouv.fr&subject=Démarrage">
               contactez-nous
             </LightLink>
-          </li>
+          </li> */}
           <Separator />
           <li className="list-inline-item">
             <LightLink href="stats">statistiques</LightLink>

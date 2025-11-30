@@ -86,12 +86,12 @@ export default function PolitiqueConfidentialite() {
         <li>D’un droit d’opposition ;</li>
         <li>D’un droit à la limitation du traitement.</li>
       </ul>
-      <p>
+      {/* <p>
         Pour les exercer, contactez-nous par voie électronique :{" "}
         <a href="mailto:contact-nos1000jours@fabrique.social.gouv.fr">
           contact-nos1000jours@fabrique.social.gouv.fr
         </a>
-      </p>
+      </p> */}
       <p>Par voie postale : </p>
       <ul>
         <li>Direction du Numérique des ministères sociaux</li>
