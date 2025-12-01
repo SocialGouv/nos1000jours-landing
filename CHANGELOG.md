@@ -1,3 +1,10 @@
+## [1.20.28](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.27...v1.20.28) (2025-12-01)
+
+
+### Bug Fixes
+
+* disable contact part ([#138](https://github.com/SocialGouv/nos1000jours-landing/issues/138)) ([a2d9f52](https://github.com/SocialGouv/nos1000jours-landing/commit/a2d9f5225f30e90b5af0d2a3c7508816010c2eaa))
+
 ## [1.20.27](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.26...v1.20.27) (2025-10-06)
 
 
