@@ -3,7 +3,7 @@ import { Col, Row } from "react-bootstrap";
 
 export function Header() {
   return (
-    <header style={{ height: 700, overflow: "hidden" }}>
+    <header style={{ height: 700, overflow: "hidden", position: "relative" }}>
       <div
         style={{
           height: "100%",
@@ -12,7 +12,7 @@ export function Header() {
           backgroundPosition: "center center",
         }}
       />
-      <div style={{ position: "absolute", top: 150, width: "100%" }}>
+      <div style={{ position: "absolute", top: 0, bottom: 0, width: "100%" }}>
         <div className="container h-100">
           <div className="row h-100">
             <div
