@@ -1,3 +1,10 @@
+# [1.21.0](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.28...v1.21.0) (2026-09-10)
+
+
+### Features
+
+* message d'annonce de la fermeture de l'application au 30 septembre 2026 ([#141](https://github.com/SocialGouv/nos1000jours-landing/issues/141)) ([bfe669d](https://github.com/SocialGouv/nos1000jours-landing/commit/bfe669d48712861465bafad1ca15fafe1ee9d19a))
+
 ## [1.20.28](https://github.com/SocialGouv/nos1000jours-landing/compare/v1.20.27...v1.20.28) (2025-12-01)
 
 
